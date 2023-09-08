@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Project Week One"
+date:   2023-09-08 10:31:51 +0100
+---
 Templates and writing guides:
 
 1.  [Blog writing
@@ -9,7 +14,7 @@ Templates and writing guides:
 3.  [Colin\'s
     Brief](https://docs.google.com/document/d/16ZK38R4xrpTsIxIPS-b6UIehhQpxxTv6Rdjp0TDmGrA/edit%23)
 
-# Project Week One
+# 
 
 TITLE:
 
@@ -520,3 +525,4 @@ The more successfully you manage the first few days on your project the
 better positioned you will be to handle the inevitable challenges later
 on down the line. Do yourself the favour of following the 6 keys to
 success on your next project, you won't regret it!
+
