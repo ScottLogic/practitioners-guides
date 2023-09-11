@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Remote Workshop Readiness"
 date:   2023-09-07 10:31:51 +0100
 ---
