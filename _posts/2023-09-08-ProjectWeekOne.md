@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Project Week One"
 date:   2023-09-08 10:31:51 +0100
 ---
