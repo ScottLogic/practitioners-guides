@@ -12,7 +12,7 @@ Templates and writing guides:
     example](https://support.planhat.com/en/articles/1608905-playbook-examples-and-templates)
 
 3.  [Colin\'s
-    Brief][underline](https://docs.google.com/document/d/16ZK38R4xrpTsIxIPS-b6UIehhQpxxTv6Rdjp0TDmGrA/edit%23)
+    Brief](https://docs.google.com/document/d/16ZK38R4xrpTsIxIPS-b6UIehhQpxxTv6Rdjp0TDmGrA/edit%23)
 
 ## TITLE:
 
