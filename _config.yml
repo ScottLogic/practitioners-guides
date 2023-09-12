@@ -29,7 +29,7 @@ url: "https://scottlogic.github.io"
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
-markdown: kramdown
+markdown: GFM
 
 # Build settings
 # theme: minima
