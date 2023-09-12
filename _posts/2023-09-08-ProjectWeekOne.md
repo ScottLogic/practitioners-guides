@@ -16,7 +16,7 @@ Templates and writing guides:
 
 # 
 
-TITLE:
+## TITLE:
 
 How a seasoned pro lays the \[x\] foundations for project success during
 week 1 of a project
@@ -27,7 +27,7 @@ experience to tackle topics that we don't feel are addressed elsewhere.
 Our hope is that these little 'value adds' will help you just as much as
 they have helped us.
 
-INTRO:
+## INTRO:
 
 Today I am going to explain how an experienced manager can arrive on a
 project, follow a few simple but key guidelines to create the foundation
@@ -51,7 +51,7 @@ this advice and set up their project with strong foundations.
 In this guide I'll talk about the key steps that a pro would complete in
 the first week of a project...and I'll avoid all the complicated jargon.
 
-MEET THE HERO(S):
+## MEET THE HERO(S):
 
 Over the course of their career, a typical project manager starts and
 finishes numerous projects, spanning a variety of industries. A project
@@ -73,7 +73,7 @@ with you are things that aren't discussed in your standard delivery
 approach. These are the little gems that make the real difference but
 that nobody tells you when you start.
 
-RESULTS:
+## RESULTS:
 
 By following the key steps to success, you will ensure that you have:
 
@@ -90,7 +90,7 @@ By following the key steps to success, you will ensure that you have:
 So, what are these keys? Keep reading to find out how you too can set
 yourself up for success time after time after time.
 
-SIX KEYS TO SUCCESS:
+## SIX KEYS TO SUCCESS:
 
 **Key 1: Stakeholder management**
 
@@ -517,7 +517,7 @@ sit down on Monday after a weekend off and realise that you were
 bombarded with so much information during week one that you have not
 managed to retain it all.
 
-CONCLUSION
+## CONCLUSION
 
 Week one on any project is fast paced, possibly chaotic but certainly a
 time when you will be taking on more information than you can process.
