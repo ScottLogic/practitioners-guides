@@ -1,0 +1,28 @@
+title: Playbooks
+description: 
+  The playbooks are a collection of guides and best practices for common
+  scenarios in software development. They are designed to be used as a
+  reference, alongside the code, to help you deliver high quality software
+  products.
+baseurl: "/playbooks"
+url: "https://scottlogic.github.io"
+
+markdown: GFM
+remote_theme: sighingnow/jekyll-gitbook
+
+toc:
+  enabled: true
+  h_min: 1
+  h_max: 3
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

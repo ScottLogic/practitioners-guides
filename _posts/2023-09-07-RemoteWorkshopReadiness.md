@@ -1,4 +1,9 @@
-# Remote Workshop Readiness
+---
+layout: post
+title:  "Remote Workshop Readiness"
+date:   2023-09-07 10:31:51 +0100
+author: Atika Bennamane
+---
 
 Things to consider before diving into your workshop to make sure it's as
 successful as can be.
@@ -41,7 +46,7 @@ makes workshops ... work.
 For better, or for worse, remote workshops are here to stay, and it is
 our job to try and make them effective. In this playbook we'll cover the
 challenges we've found and provide practical solutions that will
-hopefully put you on the right path.
+hopefully put you on the right path.  
 
 ## This Playbook
 

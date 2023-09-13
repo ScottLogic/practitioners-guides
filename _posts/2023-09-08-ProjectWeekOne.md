@@ -1,4 +1,10 @@
-Templates and writing guides:
+---
+layout: post
+title:  "Project Week One"
+date:   2023-09-08 10:31:51 +0100
+author: Catherine Pratt
+---
+<!-- Templates and writing guides:
 
 1.  [Blog writing
     guide](https://backlinko.com/hub/content/blog-post-templates)
@@ -9,9 +15,7 @@ Templates and writing guides:
 3.  [Colin\'s
     Brief](https://docs.google.com/document/d/16ZK38R4xrpTsIxIPS-b6UIehhQpxxTv6Rdjp0TDmGrA/edit%23)
 
-# Project Week One
-
-TITLE:
+## TITLE: -->
 
 How a seasoned pro lays the \[x\] foundations for project success during
 week 1 of a project
@@ -22,7 +26,7 @@ experience to tackle topics that we don't feel are addressed elsewhere.
 Our hope is that these little 'value adds' will help you just as much as
 they have helped us.
 
-INTRO:
+## INTRO:
 
 Today I am going to explain how an experienced manager can arrive on a
 project, follow a few simple but key guidelines to create the foundation
@@ -46,7 +50,7 @@ this advice and set up their project with strong foundations.
 In this guide I'll talk about the key steps that a pro would complete in
 the first week of a project...and I'll avoid all the complicated jargon.
 
-MEET THE HERO(S):
+## MEET THE HERO(S):
 
 Over the course of their career, a typical project manager starts and
 finishes numerous projects, spanning a variety of industries. A project
@@ -68,7 +72,7 @@ with you are things that aren't discussed in your standard delivery
 approach. These are the little gems that make the real difference but
 that nobody tells you when you start.
 
-RESULTS:
+## RESULTS:
 
 By following the key steps to success, you will ensure that you have:
 
@@ -85,9 +89,9 @@ By following the key steps to success, you will ensure that you have:
 So, what are these keys? Keep reading to find out how you too can set
 yourself up for success time after time after time.
 
-SIX KEYS TO SUCCESS:
+## SIX KEYS TO SUCCESS:
 
-**Key 1: Stakeholder management**
+### **Key 1: Stakeholder management**
 
 When you land on a new project, or even an existing one, you need to
 find out pretty quickly who the important people are with regards to
@@ -100,7 +104,7 @@ what they want from your project. They can also be other delivery teams
 who are dependent on your project delivering well and on time.
 
   -----------------------------------------------------------------------
-  Top Tip
+  #### Top Tip
   -----------------------------------------------------------------------
   How do you keep on top of all those new faces?  Simple: keep a log.  Take screenshots of any Teams calls or Zoom meetings where people are on camera and store them in a document somewhere.  You can really help yourself by adding in notes about each person e.g. Darth Vader, Dark Lord of the Sith, skilled negotiator, highly intelligent, bit narcissistic has a pet droid called C-3PO, clashes with Team Jedi.
   
@@ -124,7 +128,7 @@ address. The sooner you know this stuff the sooner you can do something
 about it.
 
   -----------------------------------------------------------------------
-  Top Tip
+  #### Top Tip
   -----------------------------------------------------------------------
   In your first week, treat everybody as an important stakeholder.  You only get one first impression, so don’t accidently dismiss someone because they are not highlighted in the business case as a key person of interest, they could end up being the person who saves your project from failure.  If you have befriended them in your first week, they will likely be an ally ready to act quickly when you need them later!
 
@@ -224,7 +228,7 @@ you are approachable and friendly. Smiling is infectious. People are
 much more productive and successful when they are happy so start off how
 you intend to go on, smile.
 
-**Key 2: Environment**
+### **Key 2: Environment**
 
 When you land somewhere new you need to get a good understanding of your
 environment. Think of your first day on a holiday, you find out where
@@ -248,7 +252,7 @@ service management team as part of your project, this could have huge
 cost and budget implications.
 
   -----------------------------------------------------------------------
-  Top Tip
+  #### Top Tip
   -----------------------------------------------------------------------
   Remember, whilst doing your investigations, be politely tenacious.
   People are busy. Taking time out of their day to explain the setup of
@@ -287,7 +291,7 @@ won't be able to investigate every step of every process, but you can
 talk to people about the main processes and a high level overview of who
 is involved and what happens.
 
-**Key 3: Team**
+### **Key 3: Team**
 
 Now for me, this is the most important key. No captain is successful
 without an amazing team working with them. For me the best teams are
@@ -398,7 +402,7 @@ more genuine people can be in your team the stronger the bonds they will
 form, the stronger the bonds the more fluid the dynamics within the team
 resulting in a much more successful and productive team.
 
-**Key 4: Governance**
+### **Key 4: Governance**
 
 With any project there is always an element of 'the boring stuff'. You
 can ignore this for as long as possible in the hope that it goes away or
@@ -454,7 +458,7 @@ if you are a contractor brought in to manage a project you will also
 need to think about the escalation process within your own company. Who
 will you talk to if your client is acting unreasonably?
 
-**Key 5: Scope**
+### **Key 5: Scope**
 
 Scope is possibly my favourite key. This is where you get to learn about
 what you will be working on and delivering. You can ask questions like a
@@ -486,7 +490,7 @@ to see the look on your stakeholders faces later when they realise you
 aren't planning on delivering it.
 
   -----------------------------------------------------------------------
-  Top Tip
+  #### Top Tip
   -----------------------------------------------------------------------
   You should take the opportunity in week one to ask people to explain
   acronyms. We all do it, talk in TLAs, but there comes a point on a
@@ -497,9 +501,7 @@ aren't planning on delivering it.
 
   -----------------------------------------------------------------------
 
-1.  
-
-**Key 6: To Do List**
+### **Key 6: To Do List**
 
 The final and simplest key is to write a to-do list. During week one
 there will be so many actions, tasks and things you want to investigate
@@ -512,7 +514,7 @@ sit down on Monday after a weekend off and realise that you were
 bombarded with so much information during week one that you have not
 managed to retain it all.
 
-CONCLUSION
+## CONCLUSION
 
 Week one on any project is fast paced, possibly chaotic but certainly a
 time when you will be taking on more information than you can process.
@@ -520,3 +522,4 @@ The more successfully you manage the first few days on your project the
 better positioned you will be to handle the inevitable challenges later
 on down the line. Do yourself the favour of following the 6 keys to
 success on your next project, you won't regret it!
+
