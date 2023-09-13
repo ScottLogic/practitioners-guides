@@ -2,8 +2,9 @@
 layout: post
 title:  "Project Week One"
 date:   2023-09-08 10:31:51 +0100
+author: Catherine Pratt
 ---
-Templates and writing guides:
+<!-- Templates and writing guides:
 
 1.  [Blog writing
     guide](https://backlinko.com/hub/content/blog-post-templates)
@@ -14,7 +15,7 @@ Templates and writing guides:
 3.  [Colin\'s
     Brief](https://docs.google.com/document/d/16ZK38R4xrpTsIxIPS-b6UIehhQpxxTv6Rdjp0TDmGrA/edit%23)
 
-## TITLE:
+## TITLE: -->
 
 How a seasoned pro lays the \[x\] foundations for project success during
 week 1 of a project

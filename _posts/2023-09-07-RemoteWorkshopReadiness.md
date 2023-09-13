@@ -2,9 +2,8 @@
 layout: post
 title:  "Remote Workshop Readiness"
 date:   2023-09-07 10:31:51 +0100
+author: Atika Bennamane
 ---
-
-<!-- # Remote Workshop Readiness -->
 
 Things to consider before diving into your workshop to make sure it's as
 successful as can be.
