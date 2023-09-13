@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Playbooks
+title: Practitioner's Guides
 permalink: /
 ---
 
-This is a collection of playbooks created by **Scott Logic** outlining processes and 
+This is a collection of guides created by **Scott Logic** outlining processes and 

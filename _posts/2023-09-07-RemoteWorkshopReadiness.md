@@ -8,7 +8,7 @@ author: Atika Bennamane
 Things to consider before diving into your workshop to make sure it's as
 successful as can be.
 
-**About this series** - the Scott Logic Playbooks are designed to be
+**About this series** - the Scott Logic practitioner's guides are designed to be
 small practical guides for IT professionals. We draw on our collective
 experience to tackle topics that we don't feel are addressed elsewhere.
 Our hope is that these little 'value adds' will help you just as much as
