@@ -5,14 +5,15 @@ date:   2023-09-07 10:31:51 +0100
 author: Atika Bennamane
 ---
 
-Things to consider before diving into your workshop to make sure it's as
-successful as can be.
+by Atika Bennamane
+
+Things to consider before diving into your workshop to make sure it's as successful as can be.
 
 **About this series** - The Practitioner's Guides are designed to be small practical guides for IT professionals - authored by the team at [Scott Logic](https://www.scottlogic.com/). We draw on our collective experience to tackle topics that we don't feel are addressed elsewhere. Our hope is that these little 'value adds' will help you just as much as they have helped us.
 
-This guide is made available under the permissive Creative Commons [CC BY-NC-SA 4.0 licence](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+This guide is made available under the permissive Creative Commons [CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-## Intro
+## Introduction
 
 One of the hardest things in software engineering isn\'t technology,
 it's people! Whether we're soliciting requirements from stakeholders or
@@ -28,7 +29,7 @@ individually.
 Well, that's the theory.
 
 Unfortunately, workshops aren't always easy. There are a whole host of
-ways they can go wrong (many of which we'll cover in this playbook). And
+ways they can go wrong (many of which we'll cover in this guide). And
 more often than not, once a workshop is heading in the wrong direction,
 it's downhill from thereon.
 
@@ -42,13 +43,13 @@ interaction. These all significantly undermine the togetherness that
 makes workshops ... work.
 
 For better, or for worse, remote workshops are here to stay, and it is
-our job to try and make them effective. In this playbook we'll cover the
+our job to try and make them effective. In this guide we'll cover the
 challenges we've found and provide practical solutions that will
 hopefully put you on the right path.  
 
-## This Playbook
+## This Guide
 
-This Playbook has been split into three different sections, 'Before the
+This guide has been split into three different sections, 'Before the
 workshop', 'During the workshop' and 'After the workshop' as there are
 distinct activities related to each of these your workshop timeline. The
 intention is that this guide can be used as and when you need it rather
@@ -456,7 +457,7 @@ upsetting yourself or anyone else.
     concerns have been captured.
 
 -   **Alarms and timers are your friend.** As we mentioned earlier in
-    the playbook under the facilitator role, timeboxing is one of the
+    the guide under the facilitator role, timeboxing is one of the
     most crucial elements of running an online workshop. If the tool you
     are using has a built in timer, make use of it at every opportunity
     you can. If it doesn't consider setting alarms elsewhere, either on
