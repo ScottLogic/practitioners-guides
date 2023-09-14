@@ -6,7 +6,7 @@ The guides are [hosted online](https://scottlogic.github.io/practitioners-guides
 
 ## License
 
-This work is made available under the [Creative Commons Attribution-NonCommercial-ShareAlike](Attribution-NonCommercial-ShareAlike 4.0 International) license. In brief, feel free to use these guides, but if you reproduce them in any way, you must provide attribution. Also, don't use them for direct commercial gain.
+This work is made available under the [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. In brief, feel free to use these guides, but if you reproduce them in any way, you must provide attribution. Also, don't use them for direct commercial gain.
 
 ## Contributing 
 
