@@ -1,19 +1,20 @@
 ---
 layout: post
 title:  "Project Week One"
-date:   2023-09-08
+date:   14-09-2023
 author: Catherine Pratt
 ---
 
-by Catherine Pratt
+How a seasoned pro lays the \[x\] foundations for project success during
+week 1 of a project
 
-How a seasoned pro lays the foundations for project success during the first week of a project
+**About this series** - the Scott Logic practitioner's guides are designed to be
+small practical guides for IT professionals. We draw on our collective
+experience to tackle topics that we don't feel are addressed elsewhere.
+Our hope is that these little 'value adds' will help you just as much as
+they have helped us.
 
-**About this series** - The Practitioner's Guides are designed to be small practical guides for IT professionals - authored by the team at [Scott Logic](https://www.scottlogic.com/). We draw on our collective experience to tackle topics that we don't feel are addressed elsewhere. Our hope is that these little 'value adds' will help you just as much as they have helped us.
-
-This guide is made available under the permissive Creative Commons [CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-## Introduction
+## Intro
 
 Today I am going to explain how an experienced manager can arrive on a
 project, follow a few simple but key guidelines to create the foundation
@@ -37,7 +38,7 @@ this advice and set up their project with strong foundations.
 In this guide I'll talk about the key steps that a pro would complete in
 the first week of a project...and I'll avoid all the complicated jargon.
 
-## Meet the Hero(s)
+## Meet the Hero(s):
 
 Over the course of their career, a typical project manager starts and
 finishes numerous projects, spanning a variety of industries. A project
@@ -59,7 +60,7 @@ with you are things that aren't discussed in your standard delivery
 approach. These are the little gems that make the real difference but
 that nobody tells you when you start.
 
-## Results
+## Results:
 
 By following the key steps to success, you will ensure that you have:
 
@@ -76,7 +77,7 @@ By following the key steps to success, you will ensure that you have:
 So, what are these keys? Keep reading to find out how you too can set
 yourself up for success time after time after time.
 
-## Six keys to success
+## Six Keys to Success:
 
 ### **Key 1: Stakeholder management**
 

@@ -15,6 +15,15 @@ toc:
   h_min: 1
   h_max: 3
 
+include:
+  - _pages
+
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:path/
+    sort_by: date
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/
