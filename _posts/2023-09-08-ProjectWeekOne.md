@@ -1,21 +1,9 @@
 ---
 layout: post
 title:  "Project Week One"
-date:   2023-09-08 10:31:51 +0100
+date:   2023-09-08
 author: Catherine Pratt
 ---
-<!-- Templates and writing guides:
-
-1.  [Blog writing
-    guide](https://backlinko.com/hub/content/blog-post-templates)
-
-2.  [Playbook
-    example](https://support.planhat.com/en/articles/1608905-playbook-examples-and-templates)
-
-3.  [Colin\'s
-    Brief](https://docs.google.com/document/d/16ZK38R4xrpTsIxIPS-b6UIehhQpxxTv6Rdjp0TDmGrA/edit%23)
-
-## TITLE: -->
 
 How a seasoned pro lays the \[x\] foundations for project success during
 week 1 of a project
@@ -36,8 +24,8 @@ It doesn\'t matter what formal (or informal) process you are using for
 your project, getting things right in week one is really important. It
 is full of subtleties, and hard to describe.
 
-Week one often lacks tangible goals beyond \'get settled in\' or
-'onboarding', and as a result, I don\'t think people give it the
+Week one often lacks tangible goals beyond 'get settled in' or
+'onboarding', and as a result, I don't think people give it the
 attention it deserves. In almost everything else we do, making a strong
 first impression is paramount to success, and people recognise the
 importance of it. So let's do the same with project kick offs, putting
