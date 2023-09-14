@@ -8,11 +8,9 @@ author: Atika Bennamane
 Things to consider before diving into your workshop to make sure it's as
 successful as can be.
 
-**About this series** - the Scott Logic practitioner's guides are designed to be
-small practical guides for IT professionals. We draw on our collective
-experience to tackle topics that we don't feel are addressed elsewhere.
-Our hope is that these little 'value adds' will help you just as much as
-they have helped us.
+**About this series** - The Practitioner's Guides are designed to be small practical guides for IT professionals - authored by the team at [Scott Logic](https://www.scottlogic.com/). We draw on our collective experience to tackle topics that we don't feel are addressed elsewhere. Our hope is that these little 'value adds' will help you just as much as they have helped us.
+
+This guide is made available under the permissive Creative Commons [CC BY-NC-SA 4.0 licence](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ## Intro
 
