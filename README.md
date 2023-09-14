@@ -1,8 +1,12 @@
 # Practitioners Guide
 
-This is a collection of guides aimed at helping practitioners in approaching sotware-related challenges. 
+A collection of practical, lightweight, and friendly guides for IT professionals.
 
-The website is built with Jekyll and published through GitHub Pages.
+The guides are [hosted online](https://scottlogic.github.io/practitioners-guides/). The rest of this README is intended for developers or contributors.
+
+## License
+
+This work is made available under the [Creative Commons Attribution-NonCommercial-ShareAlike](Attribution-NonCommercial-ShareAlike 4.0 International) license. In brief, feel free to use these guides, but if you reproduce them in any way, you must provide attribution. Also, don't use them for direct commercial gain.
 
 ## Contributing 
 

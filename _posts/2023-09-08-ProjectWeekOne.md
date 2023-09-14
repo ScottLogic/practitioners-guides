@@ -14,6 +14,8 @@ experience to tackle topics that we don't feel are addressed elsewhere.
 Our hope is that these little 'value adds' will help you just as much as
 they have helped us.
 
+This guide is made available under the permissive Creative Commons [CC BY-NC-SA 4.0 licence](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
 ## INTRO:
 
 Today I am going to explain how an experienced manager can arrive on a
