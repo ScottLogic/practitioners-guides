@@ -5,8 +5,9 @@ date:   14-09-2023
 author: Catherine Pratt
 ---
 
-How a seasoned pro lays the \[x\] foundations for project success during
-week 1 of a project
+by Catherine Pratt
+
+How a seasoned pro lays the foundations for project success during the first week of a project
 
 **About this series** - the Scott Logic practitioner's guides are designed to be
 small practical guides for IT professionals. We draw on our collective
@@ -14,7 +15,9 @@ experience to tackle topics that we don't feel are addressed elsewhere.
 Our hope is that these little 'value adds' will help you just as much as
 they have helped us.
 
-## Intro
+This guide is made available under the permissive Creative Commons [CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+## Introduction
 
 Today I am going to explain how an experienced manager can arrive on a
 project, follow a few simple but key guidelines to create the foundation
