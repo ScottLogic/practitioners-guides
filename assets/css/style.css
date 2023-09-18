@@ -19,10 +19,6 @@ h1, h2, h3, h4 {
     width: 300px;
     min-width: 0px;
     height: 100%;
-    display: inline;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
     transition: all 0.8s ease;
     font-size: 15px;
 }
@@ -36,6 +32,10 @@ h1, h2, h3, h4 {
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 20px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 #sidebar-nav-items {
