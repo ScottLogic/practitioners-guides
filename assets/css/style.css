@@ -19,6 +19,7 @@ h1, h2, h3, h4 {
     width: 300px;
     min-width: 0px;
     height: 100%;
+    overflow: hidden;
     transition: all 0.8s ease;
     font-size: 15px;
 }
