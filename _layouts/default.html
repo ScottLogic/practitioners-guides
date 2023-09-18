@@ -11,7 +11,7 @@
 <body>
     <div id="sidebar">
         <div id="sidebar-logo-container">
-            <a href="https://www.scottlogic.com"><img  src="{{ '/assets/images/scott-logic-primary-no-tagline-full-color-rgb-900px-w-72ppi.png' | relative_url }}" alt="Logo" id="sidebar-logo"></a>
+            <a href="{{ site.sl_url }}/"><img  src="{{ '/assets/images/scott-logic-primary-no-tagline-full-color-rgb-900px-w-72ppi.png' | relative_url }}" alt="Logo" id="sidebar-logo"></a>
         </div>
         <ul>
             <li><a href="{{ site.baseurl }}/">{{ site.title }}</a></li>
@@ -29,7 +29,7 @@
                     {% endif %}
                 {% endfor %}
             </div>
-            <li><a href="https://github.com/ScottLogic/practitioners-guides">Visit our GitHub repository</a></li>
+            <li><a href="{{ site.GitHub_url }}">Visit our GitHub repository</a></li>
         </ul>
     </div>
     <button id="sidebar-toggle">☰</button>

@@ -3,19 +3,8 @@ layout: post
 title:  "Project Week One"
 date:   14-09-2023
 author: Catherine Pratt
+description: How a seasoned pro lays the foundations for project success during the first week of a project
 ---
-
-by Catherine Pratt
-
-How a seasoned pro lays the foundations for project success during the first week of a project
-
-**About this series** - the Scott Logic practitioner's guides are designed to be
-small practical guides for IT professionals. We draw on our collective
-experience to tackle topics that we don't feel are addressed elsewhere.
-Our hope is that these little 'value adds' will help you just as much as
-they have helped us.
-
-This guide is made available under the permissive Creative Commons [CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ## Introduction
 
@@ -489,7 +478,7 @@ aren't planning on delivering it.
   week one stop everybody who uses an acronym and ask them what it stands
   for. Don't forget to write them down somewhere for you to check back
   against later.
-  
+
 ---------------------------------------------------------------------- 
 
 ### Key 6: To Do List
