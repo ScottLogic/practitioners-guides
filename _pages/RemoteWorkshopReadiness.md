@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Remote Workshop Readiness"
-date:   24-06-2023
+date:   14-09-2023
 author: Atika Bennamane
 ---
 
