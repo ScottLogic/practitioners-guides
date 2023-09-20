@@ -1,3 +1,0 @@
-"sharing": {
-    "all": false,
-},

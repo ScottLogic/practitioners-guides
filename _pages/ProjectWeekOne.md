@@ -3,19 +3,8 @@ layout: post
 title:  "Project Week One"
 date:   14-09-2023
 author: Catherine Pratt
+description: How a seasoned pro lays the foundations for project success during the first week of a project
 ---
-
-by Catherine Pratt
-
-How a seasoned pro lays the foundations for project success during the first week of a project
-
-**About this series** - the Scott Logic practitioner's guides are designed to be
-small practical guides for IT professionals. We draw on our collective
-experience to tackle topics that we don't feel are addressed elsewhere.
-Our hope is that these little 'value adds' will help you just as much as
-they have helped us.
-
-This guide is made available under the permissive Creative Commons [CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ## Introduction
 
@@ -94,12 +83,14 @@ spent, they can be passionate people who have grand visions of exactly
 what they want from your project. They can also be other delivery teams
 who are dependent on your project delivering well and on time.
 
->  ##### Top Tip
-> 
->  How do you keep on top of all those new faces?  Simple: keep a log.  Take screenshots of any Teams calls or Zoom meetings where people are on camera and store them in a document somewhere.  You can really help yourself by adding in notes about each person e.g. Darth Vader, Dark Lord of the Sith, skilled negotiator, highly intelligent, bit narcissistic has a pet droid called C-3PO, clashes with Team Jedi.
-> 
-> Details of hobbies, holidays, pets, kids names will give you things to talk about in one to one conversations later.  Over time you will just remember most details but in week one help yourself by taking some notes….but as I remind my children about their social media pages, if you write it down, it will get read.
+----------------------------------------------------------------------  
+##### Top Tip
+----------------------------------------------------------------------
+How do you keep on top of all those new faces?  Simple: keep a log.  Take screenshots of any Teams calls or Zoom meetings where people are on camera and store them in a document somewhere.  You can really help yourself by adding in notes about each person e.g. Darth Vader, Dark Lord of the Sith, skilled negotiator, highly intelligent, bit narcissistic has a pet droid called C-3PO, clashes with Team Jedi.
 
+Details of hobbies, holidays, pets, kids names will give you things to talk about in one to one conversations later.  Over time you will just remember most details but in week one help yourself by taking some notes….but as I remind my children about their social media pages, if you write it down, it will get read.
+
+----------------------------------------------------------------------
 
 The sooner you can find out who is important to your project and who
 your project is important to, the sooner you can start talking to them.
@@ -116,9 +107,12 @@ concerns due to elements the enthusiasts are unaware of or unwilling to
 address. The sooner you know this stuff the sooner you can do something
 about it.
 
->  ##### Top Tip
->
->  In your first week, treat everybody as an important stakeholder.  You only get one first impression, so don’t accidently dismiss someone because they are not highlighted in the business case as a key person of interest, they could end up being the person who saves your project from failure.  If you have befriended them in your first week, they will likely be an ally ready to act quickly when you need them later!
+---------------------------------------------------------------------- 
+##### Top Tip
+---------------------------------------------------------------------- 
+In your first week, treat everybody as an important stakeholder.  You only get one first impression, so don’t accidently dismiss someone because they are not highlighted in the business case as a key person of interest, they could end up being the person who saves your project from failure.  If you have befriended them in your first week, they will likely be an ally ready to act quickly when you need them later!
+
+---------------------------------------------------------------------- 
 
 Once you have worked out who your key stakeholders are, you need to make
 sure you get the most out of your time spent with them. They are likely
@@ -237,10 +231,10 @@ system, if not then you may be trailblazing and have to set up the
 service management team as part of your project, this could have huge
 cost and budget implications.
 
-
->  ##### Top Tip
->  
-> Remember, whilst doing your investigations, be politely tenacious.
+---------------------------------------------------------------------- 
+##### Top Tip
+---------------------------------------------------------------------- 
+  Remember, whilst doing your investigations, be politely tenacious.
   People are busy. Taking time out of their day to explain the setup of
   an environment that they are very familiar with is really a bit of an
   annoyance. People may try to delay having the chat with you, or suggest
@@ -251,6 +245,7 @@ cost and budget implications.
   suitable time. If you need information then you have to make the
   meeting take place.
 
+---------------------------------------------------------------------- 
 
 As well as people and teams you also need to get a good understanding of
 the existing products and services, processes and solutions. What
@@ -474,15 +469,17 @@ is nothing worse than assuming something critical is out of scope only
 to see the look on your stakeholders faces later when they realise you
 aren't planning on delivering it.
 
-
->  ##### Top Tip
->
->  You should take the opportunity in week one to ask people to explain
+---------------------------------------------------------------------- 
+##### Top Tip
+---------------------------------------------------------------------- 
+  You should take the opportunity in week one to ask people to explain
   acronyms. We all do it, talk in TLAs, but there comes a point on a
   project where you are expected to be able to join in with the lingo. In
   week one stop everybody who uses an acronym and ask them what it stands
   for. Don't forget to write them down somewhere for you to check back
   against later.
+
+---------------------------------------------------------------------- 
 
 ### Key 6: To Do List
 

@@ -1,14 +1,19 @@
 title: Practitioner's Guides
-description: 
-  The practitioner's guides are a collection of guides and best practices for common
-  scenarios in software development. They are designed to be used as a
-  reference, alongside the code, to help you deliver high quality software
-  products.
+about: "The Scott Logic practitioner's guides are designed to be
+small practical guides for IT professionals. We draw on our collective
+experience to tackle topics that we don't feel are addressed elsewhere.
+Our hope is that these little 'value adds' will help you just as much as
+they have helped us."
+
 baseurl: "/practitioners-guides"
 url: "https://scottlogic.github.io"
+sl_url: "https://www.scottlogic.com"
+GitHub_url: "https://github.com/ScottLogic/practitioners-guides"
 
 markdown: GFM
-remote_theme: sighingnow/jekyll-gitbook
+theme: null
+plugins:
+  - jekyll-toc
 
 toc:
   enabled: true

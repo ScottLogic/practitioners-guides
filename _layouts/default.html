@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ site.title }} - {{ page.title }}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
+</head>
+
+<body>
+    <div id="sidebar">
+        <div id="sidebar-logo-container">
+            <a href="{{ site.sl_url }}/"><img  src="{{ '/assets/images/scott-logic-primary-no-tagline-full-color-rgb-900px-w-72ppi.png' | relative_url }}" alt="Logo" id="sidebar-logo"></a>
+        </div>
+        <ul>
+            <li class="{% if page.url == '/' %}active{% endif %}">
+                <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+            </li>
+            <div id="sidebar-nav-items">
+                {% for  post in site.pages %}
+                    {% if post.title %}
+                        {% if post.url != page.url %}
+                            <li id="nav-item-page-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+                        {% endif %}
+                            {% if site.toc.enabled %}
+                                {% if post.url == page.url %}   
+                                    {% include toc.html html=content h_min=site.toc.h_min h_max=site.toc.h_max item_class='active' %}
+                                {% endif %}
+                            {% endif %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <li><a href="{{ site.GitHub_url }}">Visit our GitHub repository</a></li>
+        </ul>
+    </div>
+    <button id="sidebar-toggle">☰</button>
+    <div id="content">
+        {{ content }}
+    </div>
+    <script src="{{ '/assets/js/sidebar.js' | relative_url }}">
+    </script>
+</body>
+
+</html>
