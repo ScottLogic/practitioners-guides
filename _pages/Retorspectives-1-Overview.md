@@ -2,7 +2,7 @@
 layout: post
 title:  "Retrospectives - Overview"
 date:   14-12-2023
-author: Matthew Cline and James Camilleri
+author: mcline
 description: A general overview of Agile Retrospective meetings and the different approaches a team can take to improvement.
 ---
 
@@ -36,19 +36,17 @@ Retrospectives are a time for the team to come together and raise how they curre
 - **Structured and facilitated**: You don’t want to go into a retro and suddenly discover no one knows what you are going to do for a session. Plan out in advance who is facilitating and what activities they’ll run. In the early weeks of a team this should be someone experienced (e.g. the scrum master or team lead). As time goes on it’s great to share this around the team and get more people involved.
 - **A safe space**: It is incredibly important that every participant in the retro feels as if they can raise issues to the wider team. This is perhaps best expressed in the Retrospective Prime Directive:
 
-> “Regardless of what we discover, we must understand and truly believe that everyone did the best job he or she could, given what was known at the time, his or her skills and abilities, the resources available, and the situation at hand.” -Norm Kerth
+> **“Regardless of what we discover, we must understand and truly believe that everyone did the best job he or she could, given what was known at the time, his or her skills and abilities, the resources available, and the situation at hand.”** -Norm Kerth
 
----
-#### Running Remote Retros
-
-All of the guidance is intended to be generic enough to apply to teams running retros in any setting. Typically the advice has been written with software delivery in mind (as that’s our speciality) but could also be applied wider than that.
-
-The formats expressed below are designed to be run in person or remote without needing to change them. Minimum requirements for an online tool:
-
-- Everyone can see and interact with the board
-- The facilitator can define their own format for the retro
-- We can create notes, move them around and mark them with votes
----
+##### Top Tip
+>###### Running Remote Retros
+>All of the guidance is intended to be generic enough to apply to teams running retros in any setting. Typically the advice has been written with software delivery in mind (as that’s our speciality) but could also be applied wider than that.
+>
+>The formats expressed below are designed to be run in person or remote without needing to change them. Minimum requirements for an online tool:
+>
+>- Everyone can see and interact with the board
+>- The facilitator can define their own format for the retro
+>- We can create notes, move them around and mark them with votes
 
 ### Structure of a Retrospective
 So, you’ve got a time, a place (online or physical), you know who’s coming to the retro and who is facilitating. Now, you need to plan out how the actual meeting will run. In general, I split up most retros into 3 sections. 
@@ -88,11 +86,8 @@ A “Looking Back” retro can also be used as part of a wider review session, f
 - What is our vision for the future of the team? You may choose the "Resolutions Retro"
 - How do we feel about the meetings we attend? ESVP may be applicable.
 
----
-
-#### Walking the Board
-In lots of these retro formats we suggest “Walking the Board”. Effectively this is just a process where you as the facilitator will read out loud every single item that has been raised for the whole team to acknowledge. During this time you are trying to clarify things in case they aren’t clear to everyone and answering questions the team asks about them. You should add detail to notes if it helps clarify.
-
-However, you should be careful that you don’t start discussing the notes at this step. We only want to acknowledge “Do we all know what this means?” not “Do we agree with this?”. The temptation is to keep the conversation going but at this step we just want to cover everything raised fairly, equally and setting up a platform where the team can then vote on what they want to discuss.
-
----
+##### Top Tip
+>###### Walking the Board
+>In lots of these retro formats we suggest “Walking the Board”. Effectively this is just a process where you as the facilitator will read out loud every single item that has been raised for the whole team to acknowledge. During this time you are trying to clarify things in case they aren’t clear to everyone and answering questions the team asks about them. You should add detail to notes if it helps clarify.
+>
+>However, you should be careful that you don’t start discussing the notes at this step. We only want to acknowledge “Do we all know what this means?” not “Do we agree with this?”. The temptation is to keep the conversation going but at this step we just want to cover everything raised fairly, equally and setting up a platform where the team can then vote on what they want to discuss.

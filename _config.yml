@@ -29,6 +29,15 @@ collections:
     permalink: /:collection/:path/
     sort_by: date
 
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    summary: a quick summary of your post
+    author: the name of the authers account
+    layout: post
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/

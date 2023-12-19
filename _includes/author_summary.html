@@ -1,0 +1,15 @@
+{% assign author-id = include.author-id %}
+{% assign author = site.data.authors.authors[author-id] %}
+<div class="author-information cell">
+  <img src="{{ site.baseurl }}/authors/{{ author-id }}/assets/{{ author.picture }}" alt="{{ author.name }}"/>
+  {{ author.name }}
+</div>
+<div class="cell">
+  {{ author.author-summary }}
+  {% if  author.twitter-url %}
+      {% assign twitter-url-split = author.twitter-url | split: '/' %}
+      <div class="author-social-media-link">
+          <a rel="author" href="{{ author.twitter-url}}">@{{ twitter-url-split[3] }}</a>
+      </div>
+  {% endif %}
+</div>

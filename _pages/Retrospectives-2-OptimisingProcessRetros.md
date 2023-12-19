@@ -2,7 +2,7 @@
 layout: post
 title:  "Retrospectives - Optimising Process"
 date:   14-12-2023
-author: Matthew Cline and James Camilleri
+author: mcline
 description: A collection of retrospective templates to optimise the ongoing processes of an agile team.
 ---
 
