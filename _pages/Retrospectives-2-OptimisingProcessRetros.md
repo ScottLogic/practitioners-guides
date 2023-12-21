@@ -28,13 +28,13 @@ The facilitator will:
 - **START** is for new ideas! New suggestions of ways we can improve how we work and try new things
 
 ### Running the Retro 
-1. Everyone adds notes to all columns. Timebox this to around 10-15 minutes in an hour retro or shorter for less time. Optionally, open the digital board early or getting the team to bring pre-written sticky notes to save time during the retro.
+1. Everyone adds notes to all columns. Time-box this to around 10-15 minutes in an hour retro or shorter for less time. Optionally, open the digital board early or getting the team to bring pre-written sticky notes to save time during the retro.
 1. “Walk the Board”, starting with Keep, then Stop then Start. Read the notes in each column in order, clarifying anything that the team doesn’t understand. Don't discuss any notes in depth and try to gather related notes together and identify themes.
 1. Give all the participants a number of votes, usually between 3 & 5, and get everyone to vote on whichever notes they most want us to action. Allow participants to vote on their own items, use multiple votes on the same item and see how others are voting. 
 1. Start discussion on the group of notes with the most votes, potentially with who raised it. As the facilitator, try to hear sentiment from across the room and *gently direct to team to focus on what action we can take related to this note for the next sprint*.
 1. Continue with the next most voted notes until time runs out or the team reaches a set of actions they are happy with (no more than 5)
 
-![Illustration of the board showing three columns, labeled Keep, Stop and Start]({{ site.baseurl }}/assets/images/retros/KeepStopStartBoardExample.png)
+![Illustration of the board showing three columns, labelled Keep, Stop and Start]({{ site.baseurl }}/assets/images/retros/KeepStopStartBoardExample.png)
 
 ### What should I get out of it?
 At the end of the Keep, Stop, Start retro you should have a set of actions ready to take into the next iteration. Not everything will have been fully discussed or resolved but the team should have some focus on what you will be able to change in next sprint.
@@ -51,7 +51,7 @@ If the team is getting too many notes for Keep, Stop, Start or if the team is pa
 - Split the board into 5 roughly equal segments 
 - Label the sections clockwise: Start, More, Keep, Less, Stop
 
-![Illustration of the board showing page split into 5 sections by lines originating from the centre, labeled Start, Morem Keep, Less and Stop]({{ site.baseurl }}/assets/images/retros/StarBoardExample.png)
+![Illustration of the board showing page split into 5 sections by lines originating from the centre, labelled Start, More, Keep, Less and Stop]({{ site.baseurl }}/assets/images/retros/StarBoardExample.png)
 
 ### Components
 - START is for new ideas! New suggestions of ways we can improve how we work and try new things
@@ -81,7 +81,7 @@ You want to highlight the positives of our work and recognise that Lessons Learn
 - Split the board into 4 equal segments
 - Label the segments left-to-right, top-to-bottom “Liked, Learned, Lacked, Longed For”
 
-![Illustration of the board showing four quarters, labeled Liked, Learned, Lacked and Longed For](/practitioners-guides/assets/images/retros/4LsBoardExample.png)
+![Illustration of the board showing four quarters, labelled Liked, Learned, Lacked and Longed For](/practitioners-guides/assets/images/retros/4LsBoardExample.png)
 
 ### Components
 - **LIKED** is for the team to raise what they liked about the last iteration! Encourage them to focus on positive pieces of work, assistance from other team members and achievements
