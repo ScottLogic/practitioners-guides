@@ -7,7 +7,7 @@ description: A collection of retrospective templates to optimise the ongoing pro
 ---
 
 ## Introduction
-This guide provides templates to run retrospectives aimed at optimising a teams process. For a general overview and description of the different kinds of retrospectives covered the these guides please see our [Retrospectives - Overview](../Retrospectives-1-Overview)
+This guide provides templates to run retrospectives aimed at optimising a teams process. For a general overview and description of the different kinds of retrospectives covered the these guides please see our [Retrospectives - Overview]( {{ site.baseurl }} {% link _pages/Retrospectives-1-Overview %})
 
 ## Keep, Stop, Start
 The Keep, Stop, Start (or Stop, Start, Continue or any variant) is the classic retrospective format that most of will have used.
@@ -81,7 +81,7 @@ You want to highlight the positives of our work and recognise that Lessons Learn
 - Split the board into 4 equal segments
 - Label the segments left-to-right, top-to-bottom “Liked, Learned, Lacked, Longed For”
 
-![Illustration of the board showing four quarters, labelled Liked, Learned, Lacked and Longed For](/practitioners-guides/assets/images/retros/4LsBoardExample.png)
+![Illustration of the board showing four quarters, labelled Liked, Learned, Lacked and Longed For]({{ site.baseurl }}/assets/images/retros/4LsBoardExample.png)
 
 ### Components
 - **LIKED** is for the team to raise what they liked about the last iteration! Encourage them to focus on positive pieces of work, assistance from other team members and achievements

@@ -94,7 +94,7 @@ A “Looking Back” retro can also be used as part of a wider review session, f
 >
 >However, you should be careful that you don’t start discussing the notes at this step. We only want to acknowledge “Do we all know what this means?” not “Do we agree with this?”. The temptation is to keep the conversation going but at this step we just want to cover everything raised fairly, equally and setting up a platform where the team can then vote on what they want to discuss.
 
-Our Practitioner's Guide to Retrospectives continues in the guide to [Optimising Process Retrospectives](../Retrospectives-2-OptimisingProcessRetros). Following this we will be publishing the following guides:
+Our Practitioner's Guide to Retrospectives continues in the guide to [Optimising Process Retrospectives]({{ site.baseurl }} {% link _pages/Retrospectives-2-OptimisingProcessRetros %}). Following this we will be publishing the following guides:
 - Looking Back Retros
 - Looking Forward Retros
 - Focus Retros
