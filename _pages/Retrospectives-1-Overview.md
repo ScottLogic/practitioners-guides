@@ -52,9 +52,8 @@ Retrospectives are a time for the team to come together and raise how they curre
 So, you’ve got a time, a place (online or physical), you know who’s coming to the retro and who is facilitating. Now, you need to plan out how the actual meeting will run. In general, I split up most retros into 3 sections. 
 
 1. **Icebreaker** - An opening activity designed to get people talking and thinking about their feelings on the current work. Often a 5-10 minute activity up front. See our upcoming article about Icebreakers for inspiration.
-
-2. **Main Activity** - The actual format we are using. We will spend the majority of the time gathering notes from everybody in the retro according to our current format and discussing these items to identify themes and commonality.
-3. **Action Setting** - Reserve the last 10-15 minutes of the retro for setting actions and ensuring that everyone knows the next steps. See more about setting good actions in our upcoming article.
+1. **Main Activity** - The actual format we are using. We will spend the majority of the time gathering notes from everybody in the retro according to our current format and discussing these items to identify themes and commonality.
+1. **Action Setting** - Reserve the last 10-15 minutes of the retro for setting actions and ensuring that everyone knows the next steps. See more about setting good actions in our upcoming article.
 
 
 ![Illustration of the retrospectives funnel, showing the stages of a retro from gather data, to refine data, to voting to setting actions.]({{ site.baseurl }}/assets/images/retros/RetroFunnel.jpg)

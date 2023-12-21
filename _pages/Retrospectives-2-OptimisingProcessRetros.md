@@ -20,7 +20,7 @@ The old faithful. Identify what is working well for the team, what isn’t and w
 ### Setup
 The facilitator will:
 1. Draw 3 columns on the board
-2. Label the columns “Keep”, “Stop” and “Start”
+1. Label the columns “Keep”, “Stop” and “Start”
 
 ### Components
 - **KEEP** is for the things that went well in the iteration, good moments, practices that worked well and things we tried last sprint that were good
@@ -29,10 +29,10 @@ The facilitator will:
 
 ### Running the Retro 
 1. Everyone adds notes to all columns. Timebox this to around 10-15 minutes in an hour retro or shorter for less time. Optionally, open the digital board early or getting the team to bring pre-written sticky notes to save time during the retro.
-2. “Walk the Board”, starting with Keep, then Stop then Start. Read the notes in each column in order, clarifying anything that the team doesn’t understand. Don't discuss any notes in depth and try to gather related notes together and identify themes.
-3. Give all the participants a number of votes, usually between 3 & 5, and get everyone to vote on whichever notes they most want us to action. Allow participants to vote on their own items, use multiple votes on the same item and see how others are voting. 
-4. Start discussion on the group of notes with the most votes, potentially with who raised it. As the facilitator, try to hear sentiment from across the room and *gently direct to team to focus on what action we can take related to this note for the next sprint*.
-5. Continue with the next most voted notes until time runs out or the team reaches a set of actions they are happy with (no more than 5)
+1. “Walk the Board”, starting with Keep, then Stop then Start. Read the notes in each column in order, clarifying anything that the team doesn’t understand. Don't discuss any notes in depth and try to gather related notes together and identify themes.
+1. Give all the participants a number of votes, usually between 3 & 5, and get everyone to vote on whichever notes they most want us to action. Allow participants to vote on their own items, use multiple votes on the same item and see how others are voting. 
+1. Start discussion on the group of notes with the most votes, potentially with who raised it. As the facilitator, try to hear sentiment from across the room and *gently direct to team to focus on what action we can take related to this note for the next sprint*.
+1. Continue with the next most voted notes until time runs out or the team reaches a set of actions they are happy with (no more than 5)
 
 ![Illustration of the board showing three columns, labeled Keep, Stop and Start]({{ site.baseurl }}/assets/images/retros/KeepStopStartBoardExample.png)
 
@@ -62,9 +62,9 @@ If the team is getting too many notes for Keep, Stop, Start or if the team is pa
 
 ### Running the Retro
 1. Encourage the team to add notes to all sections. Consider challenging everyone to have at least 3 notes on the board in different columns.
-2. “Walk the board”, starting with START and going clockwise. 
-3. Identify themes across notes and move them around the star to group them up - you can add a prefix of where it came from or reword the note to keep the it making sense.
-4. Vote and work through the groups in vote order. Consider focusing on the “MORE” items as simple actions that we can commit to, since we likely will have already started this action.
+1. “Walk the board”, starting with START and going clockwise. 
+1. Identify themes across notes and move them around the star to group them up - you can add a prefix of where it came from or reword the note to keep the it making sense.
+1. Vote and work through the groups in vote order. Consider focusing on the “MORE” items as simple actions that we can commit to, since we likely will have already started this action.
 
 ### What should I get out of it?
 At the end of our star-shaped retro we should have a broad array of feedback and some simple things to do more of or start doing and actions to improve the things we want to do less of or stop.
@@ -91,9 +91,9 @@ You want to highlight the positives of our work and recognise that Lessons Learn
 
 ### Running the Retro
 1. Give the team some time to add notes to all sections, encouraging that everyone adds at least one note to the Learned section.
-2. Start with the Learned section and run through everything in here. Consider if this learning can be extended out to the wider team.
-3. “Walk the board” through the rest of the sections, starting with Liked and focusing on achievement and positives. Clarify and group the notes within Lacked and Longed For
-4. Using the Lacked and Longed For sections, identify areas we can set actions on. Discuss these one at a time using voting to highlight what the team most wants to improve
+1. Start with the Learned section and run through everything in here. Consider if this learning can be extended out to the wider team.
+1. “Walk the board” through the rest of the sections, starting with Liked and focusing on achievement and positives. Clarify and group the notes within Lacked and Longed For
+1. Using the Lacked and Longed For sections, identify areas we can set actions on. Discuss these one at a time using voting to highlight what the team most wants to improve
 
 ### What should I get out of it?
 The team should reflect on the positives of the sprint, Liked and Learned gives us more space to discuss the good. At the end we should have actions around the things we lacked and longed for.
