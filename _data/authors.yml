@@ -1,0 +1,13 @@
+authors:
+  cpratt:
+    name: 'Catherine Pratt'
+    picture: picture.jpg
+    author-summary: "I'm a Delivery Principal at Scott Logic."
+  mcline:
+    name: "Matt Cline"
+    picture: mcline.jpg
+    author-summary: "I am a Lead Developer and Scrum Master at Scott Logic with a keen interest in Agile Software Development and supporting Agile teams. My background is in fullstack development across .NET and Java applications with frontends in React and Angular."
+  abennamane:
+    name: 'Atika Bennamane'
+    picture: abennamane.jpg
+    author-summary: "I'm a Design Principal at Scott Logic."

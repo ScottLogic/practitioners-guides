@@ -1,0 +1,20 @@
+<div class="post-index grid-container">
+  <h1 class="super-title"><a href="{{ site.github.url }}">Practitioner's Guides</a></h1>
+  <div class="cell grid-x">
+    <div class="cell large-7 large-offset-1">
+      <p>The Practitioner's Guides are designed to be small practical guides for IT professionals - authored by the team at [Scott Logic](https://www.scottlogic.com/). We draw on our collective experience to tackle topics that we don't feel are addressed elsewhere. Our hope is that these little 'value adds' will help you just as much as they have helped us.</p>
+
+      <p>Topics covered include:</p>
+      <ul>
+        {% for item in site.pages %}
+        <li>- {{item.title}}</li>
+        {% endfor %}
+      </ul>
+      <p>The Practitioners Guides site is an ongoing project, where we expect new guides to be published on a somewhat regular basis, watch this space!</p>
+
+      <p>If you're interested in finding out more, or want to get involved, please visit the [GitHub project](https://github.com/ScottLogic/practitioners-guides).</p>
+    </div>
+  </div>
+</div>
+
+{% include site-footer.html %}
