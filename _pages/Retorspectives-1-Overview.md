@@ -55,7 +55,8 @@ So, you’ve got a time, a place (online or physical), you know who’s coming t
 2. **Main Activity** - The actual format we are using. We will spend the majority of the time gathering notes from everybody in the retro according to our current format and discussing these items to identify themes and commonality.
 3. **Action Setting** - Reserve the last 10-15 minutes of the retro for setting actions and ensuring that everyone knows the next steps. See more about setting good actions <here>
 
-![Illustration of the retrospectives funnel, showing the stages of a retro from gather data, to refine data, to voteing to setting actions.](/practitioners-guides/assets/images/retros/RetroFunnel.jpg)
+![Illustration of the retrospectives funnel, showing the stages of a retro from gather data, to refine data, to voting to setting actions.](/practitioners-guides/assets/images/retros/RetroFunnel.jpg)
+
 
 ### Retrospective Types
 
