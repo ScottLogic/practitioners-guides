@@ -57,7 +57,7 @@ So, you’ve got a time, a place (online or physical), you know who’s coming t
 3. **Action Setting** - Reserve the last 10-15 minutes of the retro for setting actions and ensuring that everyone knows the next steps. See more about setting good actions in our upcoming article.
 
 
-![Illustration of the retrospectives funnel, showing the stages of a retro from gather data, to refine data, to voting to setting actions.](/practitioners-guides/assets/images/retros/RetroFunnel.jpg)
+![Illustration of the retrospectives funnel, showing the stages of a retro from gather data, to refine data, to voting to setting actions.]({{ site.baseurl }}/assets/images/retros/RetroFunnel.jpg)
 
 
 ### Retrospective Types

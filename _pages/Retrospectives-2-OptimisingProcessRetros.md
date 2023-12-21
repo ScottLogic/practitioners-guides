@@ -34,7 +34,7 @@ The facilitator will:
 4. Start discussion on the group of notes with the most votes, potentially with who raised it. As the facilitator, try to hear sentiment from across the room and *gently direct to team to focus on what action we can take related to this note for the next sprint*.
 5. Continue with the next most voted notes until time runs out or the team reaches a set of actions they are happy with (no more than 5)
 
-![Illustration of the board showing three columns, labeled Keep, Stop and Start](/practitioners-guides/assets/images/retros/KeepStopStartBoardExample.png)
+![Illustration of the board showing three columns, labeled Keep, Stop and Start]({{ site.baseurl }}/assets/images/retros/KeepStopStartBoardExample.png)
 
 ### What should I get out of it?
 At the end of the Keep, Stop, Start retro you should have a set of actions ready to take into the next iteration. Not everything will have been fully discussed or resolved but the team should have some focus on what you will be able to change in next sprint.
@@ -51,7 +51,7 @@ If the team is getting too many notes for Keep, Stop, Start or if the team is pa
 - Split the board into 5 roughly equal segments 
 - Label the sections clockwise: Start, More, Keep, Less, Stop
 
-![Illustration of the board showing page split into 5 sections by lines originating from the centre, labeled Start, Morem Keep, Less and Stop](/practitioners-guides/assets/images/retros/StarBoardExample.png)
+![Illustration of the board showing page split into 5 sections by lines originating from the centre, labeled Start, Morem Keep, Less and Stop]({{ site.baseurl }}/assets/images/retros/StarBoardExample.png)
 
 ### Components
 - START is for new ideas! New suggestions of ways we can improve how we work and try new things

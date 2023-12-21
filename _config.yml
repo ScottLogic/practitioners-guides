@@ -7,9 +7,11 @@ they have helped us."
 
 baseurl: "/practitioners-guides"
 url: "https://scottlogic.github.io"
-sl_url: "https://www.scottlogic.com"
 GitHub_url: "https://github.com/ScottLogic/practitioners-guides"
-
+canonical:
+  url: https://www.scottlogic.com/practitioners-guides
+scottlogic:
+  url: https://www.scottlogic.com
 markdown: GFM
 theme: null
 plugins:
@@ -34,8 +36,8 @@ defaults:
     path: ''
     type: posts
   values:
-    summary: a quick summary of your post
-    author: the name of the authers account
+    summary: "a quick summary of your post"
+    author: "the name of the author's account"
     layout: post
 
 exclude:

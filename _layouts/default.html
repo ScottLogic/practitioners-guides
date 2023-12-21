@@ -10,8 +10,6 @@ repository: ScottLogic/practitioners-guides
     <title>{% if page.title %}{{ page.title }}{% else %}Scott Logic{% endif %}</title>
     <meta name="description" content="{{ page.summary }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="alternate" type="application/atom+xml" href="{{ site.canonical.url }}/atom.xml" title="Scott Logic Blog">
-    <link rel="alternate" type="application/rss+xml" href="{{ site.canonical.url }}/feed.xml" title="Scott Logic Blog">
     {% if page.canonical_url %}
         <link rel="canonical" href="{{page.canonical_url}}">
     {% else %}
@@ -43,7 +41,7 @@ repository: ScottLogic/practitioners-guides
     {% endif %}
 
     <link rel="stylesheet" href="{{ site.baseurl | remove_first: 'http:' }}/assets/css/style.css" type="text/css">
-    <link rel="icon" type="image/png" href="{{ site.canonical.url }}/favicon.ico" />
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon.ico" />
 
     {% comment %} Only load analytics when on the main repo; it will fail to load on the forks {% endcomment %}
     {% if site.github.owner_name == 'ScottLogic' %}
@@ -76,8 +74,6 @@ repository: ScottLogic/practitioners-guides
 
 <script src="{{ site.baseurl | remove_first: 'http:' }}//assets/js/initialise-menu.js" type="text/javascript"></script>
 <script src="{{ site.baseurl | remove_first: 'http:' }}//assets/js/jquery-1.9.1.js" type="text/javascript"></script>
-<script src="{{ site.baseurl | remove_first: 'http:' }}//assets/js/jquery.jscroll-2.2.4.js" type="text/javascript"></script>
-<script src="{{ site.baseurl | remove_first: 'http:' }}//assets/js/jquery.jscroll-2.2.4.js" type="text/javascript"></script>
 <script src="{{ site.baseurl | remove_first: 'http:' }}//assets/js/graft-studio/header-scroll.js" type="text/javascript"></script>
 <script src="{{ site.baseurl | remove_first: 'http:' }}//assets/js/graft-studio/jquery.matchHeight.js" type="text/javascript"></script>
 <script src="{{ site.baseurl | remove_first: 'http:' }}//assets/js/graft-studio/jquery.mmenu.all.js" type="text/javascript"></script>
@@ -85,19 +81,5 @@ repository: ScottLogic/practitioners-guides
 <script>
 initialiseMenu();
 </script>
-
-{% if page.paginated %}
-    <script type="text/javascript">
-        jQuery('.content').jscroll({
-            contentSelector: ".content",
-            nextSelector: '.next',
-            loadingHtml: '<div id="loadingSpinner"><div class="f_circleG" id="frotateG_01"></div><div class="f_circleG" id="frotateG_02"></div><div class="f_circleG" id="frotateG_03"></div><div class="f_circleG" id="frotateG_04"></div><div class="f_circleG" id="frotateG_05"></div><div class="f_circleG" id="frotateG_06"></div><div class="f_circleG" id="frotateG_07"></div><div class="f_circleG" id="frotateG_08"></div></div>',
-            callback: function() {
-                makeTimestampsRelative();
-                loadClapCount();
-            }
-        });
-    </script>
-{% endif %}
 </body>
 </html>
