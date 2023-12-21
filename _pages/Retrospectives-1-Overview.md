@@ -31,7 +31,7 @@ Many of these formats will have been seen before but are presented in a way that
 Retrospectives are a time for the team to come together and raise how they currently feel about the work and team and help identify improvements and changes we want to make to the process. They should be for the team to shape and have the opportunity to control. I have found the following principles to be good to bear in mind when setting up retros with my teams.
 
 - **Regular & Scheduled**: Don’t get to the end of an iteration and go “well we should probably have a retro now” or be frantically trying to find a time in the calendar to discuss how we work. Get a regular slot in everyone’s calendars that everyone in the team can make.  
-- **Time-boxed**: Retros that run on for hour after hour can be a drag on everyone’s time and attention. Since we have the whole team in attendance we should be intentional with that time and use it appropriately. If a discussion about an issue is going on too long, consider setting up a specific followup session just to discuss that with the interested parties and move on to what affects the whole team.
+- **Time-boxed**: Retros that run on for hour after hour can be a drag on everyone’s time and attention. Since we have the whole team in attendance we should be intentional with that time and use it appropriately. If a discussion about an issue is going on too long, consider setting up a specific follow-up session just to discuss that with the interested parties and move on to what affects the whole team.
 - **Looking inward on the Team, with only the team involved**: Identify who the team is (the people who are actively working together every day) and who should therefore be in retrospective. You should not have external observers or occasional stakeholders in the retro as they are not beholden to the actions of the retro.
 - **Structured and facilitated**: You don’t want to go into a retro and suddenly discover no one knows what you are going to do for a session. Plan out in advance who is facilitating and what activities they’ll run. In the early weeks of a team this should be someone experienced (e.g. the scrum master or team lead). As time goes on it’s great to share this around the team and get more people involved.
 - **A safe space**: It is incredibly important that every participant in the retro feels as if they can raise issues to the wider team. This is perhaps best expressed in the Retrospective Prime Directive:
@@ -94,3 +94,10 @@ A “Looking Back” retro can also be used as part of a wider review session, f
 >In lots of these retro formats we suggest “Walking the Board”. Effectively this is just a process where you as the facilitator will read out loud every single item that has been raised for the whole team to acknowledge. During this time you are trying to clarify things in case they aren’t clear to everyone and answering questions the team asks about them. You should add detail to notes if it helps clarify.
 >
 >However, you should be careful that you don’t start discussing the notes at this step. We only want to acknowledge “Do we all know what this means?” not “Do we agree with this?”. The temptation is to keep the conversation going but at this step we just want to cover everything raised fairly, equally and setting up a platform where the team can then vote on what they want to discuss.
+
+Our Practitioner's Guide to Retrospectives continues in the guide to [Optimising Process Retrospectives](../Retrospectives-2-OptimisingProcessRetros). Following this we will be publishing the following guides:
+- Looking Back Retros
+- Looking Forward Retros
+- Focus Retros
+- Ice Breakers
+- Action Setting

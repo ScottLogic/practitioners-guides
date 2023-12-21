@@ -6,7 +6,9 @@ author: mcline
 description: A collection of retrospective templates to optimise the ongoing processes of an agile team.
 ---
 
-# Optimising Process Retropectives
+## Introduction
+This guide provides templates to run retrospectives aimed at optimising a teams process. For a general overview and description of the different kinds of retrospectives covered the these guides please see our [Retrospectives - Overview](../Retrospectives-1-Overview)
+
 ## Keep, Stop, Start
 The Keep, Stop, Start (or Stop, Start, Continue or any variant) is the classic retrospective format that most of will have used.
 
