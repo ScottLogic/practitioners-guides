@@ -89,6 +89,12 @@ h1, h2, h3, h4 {
     margin-left: 35%;
 }
 
+#about-this-series {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: lightblue;
+}
+
 #content {
     margin: auto;
     width: 80%;
