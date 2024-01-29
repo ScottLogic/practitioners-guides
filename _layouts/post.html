@@ -1,9 +1,26 @@
 ---
 layout: default
 ---
-<html>
+
+{% include navigation.html %}
+
+<div id="sidebar">
+    <div id="sidebar-logo-container">
+        <a href="{{ site.sl_url }}/"><img  src="{{ '/assets/images/scott-logic-primary-no-tagline-full-color-rgb-900px-w-72ppi.png' | relative_url }}" alt="Logo" id="sidebar-logo"></a>
+    </div>
+    <ul>
+        <div id="sidebar-nav-items">
+            {% if site.toc.enabled %}  
+                {% include toc.html html=content h_min=site.toc.h_min h_max=site.toc.h_max item_class='active' %}
+            {% endif %}
+        </div>
+    </ul>
+</div>
+<button id="sidebar-toggle">☰</button>
+<div id="content">
     <div id="page-content">
         <h1 id="page-title">{{ page.title }}</h1>
+        {% include profile.html profile=page.profile author=page.author  %}
         <h6 id="page-author">by {{ page.author }} - {{ page.date | date_to_string }}</h6>
         <p id="page-description">{{page.description}}</p>
         <p>
@@ -14,7 +31,9 @@ layout: default
                 This guide is made available under the permissive Creative Commons <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 license</a>
             </p>
         </p>
-            {{ content }}
+        {{ content }}
     </div>
     {% include footer.html %}
-</html>
+</div>
+<script src="{{ '/assets/js/sidebar.js' | relative_url }}">
+</script>

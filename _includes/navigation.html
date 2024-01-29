@@ -1,0 +1,15 @@
+<nav>
+    <ul>
+        <li><a href="{{ site.baseurl }}/">{{ site.title }}</a></li>
+        {% for item in site.pages %}
+            {% if item.title %}
+                {% if item.url != page.url %}
+                    <li><a href="{{ item.url | relative_url }}">{{item.title}}</a></li>
+                {% else %}
+                    <li><a href="{{ item.url | relative_url }}" style="text-decoration: underline;">{{item.title}}</a></li>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+        <li><a href="{{ site.GitHub_url }}">Visit our GitHub repository</a></li>
+    </ul>
+</nav>

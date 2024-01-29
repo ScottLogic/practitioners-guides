@@ -1,0 +1,11 @@
+{% if include.profile %}
+<div class="profile-icon">
+    <img alt="my-user-avatar" src="{{ site.baseurl }}/media/{{ include.profile }}">
+</div>
+{% else %}
+<div class="profile-icon">
+    {% assign forename = include.author | split: " " | first | slice: 0 %}
+    {% assign surname = include.author | split: " " | last | slice: 0 %}
+    <span>{{ forename }}{{ surname }}</span>
+</div>
+{% endif %}

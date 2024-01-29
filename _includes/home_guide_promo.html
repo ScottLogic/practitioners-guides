@@ -1,0 +1,28 @@
+<div class="guide-promo-wrapper">
+    <h2 class="mt-0 mb-0 pt-0 pb-0 lift">Read our Practitioner's Guides</h2>
+    <div class="guide-promo">
+        {% for item in site.pages %}
+            <div class="guide-promo-column">
+                <div>
+                    <a class="guide-promo-top" href="{{ item.url | relative_url }}">
+                        <div>
+                            <img src="{{ '/assets/images/logo-inverted.svg' | relative_url }}" alt="Logo">
+                            <p>{{ item.title }}:</p>
+                            <p>{{ item.description }}</p>
+                        </div>
+                    </a>
+                    <div class="guide-promo-bottom">
+                        <div>
+                            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                            <p>{{ item.summary }}</p>
+                            <div class="guide-promo-profile">
+                                {% include profile.html profile=item.profile author=item.author  %}
+                                <p>{{ item.author }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
