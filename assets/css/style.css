@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     text-rendering: optimizeLegibility;
+    font-size: 16px;
 }
 
 h1, h2, h3, h4 {
@@ -310,7 +311,6 @@ a.block-highlight-turquoise:hover, a.block-highlight-turquoise:active, a.block-h
     overflow-x: hidden;
     overflow-y: auto;
     transition: all 0.8s ease;
-    font-size: 15px;
     flex: 1 0 300px;
 }
   
