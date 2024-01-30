@@ -6,15 +6,13 @@ layout: default
         <h1 id="page-title">{{ page.title }}</h1>
         <h6 id="page-author">by {{ page.author }} - {{ page.date | date_to_string }}</h6>
         <p id="page-description">{{page.description}}</p>
-        <p>
-            <h6>About this series</h6>
+        <p id="about-this-series">
             {{ site.about }}
-            <p>
-                <br>
-                This guide is made available under the permissive Creative Commons <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 license</a>
-            </p>
+            <br/>
+            <br/>
+            This guide is made available under the permissive Creative Commons <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 license</a>
         </p>
-            {{ content }}
+        {{ content }}
     </div>
     {% include footer.html %}
 </html>
