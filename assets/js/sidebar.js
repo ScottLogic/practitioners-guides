@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const sidebar = document.getElementById("sidebar");
     const sidebarToggle = document.getElementById("sidebar-toggle");
+    const guideContent = document.getElementById("guide-content");
     const singleColumnWidth = 768;
   
     sidebarToggle.addEventListener("click", function () {
@@ -8,12 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     const navTocLinks = document.querySelectorAll('#sidebar-nav-items a');
-    // const bodyTocLinks = document.querySelectorAll('[id^="key-"]');
     const bodyTocLinks = document.querySelectorAll("h2, h3");
 
     const onScrollStop = callback => {
       let isScrolling;
-      window.addEventListener(
+      guideContent.addEventListener(
         'scroll',
         e => {
           clearTimeout(isScrolling);
