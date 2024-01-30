@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const sidebar = document.getElementById("sidebar");
     const sidebarToggle = document.getElementById("sidebar-toggle");
-    const singleColumnWidth = 764;
+    const singleColumnWidth = 768;
   
     sidebarToggle.addEventListener("click", function () {
       sidebar.classList.toggle("collapsed");
@@ -45,7 +45,6 @@ document.addEventListener("DOMContentLoaded", function () {
               navTocLink.closest("li").classList.add("active-toc");
               // sync scrolling on toc with page
               const viewWidth = Math.max(document.documentElement.clientWidth, window.innerWidth);
-              console.log(viewWidth);
               if (viewWidth > singleColumnWidth && !checkVisible(navTocLink, 1)) {
                 const navTocLinkBoundingBox = navTocLink.closest("li").getBoundingClientRect();
                 sidebar.scrollTo({
