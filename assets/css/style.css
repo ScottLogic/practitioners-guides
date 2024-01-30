@@ -355,9 +355,10 @@ nav ul li a {
     display: flex;
     align-items: stretch;
     text-decoration: none;
+    position: relative;
 }
 
-.guide-promo .guide-promo-top>div {
+.guide-promo .guide-promo-top>div:nth-child(1) {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -367,14 +368,26 @@ nav ul li a {
     width: 100%;
 }
 
-.guide-promo .guide-promo-top>div>img {
+.guide-promo .guide-promo-top>div:nth-child(1)>img {
     height: 30px; 
     width: auto;
     margin-bottom: 1.5rem;
 }
 
-.guide-promo .guide-promo-top>div>p {
+.guide-promo .guide-promo-top>div:nth-child(1)>p {
     padding: 0 0.5rem;
+}
+
+.guide-promo .guide-promo-top>div:nth-child(2) {
+    position: absolute;
+    bottom:10px;
+    right: 10px;
+}
+
+.guide-promo .guide-promo-top>div:nth-child(2)>img {
+    display: inline-block;
+    width: auto;
+    height: 26px;
 }
 
 .guide-promo .guide-promo-bottom {
@@ -421,8 +434,6 @@ nav ul li a {
     align-items: center;
     justify-content: center;
 }
-
-
 
 #get-in-touch {
     display: flex;
