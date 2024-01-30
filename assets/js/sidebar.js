@@ -30,18 +30,27 @@ document.addEventListener("DOMContentLoaded", function () {
       setActiveToc();
     });
     
-    function checkVisible(elm) {
+    function checkVisible(elm, offset) {
       var rect = elm.getBoundingClientRect();
       var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
-      return !(rect.bottom < 0 || rect.top - viewHeight / 1.5 >= 0);
+      return !(rect.bottom < 0 || rect.top - viewHeight / offset >= 0);
     }
 
     function setActiveToc() {
       bodyTocLinks.forEach((visibleSectionTitle => {
-        if (checkVisible(visibleSectionTitle)) {
+        if (checkVisible(visibleSectionTitle, 1.5)) {
           navTocLinks.forEach((navTocLink => {
             if (navTocLink.innerHTML == visibleSectionTitle.innerHTML) {
               navTocLink.closest("li").classList.add("active-toc");
+              // sync scrolling on toc with page
+              if (!checkVisible(navTocLink, 1)) {
+                var navTocLinkBoundingBox = navTocLink.closest("li").getBoundingClientRect();
+                sidebar.scrollTo({
+                  top: navTocLinkBoundingBox.top,
+                  left: 0,
+                  behavior: "smooth",
+                });
+              }
             }
             else {
               navTocLink.closest("li").classList.remove("active-toc");
