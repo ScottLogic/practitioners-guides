@@ -17,7 +17,7 @@ There’s a wealth of materials that help build your technical skills, through c
 
 This guide isn’t going to fix all of this, but it aims to help empower the quieter or less confident among us to speak with real confidence. 
 
-If you’re nervous about communicating your ideas, either in a formal presentation setting, or more informally, in meetings and small group conversations, this brief guide is for you. It’s a simple collection of thoughts and ideas, practical steps that you can take to build confidence, or feel more secure. You don’t need to try them all at once, building communication skills and confidence in yourself takes time. It’s better to introduce them little-by-little.
+If you’re nervous about communicating your ideas, either in a formal presentation setting, or more informally, in meetings and small group conversations, this brief guide is for you. It’s a simple collection of thoughts and ideas; practical steps that you can take to build confidence, or feel more secure. You don’t need to try them all at once, building communication skills and confidence in yourself takes time. It’s better to introduce them little-by-little.
 
 Anyhow, enough of the introduction, let’s move onto something more practical.
 
@@ -77,7 +77,7 @@ It’s very frequent to hear people say “I couldn’t present on that topic, I
 
 It’s easy to think that everyone knows the same things that you do, or perhaps more, but this simply isn’t the case. Furthermore, there are so many ways to present a topic or concept, that sometimes you’ll be surprised by a presentation on a familiar topic, where the way it was delivered causes you to think differently. It’s happened to me on numerous occasions, and I always try to be an open-minded audience member.
 
-One top tip to remember is that when people come to your presentation they are doing so because they want to know about your topic.  They want you to be successful in presenting it because they want to hear about the subject.  How many people go to a talk to deliberately watch the presenter fila? Your audience is actually your biggest supporter, so you don’t need to feel scared of them.
+One top tip to remember is that when people come to your presentation they are doing so because they want to know about your topic.  They want you to be successful in presenting it because they want to hear about the subject.  How many people go to a talk to deliberately watch the presenter fail? Your audience is actually your biggest supporter, so you don’t need to feel scared of them.
 
 This still doesn’t quite answer the question of what you should talk about? Quite simply I believe you should aim to talk about things that you enjoy and that excite you personally. Developing a talk, and building your own confidence, is hard work - you’re going to have to enjoy the topic to make it worthwhile.
 
@@ -172,7 +172,7 @@ If you’re worried about remembering what to say, or leaving out some important
 * Worse still, they’ll be able to read faster than you talk, meaning they’ll get to the end of the slide then have to mentally back-track when their focus returns to you.
 * And worse again, they might not be able to read the slide at all because the font size is so small to accommodate all the words
 
-To stop people reading ahead and loosing focus on the presenter, some people favour presentation slides that reveal one bullet point at a time, which isn’t a bad solution. However, it is better to minimise the content of your slides so that there is simply very little text and little to distract the audience from you!
+To stop people reading ahead and losing focus on the presenter, some people favour presentation slides that reveal one bullet point at a time, which isn’t a bad solution. However, it is better to minimise the content of your slides so that there is simply very little text and little to distract the audience from you!
 
 A trick you could use is to replace your bullet points with questions that you answer. For example, if you want to describe the role you have in a team, rather than have a slide with three bullet points describing the role, replace them with a question “how would I describe my role in the team?”
 
@@ -213,7 +213,7 @@ This still leaves the tricky job of the very last sentence. I’d recommend plan
 
 You’ve delivered your final line, given the audience the chance to applaud (which I’m sure they did), what about questions? For starters, there are no rules that say you have to take questions - often I feel they are a little superfluous, and take away from the ending you crafted. One simple option is to say “if you’d like to discuss further, come and find me for a chat, I’d love to talk some more …”
 
-If you’d like to ask questions, be prepared for a few situations  …
+If you’d like to ask questions, be prepared for a few situations:
 
 
 
@@ -239,7 +239,7 @@ In fact, assume the opposite.
 
 Regardless of the setting, you’ll likely be presenting to a group with quite mixed abilities. Don’t try to immediately impress the experts in the room, instead try to create a presentation that takes everyone on a journey. Try to make sure that everyone stays engaged and follows along. I’d much rather re-iterate the basics, even if the experts have heard it all before, than jump in at the deep end. The risk here is that some of your audience will be lost immediately.
 
-Also avoid acronyms.  Not everybody in the audience will know what the letters stand for. Using an acronym can be the difference between a person following and enjoying your talk verse losing interest within the first few minutes.
+Also avoid acronyms.  Not everybody in the audience will know what the letters stand for. Using an acronym can be the difference between a person following and enjoying your talk versus losing interest within the first few minutes.
 
 
 ### And you don’t need to be an expert either 
