@@ -101,7 +101,41 @@ a.block-highlight-turquoise:hover, a.block-highlight-turquoise:active, a.block-h
 }
 
 #footer {
-    border-top: 2px solid rgba(0,0,0,.07);
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+}
+
+#footer div.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#footer a {
+    color: #252525;
+}
+
+#footer #linkedin-logo {
+    height: 21px;
+    width: auto;
+}
+
+#footer #youtube-logo {
+    height: 21px;
+    width: auto;
+}
+
+#footer #b-corp-logo {
+    height: 60px;
+    width: auto;
 }
 
 /*** home styles ***/
