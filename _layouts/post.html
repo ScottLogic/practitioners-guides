@@ -32,22 +32,39 @@ layout: default
             </ul>
         </div> 
         <div id="guide-content">
-                <button id="sidebar-toggle">☰</button>
-            <div class="container-regular">
-                <h1 id="page-title">{{ page.title }}</h1>
-                {% include profile.html profile=page.profile author=page.author  %}
-                <h6 id="page-author">by {{ page.author }} - {{ page.date | date_to_string }}</h6>
-                <p id="page-description">{{page.description}}</p>
-                <p>
-                    <h6>About this series</h6>
-                    {{ site.about }}
-                    <p>
-                        <br>
-                        This guide is made available under the permissive Creative Commons <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 license</a>
-                    </p>
-                </p>
-                {{ content }}
-                {% include footer.html %}
+            <button id="sidebar-toggle">☰</button>
+            <div id="guide-banner">
+                <image src="{{ '/assets/images/guide-banner.svg' | relative_url }}" alt="shapes banner" />
+            </div>
+            <div id="guide-content-columns">
+                <div>
+                    <div class="container-regular">
+                        <h1 id="page-title">{{ page.title }}</h1>
+                        <p id="page-description-alt">{{page.description}}</p>
+                        <h6>{{ page.date | date_to_string }}</h6>
+                        <p>
+                            <h6>About this series</h6>
+                            {{ site.about }}
+                            <p>
+                                <br>
+                                This guide is made available under the permissive Creative Commons <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 license</a>
+                            </p>
+                        </p>
+                        {{ content }}
+                        {% include footer.html %}
+                    </div>
+                </div>
+                <div>
+                    <div id="guide-profile">
+                        <div>
+                            {% include profile.html profile=page.profile author=page.author  %}
+                        </div>
+                        <div id="guide-profile-about">
+                            <p class="pt-0 mb-0 pb-0">by {{ page.author }}</p>
+                            <p class="mt-0 pt-0 mb-0 pb-0">{{ page.role }}</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

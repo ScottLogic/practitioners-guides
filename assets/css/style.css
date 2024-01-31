@@ -48,7 +48,7 @@ h1, h2, h3, h4 {
     margin: auto;
     width: 80%;
     padding: 1px;
-    max-width: 1064px;
+    max-width: 1200px;
     transition: all 0.8s ease;
 }
 
@@ -68,14 +68,16 @@ h1, h2, h3, h4 {
 .profile-icon {
     display: flex;
     padding: 0;
-    border-radius: 28px;
-    width: 56px;
-    height: 56px;
+    border-radius: 32px;
+    width: 64px;
+    height: 64px;
 }
 .profile-icon>img {
-    border-radius: 28px;
-    width: 56px;
-    height: 56px;
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    align-self: center;
+    margin: auto;
 }
 
 .profile-icon>span {
@@ -436,11 +438,66 @@ li.active-toc:before {
     flex-grow: 1;
 }
 
+#guide-content-columns {
+    display: flex;
+    flex-direction: row;
+}
+
+#guide-banner>img {
+    width: 100%;
+    height: auto;
+}
+
+#page-title {
+    color: #2bb3bb;
+    padding: 2rem 0 1rem 0;
+    margin: 0;
+    font-size: 3rem;
+}
+
+#guide-banner #page-description {
+    padding: 0 1rem;
+    margin: 0;
+}
+
+#page-description-alt {
+    padding: 1rem 0 2rem 0;
+    margin: 0 0 2rem 0;
+    color: #2bb3bb;
+    font-size: 1.75rem;
+    border-bottom: 2px solid #dff0f3;
+}
+
+#guide-profile {
+    display: flex;
+    gap: 1rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+}
+
+#guide-profile>div#guide-profile-about {
+    display: flex;
+    flex-direction: column;
+}
+
+#guide-profile>div#guide-profile-about>p:nth-of-type(1) {
+    margin-top: auto;
+    white-space: nowrap;
+    font-size: 0.75rem;
+}
+
+#guide-profile>div#guide-profile-about>p:nth-of-type(2) {
+    font-weight: 600;
+    border-bottom: 2px solid #2bb3bb;
+    white-space: nowrap;
+    font-size: 0.8rem;
+}
+
 
 @media only screen and (max-width: 1024px) {
     /*** core styles ***/
     .container-regular {
-        max-width: 764px;
+        max-width: 824px;
     }
 
     .container-wide {
@@ -453,12 +510,22 @@ li.active-toc:before {
         display: flex;
         flex-basis: 48%;
     }
+
+    /*** guide styles ***/
+    #guide-content-columns {
+        flex-direction: column-reverse;
+    }
+
+    #guide-profile {
+        justify-content: end;
+        margin-top: 0rem;
+    }
 }
 
 @media only screen and (max-width: 768px) {
     /*** core styles ***/
     .container-regular {
-        max-width: 464px;
+        max-width: 668px;
     }
 
     /*** home styles ***/
