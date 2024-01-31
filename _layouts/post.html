@@ -13,16 +13,18 @@ layout: default
                     <a href="{{ site.baseurl }}/">{{ site.title }}</a>
                 </li>
                 <div id="sidebar-nav-items">
-                    {% for  post in site.pages %}
-                        {% if post.title %}
-                            {% if post.url == page.url %} 
-                            <li class="nav-item-page-title active"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-                            {% else %}
-                            <li class="nav-item-page-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-                            {% endif %}
-                            {% if site.toc.enabled %}
-                                {% if post.url == page.url %}   
-                                    {% include toc.html html=content h_min=site.toc.h_min h_max=site.toc.h_max item_class='active' %}
+                    {% for post in site.pages %}
+                        {% if post.comingSoon != true %}
+                            {% if post.title %}
+                                {% if post.url == page.url %} 
+                                <li class="nav-item-page-title active"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+                                {% else %}
+                                <li class="nav-item-page-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+                                {% endif %}
+                                {% if site.toc.enabled %}
+                                    {% if post.url == page.url %}   
+                                        {% include toc.html html=content h_min=site.toc.h_min h_max=site.toc.h_max item_class='active' %}
+                                    {% endif %}
                                 {% endif %}
                             {% endif %}
                         {% endif %}
@@ -40,7 +42,7 @@ layout: default
                 <div>
                     <div class="container-regular">
                         <h1 id="page-title">{{ page.title }}</h1>
-                        <p id="page-description-alt">{{page.description}}</p>
+                        <p id="page-description">{{page.description}}</p>
                         <h6>{{ page.date | date_to_string }}</h6>
                         <p id="about-this-series">
                             {{ site.about }}

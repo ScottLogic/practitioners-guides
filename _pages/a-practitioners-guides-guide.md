@@ -5,7 +5,8 @@ date:   26-01-2024
 author: Dean Hunter
 description: How to build a practitioners guide
 summary: This just shows how to setup sections and images for your Practitioners Guide.
-profile: APractitionersGuidesGuide/profile.jpg
+profile: a-practitioners-guides-guide/profile.jpg
+comingSoon: true
 ---
 
 ## Introduction
@@ -18,7 +19,7 @@ Nulla at magna sodales, pretium est eget, rhoncus nibh. Donec dignissim odio leo
 
 ## Image test
 
-![penguins]({{ site.baseurl }}/media/APractitionersGuidesGuide/penguins.jpg)
+![penguins]({{ site.baseurl }}/media/a-practitioners-guides-guide/penguins.jpg)
 
 ## Section 1
 

@@ -4,6 +4,7 @@ title:  "Talking Confidently about Technology"
 date:   18-12-2023
 author: Colin Eberhardt
 description: A practical set of tips and tricks to help you build confidence and make your voice heard.
+profile: technical-presentations/profile.webp
 ---
 
 

@@ -5,7 +5,7 @@ date:   14-09-2023
 author: Atika Bennamane
 description: Things to consider before diving into your workshop to make sure it's as successful as can be.
 summary: Effective workshops are a great tool in software engineering to surface requirements, issues and ideas early. We understand the challenges that doing this in a hybrid or remote setting can bring. This guide maps out planning and practical considerations before, during and after your workshops, to drive the most engagement that you can.
-profile: RemoteWorkshopReadiness/profile.webp
+profile: remote-working-readiness/profile.webp
 ---
 
 ## Introduction
