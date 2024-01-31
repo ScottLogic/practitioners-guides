@@ -493,6 +493,11 @@ li.active-toc:before {
     font-size: 0.8rem;
 }
 
+#about-this-series {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: lightblue;
+}
 
 @media only screen and (max-width: 1024px) {
     /*** core styles ***/
