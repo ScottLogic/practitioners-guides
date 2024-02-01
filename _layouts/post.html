@@ -35,13 +35,11 @@ layout: default
         </div> 
         <div id="guide-content">
             <button id="sidebar-toggle">☰</button>
-            <div id="guide-banner" stu>
-                <image src="{{ '/assets/images/guide-banner.svg' | relative_url }}" alt="shapes banner" />
-            </div>
+            {% include guide_banner.html colour=page.banner %}
             <div id="guide-content-columns">
                 <div>
                     <div class="container-regular page-content">
-                        <h1 id="page-title">{{ page.title }}</h1>
+                        <!-- <h1 id="page-title">{{ page.title }}</h1> -->
                         <p id="page-description">{{page.description}}</p>
                         <h6>{{ page.date | date_to_string }}</h6>
                         <p id="about-this-series">

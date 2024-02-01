@@ -7,6 +7,7 @@ description: A practical set of tips and tricks to help you build confidence and
 summary: There are a wealth of materials that help build your technical skills, but relatively little that truly helps nurture communication skills. This guide helps to empower the quieter or less confident to have their voices heard in a work setting.
 profile: technical-presentations/profile.webp
 role: Chief Technology Officer
+banner: charcoal
 ---
 
 

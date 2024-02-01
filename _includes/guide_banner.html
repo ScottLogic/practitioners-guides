@@ -1,0 +1,12 @@
+{% assign banner_colour = "charcoal" %}
+
+{% if include.colour == "turquoise" or include.colour == "charcoal" %}
+    {% assign banner_colour = include.colour %}
+{% endif %}
+
+{% assign banner_path = '/assets/images/guide-banner-' | append: banner_colour | append: '.svg' %}
+
+<div id="guide-banner">
+    <image src="{{ banner_path | relative_url }}" alt="shapes banner" />
+    <h1>{{ page.title }}</h1>
+</div>

@@ -555,6 +555,7 @@ li.active-toc:before {
     width: 100%;
     height: auto;
     padding: 1.5rem 3.5rem;
+    max-width: 350px;
 }
   
 #sidebar.collapsed {
@@ -590,9 +591,25 @@ li.active-toc:before {
     flex-direction: row;
 }
 
+#guide-banner {
+    position: relative;
+}
+
 #guide-banner>img {
     width: 100%;
     height: auto;
+}
+
+#guide-banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 #guide-banner>.foreground h1::before {
@@ -679,6 +696,10 @@ li.active-toc:before {
     #guide-profile {
         justify-content: end;
         margin-top: 0rem;
+    }
+    
+    #guide-banner h1 {
+        font-size: 1.25rem;
     }
 }
 

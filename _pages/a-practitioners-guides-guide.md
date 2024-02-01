@@ -6,6 +6,7 @@ author: Dean Hunter
 description: How to build a practitioners guide
 summary: This just shows how to setup sections and images for your Practitioners Guide.
 comingSoon: false
+banner: turquoise
 ---
 
 ## Introduction
