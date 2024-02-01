@@ -14,10 +14,14 @@ h1, h2, h3, h4 {
 }
 
 .page-content img {
-    /* clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 100px), calc(100% - 100px) 100%, 0% 100%);
-    border: 8px solid #dff0f3; */
+    clip-path: polygon(10px 10px , calc(100% - 10px) 10px, calc(100% - 10px) calc(100% - 105px), calc(100% - 105px) calc(100% - 10px), 10px calc(100% - 10px));
     width: 100%;
     height: auto;
+}
+
+.page-content p:has(img) {
+    clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 100px), calc(100% - 100px) 100%, 0% 100%);
+    background-color: #dff0f3;
 }
 
 .page-content h2 {
