@@ -40,7 +40,7 @@ layout: default
             </div>
             <div id="guide-content-columns">
                 <div>
-                    <div class="container-regular">
+                    <div class="container-regular page-content">
                         <h1 id="page-title">{{ page.title }}</h1>
                         <p id="page-description">{{page.description}}</p>
                         <h6>{{ page.date | date_to_string }}</h6>
@@ -50,6 +50,7 @@ layout: default
                             <br/>
                             This guide is made available under the permissive Creative Commons <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 license</a>
                         </p>
+                        <h6 class = "background">Some foreground content</h6>
                         {{ content }}
                     </div>
                     <div class="container-wide">
