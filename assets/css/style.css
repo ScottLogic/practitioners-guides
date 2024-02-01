@@ -367,6 +367,20 @@ a.block-highlight-turquoise:hover, a.block-highlight-turquoise:active, a.block-h
     height: 26px;
 }
 
+.guide-promo .guide-promo-top>.stripe-pink {
+    width: 20px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.guide-promo .guide-promo-top>.stripe-orange {
+    width: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;   
+}
+
 .guide-promo .guide-promo-bottom {
     grid-row-start: 2;
     display: flex;
