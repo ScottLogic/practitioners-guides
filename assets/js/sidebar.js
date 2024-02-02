@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const singleColumnWidth = 768;
 
     const navTocLinks = document.querySelectorAll('#sidebar-nav-items a');
-    const bodyTocLinks = document.querySelectorAll("h2, h3");
+    const bodyTocLinks = document.querySelectorAll("h1, h2, h3");
 
     const onScrollStop = callback => {
       let isScrolling;
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
       );
     };
 
-    window.onload = setActiveToc();
+    //window.onload = setActiveToc();
 
     onScrollStop(() => {
       setActiveToc();

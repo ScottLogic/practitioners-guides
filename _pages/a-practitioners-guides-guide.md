@@ -52,8 +52,8 @@ banner: turquoise
 ```summary``` Displayed on the home page promo under the visual element.\
 ```profile``` Picture you uploaded ```my-practitioners-guide/profile.png```.\
 ```role``` Your job title.\
-```bio``` Short bit about you, preferably no more than 100 words.  If you would like to have multiple paragraphs, the split then with the double pipe character ```||```\
-```highlights``` Short list of what your guide is about which will appear under your profile separated by the double pipe character ```||```
+```bio``` optional - Short bit about you, preferably no more than 100 words.  If you would like to have multiple paragraphs, the split then with the double pipe character ```||```\
+```highlights``` optional - Short list of what your guide is about which will appear under your profile separated by the double pipe character ```||```
 ```comingSoon``` optional - if set to ```false``` will be excluded from navigation and show in the home page section for coming soon Practitioners Guides.\
 ```banner``` optional - default is ```charcoal``` but also supports ```turquoise``` to change the banner colour.
   <br />
