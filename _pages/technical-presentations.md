@@ -218,7 +218,7 @@ If you’d like to ask questions, be prepared for a few situations:
 
 
 * You may get asked questions you don’t know the answer to. That’s fine, and not something you should hide. A polite response could be “I’d not thought of that, perhaps we could discuss later”. 
-* Some questions are not questions, some people simply want to share their own thoughts, which is fine. Simply thank them for sharting.
+* Some questions are not questions, some people simply want to share their own thoughts, which is fine. Simply thank them for sharing.
 * Sometimes you will not get any questions, which can be quite embarrassing if you’re not ready for this. I’d have a line ready “I’ve clearly left you with a lot to think about, once it has sunk in, do catch me later fo a chat”
 
 Although, repeating the above, you don’t have to take questions, and if you’re new to presenting, I’d recommend avoiding putting yourself on the spot like that. At least not the first time around.
