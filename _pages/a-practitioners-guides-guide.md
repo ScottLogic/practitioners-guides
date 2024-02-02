@@ -4,116 +4,78 @@ title:  "A Practitioners Guides Guide"
 date:   26-01-2024
 author: Dean Hunter
 description: How to build a practitioners guide
-summary: This just shows how to setup sections and images for your Practitioners Guide.
+summary: How to setup a Practitioners Guide with examples on the theming and how to use the ToC and images.
+role: Senior Developer
+bio: Hi, I'm Dean.||I'm a senior developer at Scott Logic.
+highlights: Setup a Practitioners Guide||Understand ToC Nav
 comingSoon: false
 banner: turquoise
 ---
 
-## Introduction
+## Writing a Practitioners Guide
 
- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed leo arcu. Vivamus sed dolor et ante luctus efficitur. Duis lacus est, eleifend quis iaculis quis, dapibus molestie elit. Donec hendrerit mauris eu sem lobortis vestibulum. Etiam mollis iaculis purus non egestas. Aliquam lacinia sit amet ligula eget varius. Phasellus euismod neque id facilisis auctor. Nunc egestas, lacus ac fermentum rutrum, augue risus blandit turpis, nec cursus odio ipsum eget odio. Maecenas nibh velit, pharetra et pharetra blandit, sodales quis nisl. In elementum viverra libero, eget rutrum sapien ullamcorper vitae. Ut tortor ipsum, cursus vitae dapibus et, molestie rhoncus neque. Ut eget felis sed quam gravida luctus. Nulla tempus vulputate augue dignissim egestas. In efficitur maximus lacus, sit amet fringilla turpis cursus quis. Nulla facilisi. Maecenas felis lectus, vehicula in scelerisque quis, lobortis at nisi.
+We use markdown to write a Practitioners Guide.
 
-Integer gravida ultrices orci, sit amet eleifend magna rutrum in. Quisque at lacus ac elit facilisis placerat. Aenean pretium elementum erat, ut lacinia lacus feugiat vitae. Donec id rutrum nisi. Vestibulum mollis malesuada odio vitae fermentum. Etiam felis turpis, faucibus non lorem at, semper condimentum sem. Nunc eget ipsum et ligula ultrices porttitor in ac nunc. Proin elementum lacus in quam tempus, ut maximus nisi interdum. In hac habitasse platea dictumst. Curabitur ornare, augue non vulputate scelerisque, lectus purus dictum justo, eget accumsan nulla dolor nec erat. Nam risus nulla, pretium eget sagittis nec, condimentum non libero.
+To create a Practitioners Guide you should:
+- fork the GitHub repo and clone the project.
+- create a file in the _pages directory 'my-practitioners-guide.md'.
+- create a folder in the media directory 'my-practitioners-guide' where you can upload images.
+- upload a profile picture to your directory, preferably 64px x 64px, e.g. profile.png (file type is not important).
+- add the following code snipped to your markdown (md) file and you're then good to go:
 
-Nulla at magna sodales, pretium est eget, rhoncus nibh. Donec dignissim odio leo, a malesuada lacus placerat quis. Nam tincidunt tristique ipsum non commodo. Etiam auctor urna et nibh tempor, et condimentum diam tincidunt. Quisque eu rhoncus dolor. Mauris sapien ex, faucibus suscipit ex et, venenatis congue nisl. Donec nunc turpis, venenatis at ornare vitae, euismod in erat. Cras lacinia ornare quam sit amet fringilla. Duis at mauris quis nunc lobortis blandit. Suspendisse condimentum diam ligula, quis sollicitudin mi consectetur nec. Fusce euismod sem nisi, non tincidunt eros pellentesque porttitor. 
+```
+---
+layout: post
+title:  "A Practitioners Guides Guide"
+date:   26-01-2024
+author: Dean Hunter
+description: How to build a practitioners guide
+summary: How to setup a Practitioners Guide with examples on the theming and how to use the ToC and images.
+profile: my-practitioners-guide/profile.jpg
+role: Senior Developer
+bio: Hi, I'm Dean.||I'm a senior developer at Scott Logic.
+highlights: Highlight one||Highlight two
+comingSoon: false
+banner: turquoise
+---
+```
+  <br />
+ 
+##### Document properties
 
-## Image test
+```layout ``` Should always be set as ```post```, its the template we use to apply the theme.\
+```title``` Simply the title of your Practitioners Guide and displayed in the main banner and on the home page promo box.\
+```date``` Formatted as dd-MM-yyyy, Guides are displayed chronologically.\
+```author``` Your name, it will appear on the Guide, also should you choose not to use a profile picture we will use the first and last initial in place of the profile pic.\
+```description``` Displayed at the top of your Practitioners Guide and on the home page promo box.\
+```summary``` Displayed on the home page promo under the visual element.\
+```profile``` Picture you uploaded ```my-practitioners-guide/profile.png```.\
+```role``` Your job title.\
+```bio``` Short bit about you, preferably no more than 100 words.  If you would like to have multiple paragraphs, the split then with the double pipe character ```||```\
+```highlights``` Short list of what your guide is about which will appear under your profile separated by the double pipe character ```||```
+```comingSoon``` optional - if set to ```false``` will be excluded from navigation and show in the home page section for coming soon Practitioners Guides.\
+```banner``` optional - default is ```charcoal``` but also supports ```turquoise``` to change the banner colour.
+  <br />
+  <br />
+  <br />
+ 
+## Components in the Markdown theme
 
-Nulla at magna sodales, pretium est eget, rhoncus nibh. Donec dignissim odio leo, a malesuada lacus placerat quis.
+Some components are used to build ToC and have a general style applied for the Practitioners Guides theme.  Examples of these are:
 
-##### Top Tip (h5 test clip)
+## h2- Main Heading - used in the ToC Nav
 
-![penguins]({{ site.baseurl }}/media/a-practitioners-guides-guide/penguins.jpg)
+### h3 Secondary Heading - used in the ToC Nav
 
-## Section 1
+#### h4 Minor Heading - used in the ToC Nav
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed leo arcu. Vivamus sed dolor et ante luctus efficitur. Duis lacus est, eleifend quis iaculis quis, dapibus molestie elit. Donec hendrerit mauris eu sem lobortis vestibulum. Etiam mollis iaculis purus non egestas. Aliquam lacinia sit amet ligula eget varius. Phasellus euismod neque id facilisis auctor. Nunc egestas, lacus ac fermentum rutrum, augue risus blandit turpis, nec cursus odio ipsum eget odio. Maecenas nibh velit, pharetra et pharetra blandit, sodales quis nisl. In elementum viverra libero, eget rutrum sapien ullamcorper vitae. Ut tortor ipsum, cursus vitae dapibus et, molestie rhoncus neque. Ut eget felis sed quam gravida luctus. Nulla tempus vulputate augue dignissim egestas. In efficitur maximus lacus, sit amet fringilla turpis cursus quis. Nulla facilisi. Maecenas felis lectus, vehicula in scelerisque quis, lobortis at nisi.
-
-Integer gravida ultrices orci, sit amet eleifend magna rutrum in. Quisque at lacus ac elit facilisis placerat. Aenean pretium elementum erat, ut lacinia lacus feugiat vitae. Donec id rutrum nisi. Vestibulum mollis malesuada odio vitae fermentum. Etiam felis turpis, faucibus non lorem at, semper condimentum sem. Nunc eget ipsum et ligula ultrices porttitor in ac nunc. Proin elementum lacus in quam tempus, ut maximus nisi interdum. In hac habitasse platea dictumst. Curabitur ornare, augue non vulputate scelerisque, lectus purus dictum justo, eget accumsan nulla dolor nec erat. Nam risus nulla, pretium eget sagittis nec, condimentum non libero.
-
-Nulla at magna sodales, pretium est eget, rhoncus nibh. Donec dignissim odio leo, a malesuada lacus placerat quis. Nam tincidunt tristique ipsum non commodo. Etiam auctor urna et nibh tempor, et condimentum diam tincidunt. Quisque eu rhoncus dolor. Mauris sapien ex, faucibus suscipit ex et, venenatis congue nisl. Donec nunc turpis, venenatis at ornare vitae, euismod in erat. Cras lacinia ornare quam sit amet fringilla. Duis at mauris quis nunc lobortis blandit. Suspendisse condimentum diam ligula, quis sollicitudin mi consectetur nec. Fusce euismod sem nisi, non tincidunt eros pellentesque porttitor. 
-
-## Section 2
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed leo arcu. Vivamus sed dolor et ante luctus efficitur. Duis lacus est, eleifend quis iaculis quis, dapibus molestie elit. Donec hendrerit mauris eu sem lobortis vestibulum. Etiam mollis iaculis purus non egestas. Aliquam lacinia sit amet ligula eget varius. Phasellus euismod neque id facilisis auctor. Nunc egestas, lacus ac fermentum rutrum, augue risus blandit turpis, nec cursus odio ipsum eget odio. Maecenas nibh velit, pharetra et pharetra blandit, sodales quis nisl. In elementum viverra libero, eget rutrum sapien ullamcorper vitae. Ut tortor ipsum, cursus vitae dapibus et, molestie rhoncus neque. Ut eget felis sed quam gravida luctus. Nulla tempus vulputate augue dignissim egestas. In efficitur maximus lacus, sit amet fringilla turpis cursus quis. Nulla facilisi. Maecenas felis lectus, vehicula in scelerisque quis, lobortis at nisi.
-
-### Section 2.1
-
-Integer gravida ultrices orci, sit amet eleifend magna rutrum in. Quisque at lacus ac elit facilisis placerat. Aenean pretium elementum erat, ut lacinia lacus feugiat vitae. Donec id rutrum nisi. Vestibulum mollis malesuada odio vitae fermentum. Etiam felis turpis, faucibus non lorem at, semper condimentum sem. Nunc eget ipsum et ligula ultrices porttitor in ac nunc. Proin elementum lacus in quam tempus, ut maximus nisi interdum. In hac habitasse platea dictumst. Curabitur ornare, augue non vulputate scelerisque, lectus purus dictum justo, eget accumsan nulla dolor nec erat. Nam risus nulla, pretium eget sagittis nec, condimentum non libero.
-
-### Section 2.2
-
-Nulla at magna sodales, pretium est eget, rhoncus nibh. Donec dignissim odio leo, a malesuada lacus placerat quis. Nam tincidunt tristique ipsum non commodo. Etiam auctor urna et nibh tempor, et condimentum diam tincidunt. Quisque eu rhoncus dolor. Mauris sapien ex, faucibus suscipit ex et, venenatis congue nisl. Donec nunc turpis, venenatis at ornare vitae, euismod in erat. Cras lacinia ornare quam sit amet fringilla. Duis at mauris quis nunc lobortis blandit. Suspendisse condimentum diam ligula, quis sollicitudin mi consectetur nec. Fusce euismod sem nisi, non tincidunt eros pellentesque porttitor.
-
-### Section 2.3
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed leo arcu. Vivamus sed dolor et ante luctus efficitur. Duis lacus est, eleifend quis iaculis quis, dapibus molestie elit. Donec hendrerit mauris eu sem lobortis vestibulum. Etiam mollis iaculis purus non egestas. Aliquam lacinia sit amet ligula eget varius. Phasellus euismod neque id facilisis auctor. Nunc egestas, lacus ac fermentum rutrum, augue risus blandit turpis, nec cursus odio ipsum eget odio. Maecenas nibh velit, pharetra et pharetra blandit, sodales quis nisl. In elementum viverra libero, eget rutrum sapien ullamcorper vitae. Ut tortor ipsum, cursus vitae dapibus et, molestie rhoncus neque. Ut eget felis sed quam gravida luctus. Nulla tempus vulputate augue dignissim egestas. In efficitur maximus lacus, sit amet fringilla turpis cursus quis. Nulla facilisi. Maecenas felis lectus, vehicula in scelerisque quis, lobortis at nisi.
-
-Integer gravida ultrices orci, sit amet eleifend magna rutrum in. Quisque at lacus ac elit facilisis placerat. Aenean pretium elementum erat, ut lacinia lacus feugiat vitae. Donec id rutrum nisi. Vestibulum mollis malesuada odio vitae fermentum. Etiam felis turpis, faucibus non lorem at, semper condimentum sem. Nunc eget ipsum et ligula ultrices porttitor in ac nunc. Proin elementum lacus in quam tempus, ut maximus nisi interdum. In hac habitasse platea dictumst. Curabitur ornare, augue non vulputate scelerisque, lectus purus dictum justo, eget accumsan nulla dolor nec erat. Nam risus nulla, pretium eget sagittis nec, condimentum non libero.
-
-### Section 2.4
-
-Nulla at magna sodales, pretium est eget, rhoncus nibh. Donec dignissim odio leo, a malesuada lacus placerat quis. Nam tincidunt tristique ipsum non commodo. Etiam auctor urna et nibh tempor, et condimentum diam tincidunt. Quisque eu rhoncus dolor. Mauris sapien ex, faucibus suscipit ex et, venenatis congue nisl. Donec nunc turpis, venenatis at ornare vitae, euismod in erat. Cras lacinia ornare quam sit amet fringilla. Duis at mauris quis nunc lobortis blandit. Suspendisse condimentum diam ligula, quis sollicitudin mi consectetur nec. Fusce euismod sem nisi, non tincidunt eros pellentesque porttitor. 
+##### h5 - not used in ToC Nav
 
 
-## Section 3 ( More Penguins)
+## Images
 
-![penguins]({{ site.baseurl }}/media/a-practitioners-guides-guide/penguins.jpg)
+We have a image tag that can be used within the page and will have a default style, this includes the clipped corner and border and will appear full width in your guide.  You should upload your images that you would like to use in the media directory you created for your Practitioners Guide, and this should be included in the path.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed leo arcu. Vivamus sed dolor et ante luctus efficitur. Duis lacus est, eleifend quis iaculis quis, dapibus molestie elit. Donec hendrerit mauris eu sem lobortis vestibulum. Etiam mollis iaculis purus non egestas. Aliquam lacinia sit amet ligula eget varius. Phasellus euismod neque id facilisis auctor. Nunc egestas, lacus ac fermentum rutrum, augue risus blandit turpis, nec cursus odio ipsum eget odio. Maecenas nibh velit, pharetra et pharetra blandit, sodales quis nisl. In elementum viverra libero, eget rutrum sapien ullamcorper vitae. Ut tortor ipsum, cursus vitae dapibus et, molestie rhoncus neque. Ut eget felis sed quam gravida luctus. Nulla tempus vulputate augue dignissim egestas. In efficitur maximus lacus, sit amet fringilla turpis cursus quis. Nulla facilisi. Maecenas felis lectus, vehicula in scelerisque quis, lobortis at nisi.
-
-Integer gravida ultrices orci, sit amet eleifend magna rutrum in. Quisque at lacus ac elit facilisis placerat. Aenean pretium elementum erat, ut lacinia lacus feugiat vitae. Donec id rutrum nisi. Vestibulum mollis malesuada odio vitae fermentum. Etiam felis turpis, faucibus non lorem at, semper condimentum sem. Nunc eget ipsum et ligula ultrices porttitor in ac nunc. Proin elementum lacus in quam tempus, ut maximus nisi interdum. In hac habitasse platea dictumst. Curabitur ornare, augue non vulputate scelerisque, lectus purus dictum justo, eget accumsan nulla dolor nec erat. Nam risus nulla, pretium eget sagittis nec, condimentum non libero.
-
-### Section 3.1
-
-Nulla at magna sodales, pretium est eget, rhoncus nibh. Donec dignissim odio leo, a malesuada lacus placerat quis. Nam tincidunt tristique ipsum non commodo. Etiam auctor urna et nibh tempor, et condimentum diam tincidunt. Quisque eu rhoncus dolor. Mauris sapien ex, faucibus suscipit ex et, venenatis congue nisl. Donec nunc turpis, venenatis at ornare vitae, euismod in erat. Cras lacinia ornare quam sit amet fringilla. Duis at mauris quis nunc lobortis blandit. Suspendisse condimentum diam ligula, quis sollicitudin mi consectetur nec. Fusce euismod sem nisi, non tincidunt eros pellentesque porttitor. 
-
-## Section 4
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed leo arcu. Vivamus sed dolor et ante luctus efficitur. Duis lacus est, eleifend quis iaculis quis, dapibus molestie elit. Donec hendrerit mauris eu sem lobortis vestibulum. Etiam mollis iaculis purus non egestas. Aliquam lacinia sit amet ligula eget varius. Phasellus euismod neque id facilisis auctor. Nunc egestas, lacus ac fermentum rutrum, augue risus blandit turpis, nec cursus odio ipsum eget odio. Maecenas nibh velit, pharetra et pharetra blandit, sodales quis nisl. In elementum viverra libero, eget rutrum sapien ullamcorper vitae. Ut tortor ipsum, cursus vitae dapibus et, molestie rhoncus neque. Ut eget felis sed quam gravida luctus. Nulla tempus vulputate augue dignissim egestas. In efficitur maximus lacus, sit amet fringilla turpis cursus quis. Nulla facilisi. Maecenas felis lectus, vehicula in scelerisque quis, lobortis at nisi.
-
-## Section 5
-
-Integer gravida ultrices orci, sit amet eleifend magna rutrum in. Quisque at lacus ac elit facilisis placerat. Aenean pretium elementum erat, ut lacinia lacus feugiat vitae. Donec id rutrum nisi. Vestibulum mollis malesuada odio vitae fermentum. Etiam felis turpis, faucibus non lorem at, semper condimentum sem. Nunc eget ipsum et ligula ultrices porttitor in ac nunc. Proin elementum lacus in quam tempus, ut maximus nisi interdum. In hac habitasse platea dictumst. Curabitur ornare, augue non vulputate scelerisque, lectus purus dictum justo, eget accumsan nulla dolor nec erat. Nam risus nulla, pretium eget sagittis nec, condimentum non libero.
-
-Nulla at magna sodales, pretium est eget, rhoncus nibh. Donec dignissim odio leo, a malesuada lacus placerat quis. Nam tincidunt tristique ipsum non commodo. Etiam auctor urna et nibh tempor, et condimentum diam tincidunt. Quisque eu rhoncus dolor. Mauris sapien ex, faucibus suscipit ex et, venenatis congue nisl. Donec nunc turpis, venenatis at ornare vitae, euismod in erat. Cras lacinia ornare quam sit amet fringilla. Duis at mauris quis nunc lobortis blandit. Suspendisse condimentum diam ligula, quis sollicitudin mi consectetur nec. Fusce euismod sem nisi, non tincidunt eros pellentesque porttitor. 
-
-## Section 6
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed leo arcu. Vivamus sed dolor et ante luctus efficitur. Duis lacus est, eleifend quis iaculis quis, dapibus molestie elit. Donec hendrerit mauris eu sem lobortis vestibulum. Etiam mollis iaculis purus non egestas. Aliquam lacinia sit amet ligula eget varius. Phasellus euismod neque id facilisis auctor. Nunc egestas, lacus ac fermentum rutrum, augue risus blandit turpis, nec cursus odio ipsum eget odio. Maecenas nibh velit, pharetra et pharetra blandit, sodales quis nisl. In elementum viverra libero, eget rutrum sapien ullamcorper vitae. Ut tortor ipsum, cursus vitae dapibus et, molestie rhoncus neque. Ut eget felis sed quam gravida luctus. Nulla tempus vulputate augue dignissim egestas. In efficitur maximus lacus, sit amet fringilla turpis cursus quis. Nulla facilisi. Maecenas felis lectus, vehicula in scelerisque quis, lobortis at nisi.
-
-### Section 6.1
-
-Integer gravida ultrices orci, sit amet eleifend magna rutrum in. Quisque at lacus ac elit facilisis placerat. Aenean pretium elementum erat, ut lacinia lacus feugiat vitae. Donec id rutrum nisi. Vestibulum mollis malesuada odio vitae fermentum. Etiam felis turpis, faucibus non lorem at, semper condimentum sem. Nunc eget ipsum et ligula ultrices porttitor in ac nunc. Proin elementum lacus in quam tempus, ut maximus nisi interdum. In hac habitasse platea dictumst. Curabitur ornare, augue non vulputate scelerisque, lectus purus dictum justo, eget accumsan nulla dolor nec erat. Nam risus nulla, pretium eget sagittis nec, condimentum non libero.
-
-### Section 6.2
+To include in your page, reference as markdown: ```![penguins]({{ site.baseurl }}/media/my-practitioners-guide/penguins.jpg)```
 
 ![penguins]({{ site.baseurl }}/media/a-practitioners-guides-guide/penguins.jpg)
-
-Nulla at magna sodales, pretium est eget, rhoncus nibh. Donec dignissim odio leo, a malesuada lacus placerat quis. Nam tincidunt tristique ipsum non commodo. Etiam auctor urna et nibh tempor, et condimentum diam tincidunt. Quisque eu rhoncus dolor. Mauris sapien ex, faucibus suscipit ex et, venenatis congue nisl. Donec nunc turpis, venenatis at ornare vitae, euismod in erat. Cras lacinia ornare quam sit amet fringilla. Duis at mauris quis nunc lobortis blandit. Suspendisse condimentum diam ligula, quis sollicitudin mi consectetur nec. Fusce euismod sem nisi, non tincidunt eros pellentesque porttitor.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed leo arcu. Vivamus sed dolor et ante luctus efficitur. Duis lacus est, eleifend quis iaculis quis, dapibus molestie elit. Donec hendrerit mauris eu sem lobortis vestibulum. Etiam mollis iaculis purus non egestas. Aliquam lacinia sit amet ligula eget varius. Phasellus euismod neque id facilisis auctor. Nunc egestas, lacus ac fermentum rutrum, augue risus blandit turpis, nec cursus odio ipsum eget odio. Maecenas nibh velit, pharetra et pharetra blandit, sodales quis nisl. In elementum viverra libero, eget rutrum sapien ullamcorper vitae. Ut tortor ipsum, cursus vitae dapibus et, molestie rhoncus neque. Ut eget felis sed quam gravida luctus. Nulla tempus vulputate augue dignissim egestas. In efficitur maximus lacus, sit amet fringilla turpis cursus quis. Nulla facilisi. Maecenas felis lectus, vehicula in scelerisque quis, lobortis at nisi.
-
-## Section 7
-
-Integer gravida ultrices orci, sit amet eleifend magna rutrum in. Quisque at lacus ac elit facilisis placerat. Aenean pretium elementum erat, ut lacinia lacus feugiat vitae. Donec id rutrum nisi. Vestibulum mollis malesuada odio vitae fermentum. Etiam felis turpis, faucibus non lorem at, semper condimentum sem. Nunc eget ipsum et ligula ultrices porttitor in ac nunc. Proin elementum lacus in quam tempus, ut maximus nisi interdum. In hac habitasse platea dictumst. Curabitur ornare, augue non vulputate scelerisque, lectus purus dictum justo, eget accumsan nulla dolor nec erat. Nam risus nulla, pretium eget sagittis nec, condimentum non libero.
-
-## Section 8
-
-Nulla at magna sodales, pretium est eget, rhoncus nibh. Donec dignissim odio leo, a malesuada lacus placerat quis. Nam tincidunt tristique ipsum non commodo. Etiam auctor urna et nibh tempor, et condimentum diam tincidunt. Quisque eu rhoncus dolor. Mauris sapien ex, faucibus suscipit ex et, venenatis congue nisl. Donec nunc turpis, venenatis at ornare vitae, euismod in erat. Cras lacinia ornare quam sit amet fringilla. Duis at mauris quis nunc lobortis blandit. Suspendisse condimentum diam ligula, quis sollicitudin mi consectetur nec. Fusce euismod sem nisi, non tincidunt eros pellentesque porttitor.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed leo arcu. Vivamus sed dolor et ante luctus efficitur. Duis lacus est, eleifend quis iaculis quis, dapibus molestie elit. Donec hendrerit mauris eu sem lobortis vestibulum. Etiam mollis iaculis purus non egestas. Aliquam lacinia sit amet ligula eget varius. Phasellus euismod neque id facilisis auctor. Nunc egestas, lacus ac fermentum rutrum, augue risus blandit turpis, nec cursus odio ipsum eget odio. Maecenas nibh velit, pharetra et pharetra blandit, sodales quis nisl. In elementum viverra libero, eget rutrum sapien ullamcorper vitae. Ut tortor ipsum, cursus vitae dapibus et, molestie rhoncus neque. Ut eget felis sed quam gravida luctus. Nulla tempus vulputate augue dignissim egestas. In efficitur maximus lacus, sit amet fringilla turpis cursus quis. Nulla facilisi. Maecenas felis lectus, vehicula in scelerisque quis, lobortis at nisi.
-
-### Section 8.1
-
-Integer gravida ultrices orci, sit amet eleifend magna rutrum in. Quisque at lacus ac elit facilisis placerat. Aenean pretium elementum erat, ut lacinia lacus feugiat vitae. Donec id rutrum nisi. Vestibulum mollis malesuada odio vitae fermentum. Etiam felis turpis, faucibus non lorem at, semper condimentum sem. Nunc eget ipsum et ligula ultrices porttitor in ac nunc. Proin elementum lacus in quam tempus, ut maximus nisi interdum. In hac habitasse platea dictumst. Curabitur ornare, augue non vulputate scelerisque, lectus purus dictum justo, eget accumsan nulla dolor nec erat. Nam risus nulla, pretium eget sagittis nec, condimentum non libero.
-
-Nulla at magna sodales, pretium est eget, rhoncus nibh. Donec dignissim odio leo, a malesuada lacus placerat quis. Nam tincidunt tristique ipsum non commodo. Etiam auctor urna et nibh tempor, et condimentum diam tincidunt. Quisque eu rhoncus dolor. Mauris sapien ex, faucibus suscipit ex et, venenatis congue nisl. Donec nunc turpis, venenatis at ornare vitae, euismod in erat. Cras lacinia ornare quam sit amet fringilla. Duis at mauris quis nunc lobortis blandit. Suspendisse condimentum diam ligula, quis sollicitudin mi consectetur nec. Fusce euismod sem nisi, non tincidunt eros pellentesque porttitor. 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed leo arcu. Vivamus sed dolor et ante luctus efficitur. Duis lacus est, eleifend quis iaculis quis, dapibus molestie elit. Donec hendrerit mauris eu sem lobortis vestibulum. Etiam mollis iaculis purus non egestas. Aliquam lacinia sit amet ligula eget varius. Phasellus euismod neque id facilisis auctor. Nunc egestas, lacus ac fermentum rutrum, augue risus blandit turpis, nec cursus odio ipsum eget odio. Maecenas nibh velit, pharetra et pharetra blandit, sodales quis nisl. In elementum viverra libero, eget rutrum sapien ullamcorper vitae. Ut tortor ipsum, cursus vitae dapibus et, molestie rhoncus neque. Ut eget felis sed quam gravida luctus. Nulla tempus vulputate augue dignissim egestas. In efficitur maximus lacus, sit amet fringilla turpis cursus quis. Nulla facilisi. Maecenas felis lectus, vehicula in scelerisque quis, lobortis at nisi.
-
-### Section 8.2
-
-Integer gravida ultrices orci, sit amet eleifend magna rutrum in. Quisque at lacus ac elit facilisis placerat. Aenean pretium elementum erat, ut lacinia lacus feugiat vitae. Donec id rutrum nisi. Vestibulum mollis malesuada odio vitae fermentum. Etiam felis turpis, faucibus non lorem at, semper condimentum sem. Nunc eget ipsum et ligula ultrices porttitor in ac nunc. Proin elementum lacus in quam tempus, ut maximus nisi interdum. In hac habitasse platea dictumst. Curabitur ornare, augue non vulputate scelerisque, lectus purus dictum justo, eget accumsan nulla dolor nec erat. Nam risus nulla, pretium eget sagittis nec, condimentum non libero.
-
-Nulla at magna sodales, pretium est eget, rhoncus nibh. Donec dignissim odio leo, a malesuada lacus placerat quis. Nam tincidunt tristique ipsum non commodo. Etiam auctor urna et nibh tempor, et condimentum diam tincidunt. Quisque eu rhoncus dolor. Mauris sapien ex, faucibus suscipit ex et, venenatis congue nisl. Donec nunc turpis, venenatis at ornare vitae, euismod in erat. Cras lacinia ornare quam sit amet fringilla. Duis at mauris quis nunc lobortis blandit. Suspendisse condimentum diam ligula, quis sollicitudin mi consectetur nec. Fusce euismod sem nisi, non tincidunt eros pellentesque porttitor. 

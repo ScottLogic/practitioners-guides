@@ -41,7 +41,7 @@ layout: default
                     <div class="container-regular page-content">
                         <!-- <h1 id="page-title">{{ page.title }}</h1> -->
                         <p id="page-description">{{page.description}}</p>
-                        <h6>{{ page.date | date_to_string }}</h6>
+                        <p class="right-align">{{ page.date | date_to_string }}</p>
                         <p id="about-this-series">
                             {{ site.about }}
                             <br/>
@@ -54,16 +54,35 @@ layout: default
                         {% include footer.html %}
                     </div>
                 </div>
-                <div>
+                <div id="right-column">
                     <div id="guide-profile">
                         <div>
                             {% include profile.html profile=page.profile author=page.author  %}
                         </div>
                         <div id="guide-profile-about">
                             <p class="pt-0 mb-0 pb-0">by {{ page.author }}</p>
-                            <p class="mt-0 pt-0 mb-0 pb-0">{{ page.role }}</p>
+                            <p class="mt-0 pt-0 mb-0 pb-0 bold underline-turquoise">{{ page.role }}</p>
                         </div>
                     </div>
+                    {% if page.bio %}
+                        <div id="bio">
+                            {% assign bioParagraphs = page.bio | split: '||' %}
+                            {% for bioParagraph in bioParagraphs %}
+                                <p>{{ bioParagraph }}</p>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                    {% if page.highlights %}
+                        <div id="highlights">
+                            <span class="bold underline-turquoise">Highlights of this guide</span>
+                            <ul class="list-turquoise-arrows">
+                                {% assign guideHighlights = page.highlights | split: "||" %}
+                                {% for highlight in guideHighlights %}
+                                    <li>{{ highlight }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    {% endif %}
                 </div>
             </div>
         </div>
