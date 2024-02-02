@@ -1,12 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const sidebar = document.getElementById("sidebar");
-    const sidebarToggle = document.getElementById("sidebar-toggle");
     const guideContent = document.getElementById("guide-content");
     const singleColumnWidth = 768;
-  
-    sidebarToggle.addEventListener("click", function () {
-      sidebar.classList.toggle("collapsed");
-    });
 
     const navTocLinks = document.querySelectorAll('#sidebar-nav-items a');
     const bodyTocLinks = document.querySelectorAll("h2, h3");

@@ -5,6 +5,7 @@ date:   26-01-2024
 author: Dean Hunter
 description: How to build a practitioners guide
 summary: How to setup a Practitioners Guide with examples on the theming and how to use the ToC and images.
+profile:
 role: Senior Developer
 bio: Hi, I'm Dean.||I'm a senior developer at Scott Logic.
 highlights: Setup a Practitioners Guide||Understand ToC Nav
@@ -18,7 +19,7 @@ We use markdown to write a Practitioners Guide.
 
 To create a Practitioners Guide you should:
 - fork the GitHub repo and clone the project.
-- create a file in the _pages directory 'my-practitioners-guide.md'.
+- create a markdown file in the _pages directory 'my-practitioners-guide.md'.
 - create a folder in the media directory 'my-practitioners-guide' where you can upload images.
 - upload a profile picture to your directory, preferably 64px x 64px, e.g. profile.png (file type is not important).
 - add the following code snipped to your markdown (md) file and you're then good to go:
@@ -63,14 +64,13 @@ banner: turquoise
 
 Some components are used to build ToC and have a general style applied for the Practitioners Guides theme.  Examples of these are:
 
-## h2- Main Heading - used in the ToC Nav
+## h2 Main Heading - used in the ToC Nav
 
 ### h3 Secondary Heading - used in the ToC Nav
 
-#### h4 Minor Heading - used in the ToC Nav
+#### h4 Minor Heading
 
-##### h5 - not used in ToC Nav
-
+##### h5 Top Tip heading
 
 ## Images
 
