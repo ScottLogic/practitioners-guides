@@ -75,8 +75,7 @@ layout: default
                         <div id="highlights">
                             <span class="bold underline-turquoise">Highlights of this guide</span>
                             <ul class="list-turquoise-arrows">
-                                {% assign guideHighlights = page.highlights | split: "||" %}
-                                {% for highlight in guideHighlights %}
+                                {% for highlight in page.highlights %}
                                     <li>{{ highlight }}</li>
                                 {% endfor %}
                             </ul>

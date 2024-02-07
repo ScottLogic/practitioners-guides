@@ -5,7 +5,9 @@ banner: turquoise
 title: "A Practitioners Guides Guide"
 description: How to build a practitioners guide
 summary: How to setup a Practitioners Guide with examples on the theming and how to use the ToC and images.
-highlights: Setup a Practitioners Guide||Understand ToC Nav
+highlights:
+  - Setup a Practitioners Guide
+  - Understand ToC Nav
 
 date: 26-01-2024
 comingSoon: false
@@ -35,7 +37,9 @@ banner: turquoise
 title: "A Practitioners Guides Guide"
 description: How to build a practitioners guide
 summary: How to setup a Practitioners Guide with examples on the theming and how to use the ToC and images.
-highlights: Highlight one||Highlight two
+highlights:
+  - Highlight one
+  - Highlight two
 
 date: 26-01-2024
 comingSoon: false
@@ -56,7 +60,7 @@ profile: my-practitioners-guide/profile.jpg
 ```title``` Simply the title of your Practitioners Guide and displayed in the main banner and on the home page promo box.\
 ```description``` Displayed at the top of your Practitioners Guide and on the home page promo box.\
 ```summary``` Displayed on the home page promo under the visual element.\
-```highlights``` optional - Short list of what your guide is about which will appear under your profile separated by the double pipe character ```||```
+```highlights``` optional - Short list of what your guide is about which will appear under your profile
 
 ```date``` Formatted as dd-MM-yyyy, Guides are displayed chronologically.\
 ```comingSoon``` optional - if set to ```false``` will be excluded from navigation and show in the home page section for coming soon Practitioners Guides.
