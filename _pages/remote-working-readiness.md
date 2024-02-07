@@ -1,6 +1,5 @@
 ---
 layout: post
-banner: charcoal
 
 title: "Remote Workshop Readiness"
 description: Things to consider before diving into your workshop to make sure it's as successful as can be.

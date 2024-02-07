@@ -1,6 +1,5 @@
 ---
 layout: post
-banner: charcoal
 
 title: "Talking Confidently about Technology"
 description: A practical set of tips and tricks to help you build confidence and make your voice heard.

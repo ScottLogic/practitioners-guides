@@ -1,6 +1,5 @@
 ---
 layout: post
-banner: charcoal
 
 title: "Project Week One"
 description: How a seasoned pro lays the foundations for project success during the first week of a project
