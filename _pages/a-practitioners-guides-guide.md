@@ -2,12 +2,12 @@
 layout: post
 banner: turquoise
 
-title:  "A Practitioners Guides Guide"
+title: "A Practitioners Guides Guide"
 description: How to build a practitioners guide
 summary: How to setup a Practitioners Guide with examples on the theming and how to use the ToC and images.
 highlights: Setup a Practitioners Guide||Understand ToC Nav
 
-date:   26-01-2024
+date: 26-01-2024
 comingSoon: false
 
 author: Dean Hunter
@@ -32,12 +32,12 @@ To create a Practitioners Guide you should:
 layout: post
 banner: turquoise
 
-title:  "A Practitioners Guides Guide"
+title: "A Practitioners Guides Guide"
 description: How to build a practitioners guide
 summary: How to setup a Practitioners Guide with examples on the theming and how to use the ToC and images.
 highlights: Highlight one||Highlight two
 
-date:   26-01-2024
+date: 26-01-2024
 comingSoon: false
 
 author: Dean Hunter

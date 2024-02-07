@@ -1,11 +1,11 @@
 ---
 layout: post
 
-title:  "Retrospective Overview"
+title: "Retrospective Overview"
 description: 
 summary: A general overview of Agile Retrospective meetings and the different approaches a team can take to improvement.
 
-date:   01-02-2024
+date: 01-02-2024
 comingSoon: true
 
 author: James Camilleri
