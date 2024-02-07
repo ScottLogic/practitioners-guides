@@ -1,13 +1,16 @@
 ---
 layout: post
+banner: charcoal
+
 title:  "Talking Confidently about Technology"
-date:   18-12-2023
-author: Colin Eberhardt
 description: A practical set of tips and tricks to help you build confidence and make your voice heard.
 summary: There are a wealth of materials that help build your technical skills, but relatively little that truly helps nurture communication skills. This guide helps to empower the quieter or less confident to have their voices heard in a work setting.
-profile: technical-presentations/profile.webp
+
+date:   18-12-2023
+
+author: Colin Eberhardt
 role: Chief Technology Officer
-banner: charcoal
+profile: technical-presentations/profile.webp
 ---
 
 

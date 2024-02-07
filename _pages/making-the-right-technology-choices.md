@@ -1,11 +1,14 @@
 ---
 layout: post
+
 title:  "Making the right technology choices"
-date:   02-02-2024
-author: David Hope
 description: 
 summary:
-profile: 
-role: Principal Architect
+
+date:   02-02-2024
 comingSoon: true
+
+author: David Hope
+role: Principal Architect
+profile:
 ---
