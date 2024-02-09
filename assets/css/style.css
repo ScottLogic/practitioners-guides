@@ -341,11 +341,11 @@ code {
 }
 
 #banner #banner-overlay #banner-overlay-content h1 {
-    font-size: 3.25rem;
+    font-size: 4.375rem;
 }
 
 #banner #banner-overlay #banner-overlay-content p {
-    font-size: 1.5rem; max-width: 55%; font-weight: 300;
+    font-size: 1.25rem; max-width: 55%; font-weight: 300;
 }
 
 #banner:after {
