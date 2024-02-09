@@ -1,5 +1,23 @@
 ---
 ---
+:root {
+    --white: #fff;
+    --black: #252525;
+    --grey: #767676;
+
+    --teal: #2bb3bb;
+    --light-teal: #dff4f5;
+
+    --orange: #ef8547;
+    --light-orange: #fdede4;
+
+    --pink: #c41565;
+    --light-pink: #f9eaf1;
+
+    --yellow: #f8be4f;
+    --light-yellow: #fef9ef;
+}
+
 body {
     font-family:"objektiv-mk1",Helvetica,Arial,sans-serif !important;
     margin: 0;
@@ -14,11 +32,11 @@ h1, h2, h3, h4 {
 }
 
 hr {
-    border-top: 1px solid #2bb3bb;
+    border-top: 1px solid var(--teal);
 }
 
 .underline-turquoise {
-    border-bottom: 2px solid #2bb3bb;
+    border-bottom: 2px solid var(--teal);
 }
 
 .bold {
@@ -41,7 +59,7 @@ hr {
 }
 
 .page-content h2 {
-    border-bottom: 1px solid #2bb3bb;
+    border-bottom: 1px solid var(--teal);
 }
 
 .page-content h2:before {
@@ -87,14 +105,14 @@ hr {
 /* .page-content h5 {
     padding: 1rem 1.5rem;
     clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 1.5rem), calc(100% - 1.5rem) 100%, 0% 100%);
-    background-color: #2bb3bb;
+    background-color: var(--teal);
     color: #fff;
 } */
 
 .page-content h5 {
     padding: 1rem 1.5rem;
     width: 100%;
-    color: #252525;
+    color: var(--black);
     position: relative;
     z-index: 2;
 }
@@ -102,7 +120,7 @@ hr {
 .page-content h5::before {
     content: " ";
     clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 24px), calc(100% - 24px) 100%, 0% 100%);
-    background-color: #2bb3bb;
+    background-color: var(--teal);
 
     position: absolute;
     top: 0;
@@ -180,8 +198,8 @@ hr {
 .right-align { text-align: end; }
 
 .bg-turquoise-light { background-color: #dff0f3; }
-.bg-turquoise { background-color: #2bb3bb; }
-.bg-charcoal { background-color: #252525; }
+.bg-turquoise { background-color: var(--teal); }
+.bg-charcoal { background-color: var(--black); }
 .bg-gray { background-color: #D7D2D6; }
 
 .container-regular {
@@ -226,7 +244,7 @@ hr {
     width: 68px;
     height: 68px;
     clip-path: polygon(0px 0px, 68px 0px, 68px 41px, 41px 68px, 0px 68px);
-    background-color: #2bb3bb;
+    background-color: var(--teal);
     position: absolute;
     top: -2px;
     left: -2px;
@@ -242,15 +260,15 @@ hr {
 }
 
 a.block-highlight-turquoise {
-    color: #252525;
-    border-bottom: 0.1875rem solid #2bb3bb;
+    color: var(--black);
+    border-bottom: 0.1875rem solid var(--teal);
     align-self: flex-start;
     padding: 0.125rem;
 }
 
 a.block-highlight-turquoise:hover, a.block-highlight-turquoise:active, a.block-highlight-turquoise:focus {
     color: #fff;
-    background-color: #2bb3bb;
+    background-color: var(--teal);
     text-decoration: none;
 }
 
@@ -278,7 +296,7 @@ code {
 }
 
 #footer a {
-    color: #252525;
+    color: var(--black);
 }
 
 #footer #linkedin-logo {
@@ -465,7 +483,7 @@ code {
 }
 
 .guide-promo .guide-promo-bottom a:hover, .guide-promo .guide-promo-bottom a:active, .guide-promo .guide-promo-bottom a:focus {
-    color: #2bb3bb;
+    color: var(--teal);
     text-decoration: none;
 }
 
@@ -549,11 +567,11 @@ code {
 
 #sidebar ul li a:hover {
     text-decoration: none;
-    color: #2bb3bb;
+    color: var(--teal);
 }
 
 li.nav-item-page-title.active {
-    background-color: #2bb3bb;
+    background-color: var(--teal);
 }
 
 li.nav-item-page-title.active>a {
@@ -561,7 +579,7 @@ li.nav-item-page-title.active>a {
 }
 
 #sidebar>ul>div#sidebar-nav-items>ul>li {
-    border-left: 2px solid #2bb3bb;
+    border-left: 2px solid var(--teal);
     margin-left: 2.25rem;
 }
 
@@ -649,7 +667,7 @@ li.nav-item-page-title.active-toc:before {
 }
 
 #page-title {
-    color: #2bb3bb;
+    color: var(--teal);
     padding: 2rem 0 1rem 0;
     margin: 0;
     font-size: 3rem;
@@ -658,7 +676,7 @@ li.nav-item-page-title.active-toc:before {
 #page-description {
     padding: 1rem 0 2rem 0;
     margin: 0 0 2rem 0;
-    color: #2bb3bb;
+    color: var(--teal);
     font-size: 1.75rem;
     border-bottom: 2px solid #dff0f3;
 }
