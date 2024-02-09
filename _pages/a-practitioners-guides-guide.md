@@ -14,7 +14,7 @@ comingSoon: false
 
 author: Dean Hunter
 role: Senior Developer
-bio: Hi, I'm Dean.||I'm a senior developer at Scott Logic.
+bio: "<p>Hi, I'm Dean</p><p>I'm a senior developer at Scott Logic.</p>"
 profile:
 ---
 
@@ -46,7 +46,7 @@ comingSoon: false
 
 author: Dean Hunter
 role: Senior Developer
-bio: Hi, I'm Dean.||I'm a senior developer at Scott Logic.
+bio: "<p>Hi, I'm Dean</p><p>I'm a senior developer at Scott Logic.</p>"
 profile: my-practitioners-guide/profile.jpg
 ---
 ```
@@ -67,7 +67,7 @@ profile: my-practitioners-guide/profile.jpg
 
 ```author``` Your name, it will appear on the Guide, also should you choose not to use a profile picture we will use the first and last initial in place of the profile pic.\
 ```role``` Your job title.\
-```bio``` optional - Short bit about you, preferably no more than 100 words.  If you would like to have multiple paragraphs, the split then with the double pipe character ```||```\
+```bio``` optional - Short bit about you, preferably no more than 100 words. You may use HTML links (`<a href=""></a>` tags) and paragraphs (`<p></p>` tags).\
 ```profile``` Picture you uploaded ```my-practitioners-guide/profile.png```.\
   <br />
   <br />

@@ -692,10 +692,6 @@ li.nav-item-page-title.active-toc:before {
     font-size: 0.8rem;
 }
 
-#bio>p:last-of-type {
-    margin-bottom: 0;
-}
-
 #highlights>span {
     padding-bottom: 3px;
 }

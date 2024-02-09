@@ -64,10 +64,7 @@ layout: default
                     </div>
                     {% if page.bio %}
                         <div id="bio">
-                            {% assign bioParagraphs = page.bio | split: '||' %}
-                            {% for bioParagraph in bioParagraphs %}
-                                <p>{{ bioParagraph }}</p>
-                            {% endfor %}
+                            {{ page.bio }}
                         </div>
                     {% endif %}
                     {% if page.highlights %}
