@@ -255,7 +255,7 @@ hr {
     color: #fff;
     align-self: center;
     margin: auto;
-    font-size: 1.5rem;
+    font-size: 24px;
     z-index: 2;
 }
 
@@ -666,13 +666,6 @@ li.nav-item-page-title.active-toc:before {
     
 }
 
-#page-title {
-    color: var(--teal);
-    padding: 2rem 0 1rem 0;
-    margin: 0;
-    font-size: 3rem;
-}
-
 #page-description {
     padding: 1rem 0 2rem 0;
     margin: 0 0 2rem 0;
@@ -702,12 +695,10 @@ li.nav-item-page-title.active-toc:before {
 #guide-profile>div#guide-profile-about>p:nth-of-type(1) {
     margin-top: auto;
     white-space: nowrap;
-    font-size: 0.75rem;
 }
 
 #guide-profile>div#guide-profile-about>p:nth-of-type(2) {
     white-space: nowrap;
-    font-size: 0.8rem;
 }
 
 #highlights>span {
