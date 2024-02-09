@@ -16,6 +16,10 @@
 
     --yellow: #f8be4f;
     --light-yellow: #fef9ef;
+
+    --font-light: 300;
+    --font-medium: 500;
+    --font-bold: 700;
 }
 
 body {
@@ -30,6 +34,7 @@ body {
 h1, h2, h3, h4 {
     padding-top: 30px;
     padding-bottom: 15px;
+    font-weight: var(--font-bold);
 }
 
 hr {
@@ -41,7 +46,7 @@ hr {
 }
 
 .bold {
-    font-weight: 600;
+    font-weight: var(--font-bold);
 }
 
 .page-content p {
@@ -342,10 +347,12 @@ code {
 
 #banner #banner-overlay #banner-overlay-content h1 {
     font-size: 4.375rem;
+    font-weight: normal;
 }
 
 #banner #banner-overlay #banner-overlay-content p {
-    font-size: 1.25rem; max-width: 55%; font-weight: 300;
+    font-size: 1.25rem;
+    max-width: 55%;
 }
 
 #banner:after {
@@ -479,7 +486,7 @@ code {
 
 .guide-promo .guide-promo-bottom a {
     color: #000;
-    font-weight: 600;
+    font-weight: var(--font-bold);
 }
 
 .guide-promo .guide-promo-bottom a:hover, .guide-promo .guide-promo-bottom a:active, .guide-promo .guide-promo-bottom a:focus {
@@ -584,7 +591,7 @@ li.nav-item-page-title.active>a {
 }
 
 li.active-toc>a {
-    font-weight: bold;
+    font-weight: var(--font-bold);
 }
 
 li.active-toc:before {
@@ -650,7 +657,7 @@ li.nav-item-page-title.active-toc:before {
     margin: 0;
     color: #fff;
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: var(--font-bold);
 }
 
 #guide-banner>.foreground h1::before {
@@ -786,7 +793,6 @@ ul.list-turquoise-arrows li::before
     #banner #banner-overlay #banner-overlay-content p {
         font-size: 1.125rem;
         max-width: 100%;
-        font-weight: 300;
     }
 
     #banner::after {
