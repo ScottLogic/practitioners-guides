@@ -24,6 +24,7 @@ body {
     padding: 0;
     text-rendering: optimizeLegibility;
     font-size: 16px;
+    color: var(--black);
 }
 
 h1, h2, h3, h4 {
@@ -112,7 +113,6 @@ hr {
 .page-content h5 {
     padding: 1rem 1.5rem;
     width: 100%;
-    color: var(--black);
     position: relative;
     z-index: 2;
 }
