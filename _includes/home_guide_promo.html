@@ -21,7 +21,7 @@
                         <div class="guide-promo-bottom">
                             <div>
                                 <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                                <p>{{ item.summary }}</p>
+                                <p class="summary">{{ item.summary }}</p>
                                 <div class="guide-promo-profile">
                                     {% include profile.html profile=item.profile author=item.author  %}
                                     <p class="bold">{{ item.author }}</p>

@@ -481,6 +481,10 @@ code {
     text-decoration: none;
 }
 
+.guide-promo .guide-promo-bottom .summary {
+    font-size: 0.8125rem;
+}
+
 .guide-promo .guide-promo-profile {
     margin-top: auto;
     display: flex;
