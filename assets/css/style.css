@@ -92,13 +92,6 @@ hr {
     margin-right: 1rem;
 }
 
-/* .page-content h5 {
-    padding: 1rem 1.5rem;
-    clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 1.5rem), calc(100% - 1.5rem) 100%, 0% 100%);
-    background-color: var(--teal);
-    color: #fff;
-} */
-
 .page-content h5 {
     padding: 1rem 1.5rem;
     width: 100%;
