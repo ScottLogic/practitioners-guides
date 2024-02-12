@@ -66,6 +66,7 @@ hr {
 
 .page-content h2 {
     border-bottom: 1px solid var(--teal);
+    color: var(--teal);
 }
 
 .page-content h2:before {
