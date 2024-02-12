@@ -601,8 +601,8 @@ li.nav-item-page-title.active-toc:before {
 }
 
 #guide-root {
-    max-width: 1920px;
-    margin: 0 auto;
+    overflow-y: hidden;
+    height: 100vh;
 }
 
 #guide-wrapper {
@@ -808,6 +808,10 @@ ul.list-turquoise-arrows li::before
     #sidebar.collapsed {
         width: 100%;
         max-width: 100%;
+    }
+    
+    #guide-root {
+        overflow-y: auto;
     }
 
     #sidebar {
