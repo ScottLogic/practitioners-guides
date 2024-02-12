@@ -404,6 +404,7 @@ code {
     text-decoration: none;
     position: relative;
     color: var(--white);
+    font-weight: var(--font-bold);
 }
 
 .guide-promo .guide-promo-top>div:nth-child(1) {
@@ -421,8 +422,13 @@ code {
     margin-bottom: 1.5rem;
 }
 
-.guide-promo .guide-promo-top>div:nth-child(1)>p {
+.guide-promo .guide-promo-top .prefix,
+.guide-promo .guide-promo-top .title {
     padding: 0 0.5rem;
+}
+
+.guide-promo .guide-promo-top .prefix {
+    font-style: italic;
 }
 
 .guide-promo .guide-promo-top>div:nth-child(2) {
@@ -491,6 +497,7 @@ code {
 
 .guide-promo .guide-promo-top.coming-soon {
     color: var(--black);
+    font-weight: normal;
 }
 
 #get-in-touch {
