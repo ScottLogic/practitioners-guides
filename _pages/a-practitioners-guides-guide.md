@@ -81,8 +81,6 @@ Some components are used to build ToC and have a general style applied for the P
 
 ### h3 Secondary Heading - used in the ToC Nav
 
-#### h4 Minor Heading
-
 ##### h5 Top Tip heading
 
 ## Images

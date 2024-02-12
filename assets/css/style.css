@@ -31,7 +31,7 @@ body {
     color: var(--black);
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     padding-top: 30px;
     padding-bottom: 15px;
     font-weight: var(--font-bold);
@@ -80,10 +80,6 @@ hr {
     margin-right: 1rem;
 }
 
-.page-content h4 {
-    padding-left: 1rem;
-}
-
 .page-content h3:before {
     content: "";
     display: inline-block;
@@ -91,18 +87,6 @@ hr {
     background-repeat: no-repeat;
     background-size: 1rem 1.75rem;
     height: 1.75rem;
-    width: 1rem;
-    transform: translateY(2px);
-    margin-right: 1rem;
-}
-
-.page-content h4:before {
-    content: "";
-    display: inline-block;
-    background-image: url('../images/arrow-charcoal.svg');
-    background-repeat: no-repeat;
-    background-size: 1rem 1.5rem;
-    height: 1.5rem;
     width: 1rem;
     transform: translateY(2px);
     margin-right: 1rem;
