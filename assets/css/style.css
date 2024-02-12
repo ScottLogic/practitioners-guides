@@ -661,7 +661,8 @@ li.nav-item-page-title.active-toc:before {
     padding: 1rem 0 2rem 0;
     margin: 0 0 2rem 0;
     color: var(--teal);
-    font-size: 1.75rem;
+    font-size: 1.5rem;
+    font-weight: var(--font-bold);
     border-bottom: 2px solid #dff0f3;
 }
 
