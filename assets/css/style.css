@@ -276,6 +276,7 @@ code {
     flex-wrap: wrap;
     margin-left: 2rem;
     margin-right: 2rem;
+    font-size: 0.75rem;
 }
 
 #footer a {
