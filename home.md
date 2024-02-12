@@ -4,7 +4,7 @@ title: Practitioner's Guides
 permalink: /
 ---
 
-##### At Scott Logic we have a number of experts with a track record of successful delivery across technical projects and we are drawing on that collective experience to bring you our Practitioner's Guides.
+**At Scott Logic we have a number of experts with a track record of successful delivery across technical projects and we are drawing on that collective experience to bring you our Practitioner's Guides.**
 
 The Practitioner's Guides are designed to add value and perspective to IT professionals, tackling issues that we feel aren't addressed elsewhere.
 
