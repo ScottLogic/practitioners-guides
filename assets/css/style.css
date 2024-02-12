@@ -4,6 +4,7 @@
     --white: #fff;
     --black: #252525;
     --grey: #767676;
+    --light-grey: #e1e1e1;
 
     --teal: #2bb3bb;
     --light-teal: #dff4f5;
@@ -183,7 +184,6 @@ hr {
 .bg-turquoise { background-color: var(--teal); }
 .bg-light-orange { background-color: var(--light-orange); }
 .bg-charcoal { background-color: var(--black); }
-.bg-gray { background-color: #D7D2D6; }
 
 .container-regular {
     margin: auto;
@@ -260,10 +260,7 @@ code {
 }
 
 #footer {
-    text-align: center;
-}
-
-#footer {
+    background-color: var(--light-grey);
     text-align: center;
 }
 
