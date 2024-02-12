@@ -189,6 +189,7 @@ hr {
 
 .bg-turquoise-light { background-color: #dff0f3; }
 .bg-turquoise { background-color: var(--teal); }
+.bg-light-orange { background-color: var(--light-orange); }
 .bg-charcoal { background-color: var(--black); }
 .bg-gray { background-color: #D7D2D6; }
 
@@ -397,16 +398,13 @@ code {
     grid-template-rows: 4fr 6fr;
 }
 
-.guide-promo .guide-promo-column.coming-soon>div {
-    grid-template-rows: 2fr 6fr;
-}
-
 .guide-promo .guide-promo-top {
     grid-row-start: 1;
     display: flex;
     align-items: stretch;
     text-decoration: none;
     position: relative;
+    color: var(--white);
 }
 
 .guide-promo .guide-promo-top>div:nth-child(1) {
@@ -414,7 +412,6 @@ code {
     flex-direction: column;
     align-items: start;
     
-    color: #fff;
     padding: 1rem 1.5rem 3.5rem 1.5rem;
     width: 100%;
 }
@@ -494,9 +491,7 @@ code {
 }
 
 .guide-promo .guide-promo-top.coming-soon {
-    color: #8E898B;
-    align-items: center;
-    justify-content: center;
+    color: var(--black);
 }
 
 #get-in-touch {

@@ -5,12 +5,21 @@
             {% if item.comingSoon == true %}
                 <div class="guide-promo-column coming-soon">
                     <div>
-                        <div class="guide-promo-top coming-soon bg-gray">
-                            <p>Coming soon</p>
+                        <div class="guide-promo-top coming-soon bg-light-orange">
+                            <div>
+                                <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Logo">
+                                <p>Practitioner's Guide:</p>
+                                <p>{{ item.title }}</p>
+                            </div>
+                            <div>
+                                <img alt="arrow forward" src="{{ '/assets/images/arrow-turquoise.svg' | relative_url }}" />
+                                <img alt="arrow forward" src="{{ '/assets/images/arrow-turquoise.svg' | relative_url }}" />
+                            </div>
+                            <img class="stripe-pink" alt="pink stripes" src="{{ '/assets/images/stripe-pink.svg' | relative_url }}" />
+                            <img class="stripe-orange" alt="orange stripes" src="{{ '/assets/images/stripe-orange.svg' | relative_url }}" />
                         </div>
                         <div class="guide-promo-bottom">
                             <div>
-                                <p>{{item.title}}</p>
                                 <p>{{item.summary}}</p>
                                 <div class="guide-promo-profile">
                                     {% include profile.html profile=item.profile author=item.author  %}
