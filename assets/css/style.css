@@ -260,6 +260,7 @@ code {
 }
 
 #footer {
+    margin-top: 7rem;
     background-color: var(--light-grey);
     text-align: center;
 }
@@ -358,7 +359,7 @@ code {
 @media (max-width:63.9375rem){.bottom-shape-bottom1:after{border-top-width:3.5rem;border-right-width:52rem;top:1rem}}
 @media (max-width:47.9375rem){.bottom-shape-bottom1:after{border-right-width:47.9375rem;border-top-width:1.75rem;top:0}}
 
-.guide-promo-wrapper, #get-in-touch {
+.guide-promo-wrapper {
     margin:  0rem 0 7rem 0;
 }
 
