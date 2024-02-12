@@ -611,13 +611,16 @@ li.nav-item-page-title.active-toc:before {
 }
 
 #guide-content {
-    overflow-y: auto;
+    display: flex;
     flex-grow: 1;
+    flex-direction: column;
 }
 
 #guide-content-columns {
     display: flex;
     flex-direction: row;
+    flex: 1;
+    overflow-y: auto
 }
 
 #guide-banner {

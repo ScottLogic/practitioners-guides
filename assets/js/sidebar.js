@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const sidebar = document.getElementById("sidebar");
-    const guideContent = document.getElementById("guide-content");
+    const guideContent = document.getElementById("guide-content-columns");
     const singleColumnWidth = 768;
 
     const navTocLinks = document.querySelectorAll('#sidebar-nav-items a');
