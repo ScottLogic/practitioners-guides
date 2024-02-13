@@ -90,3 +90,7 @@ We have a image tag that can be used within the page and will have a default sty
 To include in your page, reference as markdown: ```![penguins]({{ site.baseurl }}/media/my-practitioners-guide/penguins.jpg)```
 
 ![penguins]({{ site.baseurl }}/media/a-practitioners-guides-guide/penguins.jpg)
+
+## Links
+
+This is what a link looks like [Will the Cyber Resilience Act help the European ICT sector compete?](https://linuxfoundation.eu/newsroom/will-the-cyber-resilience-act-help-the-european-ict-sector-compete).
