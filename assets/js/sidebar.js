@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const guideContent = document.getElementById("guide-content-columns");
     const singleColumnWidth = 768;
 
-    const navTocLinks = document.querySelectorAll('#sidebar-nav-items a');
-    const bodyTocLinks = document.querySelectorAll("h1, h2, h3");
+    const navTocLinks = document.querySelectorAll('#sidebar-nav-items ul a');
+    const bodyTocLinks = document.querySelectorAll("h2, h3");
 
     const onScrollStop = callback => {
       let isScrolling;
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
       );
     };
 
-    //window.onload = setActiveToc();
+    setActiveToc();
 
     onScrollStop(() => {
       setActiveToc();
