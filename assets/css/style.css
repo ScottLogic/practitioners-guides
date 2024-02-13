@@ -435,14 +435,14 @@ code {
     height: 26px;
 }
 
-.guide-promo .guide-promo-top>.stripe-pink {
+.guide-promo .guide-promo-top>.stripe-top-right {
     width: 20px;
     position: absolute;
     top: 20px;
     right: 0;
 }
 
-.guide-promo .guide-promo-top>.stripe-orange {
+.guide-promo .guide-promo-top>.stripe-bottom-left {
     width: 20px;
     position: absolute;
     left: 0;
@@ -644,19 +644,6 @@ li.nav-item-page-title.active-toc:before {
     color: #fff;
     font-size: 2rem;
     font-weight: var(--font-bold);
-}
-
-#guide-banner>.foreground h1::before {
-    content: "";
-    display: inline-block;
-    background-image: url('../images/stripe-orange.svg');
-    background-repeat: no-repeat;
-    background-size: 8px 16px;
-    height: 16px;
-    width: 8px;
-    position: absolute;
-    transform: translateY(4px);
-    
 }
 
 #page-description {
