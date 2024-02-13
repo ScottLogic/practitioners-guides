@@ -126,32 +126,6 @@ hr {
     z-index: -1;
 }
 
-.page-content ul {
-    list-style-type: none;
-    padding-left: 2rem;
-}
-
-.page-content ul li {
-    padding: 0.25rem 0.25rem 0.25rem 2rem;
-}
-
-.page-content ul li p {
-    display: inline;
-    margin: 0;
-    padding-left: 0;
-}
-
-.page-content ul li::before
-{
-  content: "";
-  display: inline-block;
-  background-image: url('../images/arrow-charcoal.svg');
-  background-repeat: no-repeat;
-  background-size: 0.5rem 1rem;
-  height: 1rem;
-  width: 1rem;
-}
-
 .mb-0 { margin-bottom: 0rem !important; }
 .mb-1 { margin-bottom: 1rem !important; }
 .mb-2 { margin-bottom: 2rem !important; }
