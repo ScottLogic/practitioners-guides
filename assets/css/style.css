@@ -599,6 +599,11 @@ li.nav-item-page-title.active-toc:before {
     overflow-y: auto
 }
 
+#guide-content-columns .back {
+    color: var(--black);
+    text-decoration: underline;
+}
+
 #guide-banner {
     position: relative;
 }
@@ -621,8 +626,8 @@ li.nav-item-page-title.active-toc:before {
 }
 
 #page-description {
-    padding: 1rem 0 2rem 0;
-    margin: 0 0 2rem 0;
+    padding: 0 0 2rem 0;
+    margin: 1rem 0 2rem 0;
     color: var(--teal);
     font-size: 1.5rem;
     font-weight: var(--font-bold);
