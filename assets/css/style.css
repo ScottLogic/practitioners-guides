@@ -169,8 +169,6 @@ hr {
 
 .container-wide {
     margin: auto;
-    width: 90%;
-    padding: 0px;
     max-width: 1400px;
     transition: all 0.8s ease;
 }
@@ -234,7 +232,8 @@ code {
 }
 
 #footer {
-    margin-top: 7rem;
+    width: 90%;
+    margin: 7rem auto 0 auto;
     background-color: var(--light-grey);
     text-align: center;
 }
@@ -695,11 +694,6 @@ ul.list-turquoise-arrows li::before
     /*** core styles ***/
     .container-regular {
         max-width: 824px;
-    }
-
-    .container-wide {
-        max-width: 100%;
-        width: 100%;
     }
 
     /*** home styles ***/
