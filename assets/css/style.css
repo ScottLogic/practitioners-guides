@@ -247,6 +247,9 @@ code {
     flex-wrap: wrap;
     margin-left: 2rem;
     margin-right: 2rem;
+}
+
+#footer div.footer-row.misc {
     font-size: 0.75rem;
 }
 
