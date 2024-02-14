@@ -493,14 +493,14 @@ code {
 /*** guide styles ***/
 #sidebar {
     border-right: 1px solid rgba(0,0,0,.07);
-    width: 375px;
+    width: 364px;
     min-width: 0;
-    max-width: 375px;
+    max-width: 364px;
     height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
     transition: all 0.8s ease;
-    flex: 1 0 375px;
+    flex: 1 0 364px;
 }
   
 #sidebar ul {
@@ -521,7 +521,7 @@ code {
 }
   
 #sidebar>ul>li, #sidebar>ul>#sidebar-nav-items>li.nav-item-page-title {
-    padding: 4px 0 4px 25px;
+    padding: 4px 0 4px 32px;
 }
 
 #sidebar ul li a {
@@ -571,8 +571,7 @@ li.nav-item-page-title.active-toc:before {
 #sidebar-logo {
     width: 100%;
     height: auto;
-    padding: 1.5rem 3.5rem;
-    max-width: 350px;
+    padding: 2rem 55px 25px 2rem;
 }
 
 #guide-root {
