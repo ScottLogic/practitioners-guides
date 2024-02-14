@@ -353,7 +353,7 @@ code {
 
 .guide-promo .guide-promo-column {
     display: flex;
-    flex-basis: 29%;
+    width: 332px;
 }
 
 .guide-promo .guide-promo-column p {
@@ -382,6 +382,7 @@ code {
     
     padding: 1rem 1.5rem 3.5rem 1.5rem;
     width: 100%;
+    height: 197px;
 }
 
 .guide-promo .guide-promo-top>div:nth-child(1)>img {
@@ -718,11 +719,6 @@ ul.list-turquoise-arrows li::before
         border-right: 6.5rem solid transparent;
     }
 
-    .guide-promo .guide-promo-column {
-        display: flex;
-        flex-basis: 48%;
-    }
-
     /*** guide styles ***/
     #guide-content-columns {
         flex-direction: column-reverse;
@@ -752,11 +748,6 @@ ul.list-turquoise-arrows li::before
     /*** home styles ***/
     .guide-promo-wrapper h2 {
         font-size: 1.6rem;
-    }
-
-    .guide-promo .guide-promo-column {
-        display: flex;
-        flex-basis: 100%;
     }
     
     .guide-promo .guide-promo-column>div {
