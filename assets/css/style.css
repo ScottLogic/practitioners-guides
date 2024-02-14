@@ -754,10 +754,6 @@ ul.list-turquoise-arrows li::before
         display: block !important;
     }
 
-    .guide-promo .guide-promo-top.coming-soon {
-        padding: 2rem 0;
-    }
-
     /*** guid styles ***/
     #sidebar-toggle {
         display: none;
