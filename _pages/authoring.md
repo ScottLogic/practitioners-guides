@@ -18,7 +18,7 @@ comingSoon: false
 author: Development team
 role: Team
 bio: "<p>We're the team behind this site.</p><p>We design, implement, and write instructions.</p>"
-profile: a-practitioners-guides-guide/profile.png
+profile: authoring/profile.png
 ---
 
 ## Main heading
@@ -65,4 +65,4 @@ Text continues following top tip.
 
 Place images in a subfolder of `media/` with the same name as your guide's filename, and include them as follows.
 
-![penguins]({{ site.baseurl }}/media/a-practitioners-guides-guide/penguins.jpg)
+![penguins]({{ site.baseurl }}/media/authoring/penguins.jpg)
