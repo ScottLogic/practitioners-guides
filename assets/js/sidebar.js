@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
           navTocLinks.forEach((navTocLink => {
             if (navTocLink.innerHTML == visibleSectionTitle.innerHTML) {
               navTocLink.closest("li").classList.add("active-toc");
+              document.querySelector("#current-section").innerText = navTocLink.innerText;
               // sync scrolling on toc with page
               const viewWidth = Math.max(document.documentElement.clientWidth, window.innerWidth);
               if (viewWidth > singleColumnWidth && !checkVisible(navTocLink, 1)) {

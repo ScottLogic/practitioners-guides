@@ -759,7 +759,7 @@ ul.list-turquoise-arrows li::before
     }
 
     #minibar {
-        display: block;
+        display: flex;
         height: 2rem;
         background-color: var(--light-teal);
     }
@@ -777,6 +777,11 @@ ul.list-turquoise-arrows li::before
 
     #minibar:has(#show-sidebar:checked) #show-sidebar-icon {
         background-color: rebeccapurple;
+    }
+
+    #minibar #current-section {
+        align-self: center;
+        margin-left: 1rem;
     }
 
     #guide-wrapper {
