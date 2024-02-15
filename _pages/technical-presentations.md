@@ -131,7 +131,7 @@ This is an extension of the “beginning, middle, end” structure, for someone 
 
 
 * **Tell the audience why you are going to tell them something, ahead of telling them the thing** - ok, that’s a bit of a mouthful. It’s easy for someone to get lost if they are not quite sure why you are telling them something. If it’s not entirely clear or obvious, simply tell them! … “This is a bit of background that I think is important to your understanding”
-* **Segues **- no, not the self-balancing two-wheeled devices that were supposed to revolutionise travel. A segue in a talk is a clear transition from one topic to another. 
+* **Segues** - no, not the self-balancing two-wheeled devices that were supposed to revolutionise travel. A segue in a talk is a clear transition from one topic to another. 
 * **Visible signposts** - sometimes it can help to add visible signposts on your slides, similar to the breadcrumb trails you find on websites.
 * **Be clear about why a story matters** - your talk will likely include examples, stories, or background information that you have included for a specific reason. However, sometimes this reason isn’t obvious to the audience, and it is worth spelling out, “I’m going to tell you a little story because it illustrates my point …”
 
