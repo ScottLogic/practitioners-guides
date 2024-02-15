@@ -736,13 +736,14 @@ ul.list-turquoise-arrows li::before
 
     /*** guide styles ***/
     #guide-content-columns {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     #right-column {
         justify-content: end;
         margin: 2rem 2rem 0 2rem;
         gap: 1rem;
+        order: -1;
     }
 
     #guide-profile {
