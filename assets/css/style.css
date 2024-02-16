@@ -856,4 +856,8 @@ ul.list-turquoise-arrows li::before
     }
 
     /*** guid styles ***/
+    #get-in-touch {
+        flex-direction: column;
+        gap: 2rem;
+    }
 }
