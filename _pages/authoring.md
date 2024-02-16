@@ -13,7 +13,7 @@ highlights:
   - Five
 
 date: 01-01-1970
-comingSoon: false
+secret: true
 
 author: Development team
 role: Team

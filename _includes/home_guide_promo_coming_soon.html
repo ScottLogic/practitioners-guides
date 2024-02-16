@@ -2,7 +2,7 @@
     <h2 class="mt-0 mb-0 pt-0 pb-0">Coming soon...</h2>
     <div class="guide-promo">
         {% for item in site.pages %}
-            {% if item.comingSoon == true %}
+            {% if item.comingSoon == true and item.secret != true %}
                 <div class="guide-promo-column coming-soon">
                     <div>
                         <div class="guide-promo-top coming-soon bg-light-orange">

@@ -2,7 +2,7 @@
     <h2 class="mt-0 mb-0 pt-0 pb-0 lift">Read our Practitioner's Guides</h2>
     <div class="guide-promo">
         {% for item in site.pages %}
-            {% if item.comingSoon != true %}
+            {% if item.comingSoon != true and item.secret != true %}
                 <div class="guide-promo-column">
                     <div>
                         <a class="guide-promo-top bg-charcoal" href="{{ item.url | relative_url }}">

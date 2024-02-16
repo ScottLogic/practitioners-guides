@@ -19,7 +19,7 @@ layout: default
                 </li>
                 <div id="sidebar-nav-items">
                     {% for post in site.pages %}
-                        {% if post.comingSoon != true %}
+                        {% if post.comingSoon != true and post.secret != true %}
                             {% if post.title %}
                                 {% if post.url == page.url %} 
                                 <li class="nav-item-page-title active"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
