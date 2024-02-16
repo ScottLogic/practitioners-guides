@@ -716,9 +716,6 @@ ul.list-turquoise-arrows li::before
 
 @media only screen and (max-width: 1024px) {
     /*** core styles ***/
-    .container-regular {
-        max-width: 824px;
-    }
 
     /*** home styles ***/
     #banner #banner-overlay img {
@@ -843,7 +840,7 @@ ul.list-turquoise-arrows li::before
 @media only screen and (max-width: 768px) {
     /*** core styles ***/
     .container-regular {
-        max-width: 668px;
+        width: 90%;
     }
 
     /*** home styles ***/
