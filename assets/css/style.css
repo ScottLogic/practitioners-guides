@@ -66,6 +66,49 @@ hr {
     background-color: #dff0f3;
 }
 
+.page-content blockquote {
+    position: relative;
+    margin: 2rem 0;
+    padding: 2rem 3rem;
+}
+
+.page-content blockquote:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--teal);
+    z-index: -2;
+    clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 3rem), calc(100% - 3rem) 100%, 0% 100%);
+}
+
+.page-content blockquote:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--light-teal);
+    z-index: -1;
+    clip-path: polygon(3px 3px, calc(100% - 3px) 3px, calc(100% - 3px) calc(100% - 3rem - 1px), calc(100% - 3rem - 1px) calc(100% - 3px), 3px calc(100% - 3px));
+}
+
+.page-content blockquote h5 {
+    margin-bottom: 1rem;
+    font-weight: var(--font-bold);
+}
+
+.page-content blockquote p {
+    margin-left: 0;
+}
+
+.page-content blockquote p:last-child {
+    margin-bottom: 0;
+}
+
 .page-content h2 {
     border-bottom: 1px solid var(--teal);
 }
@@ -92,38 +135,6 @@ hr {
     width: 1rem;
     transform: translateY(2px);
     margin-right: 1rem;
-}
-
-.page-content h5 {
-    padding: 1rem 1.5rem;
-    width: 100%;
-    position: relative;
-}
-
-.page-content h5::before {
-    content: " ";
-    clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 24px), calc(100% - 24px) 100%, 0% 100%);
-    background-color: var(--teal);
-
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 3.5rem;
-    z-index:-2;
-}
-
-
-.page-content h5::after {
-    content: " ";
-    clip-path: polygon(3px 3px, calc(100% - 3px) 3px, calc(100% - 3px) calc(100% - 25px), calc(100% - 25px) calc(100% - 3px), 3px calc(100% - 3px));
-    background-color: #fff;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 3.5rem;
-    z-index: -1;
 }
 
 .mb-0 { margin-bottom: 0rem !important; }

@@ -78,13 +78,12 @@ Links, such as [this one to our entry on Wikipedia](https://en.wikipedia.org/wik
 
 ## Denoting top tips
 
-Denote top tips as follows, by opening them with a heading and closing them with a line.
+Denote top tips as follows, using a block quote and a 5th-level heading.
 
-##### Top Tip
-
-A "top tip" is a piece of advice or a suggestion that is considered to be the most effective or useful in a particular situation or for a specific purpose. It is often shared by experts or experienced individuals who have gained significant knowledge or insights in a certain field or area.
-
----
+> ##### Top Tip
+>A "top tip" is a piece of advice or a suggestion that is considered to be the most effective or useful in a particular situation or for a specific purpose. It is often shared by experts or experienced individuals who have gained significant knowledge or insights in a certain field or area.
+>
+> Another paragraph. Note the blank lines in between have a single `>`, to keep the paragraphs as part of the same top tip block.
 
 Text continues following top tip.
 
