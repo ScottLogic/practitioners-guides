@@ -21,6 +21,33 @@ bio: "<p>We're the team behind this site.</p><p>We design, implement, and write 
 profile: authoring/profile.png
 ---
 
+## Metadata template
+
+Copy this (including the dashed lines) as the very first thing in your new post file, and fill it in.
+
+See the authoring instructions on our internal wiki for further guidance.
+
+```
+---
+layout: post
+
+title: 
+description: 
+summary: 
+highlights:
+
+date: 
+comingSoon: 
+
+author: 
+role: 
+bio: 
+profile: 
+---
+
+Write here...
+```
+
 ## Main heading
 
 This is the highest (2nd) level you should use within the content.
