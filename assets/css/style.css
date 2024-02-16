@@ -862,3 +862,16 @@ ul.list-turquoise-arrows li::before
         gap: 2rem;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    /*** home styles ***/
+    #banner #banner-overlay #banner-overlay-content h1 {
+        padding-top: 1rem;
+        padding-bottom: 0;
+        font-size: 1.5rem;
+    }
+
+    #banner #banner-overlay #banner-overlay-content p {
+        font-size: 1rem;
+    }
+}
