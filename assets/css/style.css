@@ -63,7 +63,7 @@ hr {
 
 .page-content p:has(img) {
     clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 100px), calc(100% - 100px) 100%, 0% 100%);
-    background-color: #dff0f3;
+    background-color: var(--light-teal);
 }
 
 .page-content blockquote {
@@ -544,7 +544,7 @@ code {
 }
 
 #sidebar ul li a {
-    color: #364149;
+    color: var(--black);
 } 
 
 #sidebar ul li a:hover {
@@ -710,7 +710,7 @@ ul.list-turquoise-arrows li::before
 #about-this-series {
     margin-top: 20px;
     padding: 20px;
-    background-color: lightblue;
+    background-color: var(--light-teal);
     margin-left: 2rem;
 }
 
