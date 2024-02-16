@@ -853,6 +853,10 @@ ul.list-turquoise-arrows li::before
     }
 
     /*** guid styles ***/
+    .page-content p {
+        margin-left: 0;
+    }
+
     #get-in-touch {
         flex-direction: column;
         gap: 2rem;
