@@ -2,7 +2,7 @@
 layout: post
 banner: turquoise
 
-title: "Authoring a Practitioner's Guide"
+title: "Format & style reference"
 description: A reference and showcase of the available elements
 summary: This page demonstrates all the available markdown elements we have designed and implemented. Look at the source for how to use them, and the output page to see how they look.
 highlights:
@@ -25,7 +25,7 @@ profile: authoring/profile.png
 
 Copy this (including the dashed lines) as the very first thing in your new post file, and fill it in.
 
-See the authoring instructions on our internal wiki for further guidance.
+See the authoring guide on our internal wiki for further guidance.
 
 ```
 ---
