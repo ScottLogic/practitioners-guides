@@ -5,12 +5,6 @@ banner: turquoise
 title: "Format & style reference"
 description: A reference and showcase of the available elements
 summary: This page demonstrates all the available markdown elements we have designed and implemented. Look at the source for how to use them, and the output page to see how they look.
-highlights:
-  - One
-  - Two
-  - Three
-  - Four
-  - Five
 
 date: 01-01-1970
 secret: true
@@ -34,7 +28,6 @@ layout: post
 title: 
 description: 
 summary: 
-highlights:
 
 date: 
 comingSoon: 
