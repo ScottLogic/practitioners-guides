@@ -9,7 +9,7 @@ date: 14-09-2023
 
 author: Catherine Pratt
 role: Delivery Principal
-bio:
+bio: TODO please write a bio now
 profile: project-week-one/profile.webp
 ---
 

@@ -9,7 +9,7 @@ date: 14-09-2023
 
 author: Atika Bennamane
 role: Design Principal
-bio:
+bio: TODO please write a bio now
 profile: remote-working-readiness/profile.webp
 ---
 

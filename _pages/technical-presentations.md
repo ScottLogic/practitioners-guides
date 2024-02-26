@@ -9,7 +9,7 @@ date: 18-12-2023
 
 author: Colin Eberhardt
 role: Chief Technology Officer
-bio:
+bio: TODO please write a bio now
 profile: technical-presentations/profile.webp
 ---
 
