@@ -2,7 +2,7 @@
 layout: post
 
 title: "Retrospective Overview"
-description: 
+description: TODO please write a description now
 summary: A general overview of Agile Retrospective meetings and the different approaches a team can take to improvement.
 
 date: 01-02-2024

@@ -2,7 +2,7 @@
 layout: post
 
 title: "Making the right technology choices"
-description: 
+description: TODO please write a description now
 summary: TODO please write a summary now
 
 date: 02-02-2024

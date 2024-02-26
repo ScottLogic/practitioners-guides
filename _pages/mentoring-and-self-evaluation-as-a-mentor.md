@@ -2,7 +2,7 @@
 layout: post
 
 title: "Mentoring and self evaluation as a mentor"
-description: 
+description: TODO please write a description now
 summary: TODO please write a summary now
 
 date: 03-02-2024
