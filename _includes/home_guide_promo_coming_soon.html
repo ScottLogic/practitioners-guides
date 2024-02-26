@@ -8,7 +8,6 @@
                         <div class="guide-promo-top coming-soon bg-light-orange">
                             <div>
                                 <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Logo">
-                                <p class="prefix">Practitioner's Guide:</p>
                                 <p class="title">{{ item.title }}</p>
                             </div>
                             <div>
@@ -20,6 +19,7 @@
                         </div>
                         <div class="guide-promo-bottom">
                             <div>
+                                <strong>{{ item.description }}</strong>
                                 <p class="summary">{{item.summary}}</p>
                                 <div class="guide-promo-profile">
                                     {% include profile.html profile=item.profile author=item.author  %}

@@ -8,8 +8,7 @@
                         <a class="guide-promo-top bg-charcoal" href="{{ item.url | relative_url }}">
                             <div>
                                 <img src="{{ '/assets/images/logo-inverted.svg' | relative_url }}" alt="Logo">
-                                <p class="prefix">Practitioner's Guide:</p>
-                                <p class="title">{{ item.description }}</p>
+                                <p class="title">{{ item.title }}</p>
                             </div>
                             <div>
                                 <img alt="arrow forward" src="{{ '/assets/images/arrow-turquoise.svg' | relative_url }}" />
@@ -20,7 +19,7 @@
                         </a>
                         <div class="guide-promo-bottom">
                             <div>
-                                <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                                <a href="{{ item.url | relative_url }}">{{ item.description }}</a>
                                 <p class="summary">{{ item.summary }}</p>
                                 <div class="guide-promo-profile">
                                     {% include profile.html profile=item.profile author=item.author  %}

@@ -405,13 +405,8 @@ code {
     margin-bottom: 1.5rem;
 }
 
-.guide-promo .guide-promo-top .prefix,
 .guide-promo .guide-promo-top .title {
     padding: 0 0.5rem;
-}
-
-.guide-promo .guide-promo-top .prefix {
-    font-style: italic;
 }
 
 .guide-promo .guide-promo-top>div:nth-child(2) {
