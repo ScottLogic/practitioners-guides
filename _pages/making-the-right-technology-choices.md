@@ -8,8 +8,8 @@ summary: TODO please write a summary now
 date: 02-02-2024
 comingSoon: true
 
-author: David Hope
-role: Principal Architect
-bio:
-profile:
+author: Colin Eberhardt
+role: Chief Technology Officer
+bio: TODO please write a bio now
+profile: technical-presentations/profile.webp
 ---
