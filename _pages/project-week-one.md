@@ -9,7 +9,7 @@ date: 14-09-2023
 
 author: Catherine Pratt
 role: Delivery Principal
-bio: TODO please write a bio now
+bio: A strategic thinking portfolio and programme manager with 20+ years of experience across corporate and start-up environments. An experienced IT Consultant, specialising in business and systems analysis with significant experience in service and operational management setup. Catherine has a passion for building strong teams to deliver excellence, and loves to bring order to chaos.
 profile: project-week-one/profile.webp
 ---
 

@@ -676,6 +676,10 @@ li.nav-item-page-title.active-toc:before {
     white-space: nowrap;
 }
 
+#bio {
+    width: 235px;
+}
+
 #about-this-series {
     margin-top: 20px;
     padding: 20px;
