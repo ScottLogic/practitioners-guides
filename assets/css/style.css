@@ -756,11 +756,12 @@ li.nav-item-page-title.active-toc:before {
         width: 1rem;
         height: 1rem;
         margin: 0.5rem;
-        background-color: hotpink;
+        background-image: url('../images/youtube.svg');
+        background-size: 1rem 1rem;
     }
 
     #minibar:has(#show-sidebar:checked) #show-sidebar-icon {
-        background-color: rebeccapurple;
+        background-image: url('../images/linkedin.svg');
     }
 
     #minibar #current-section {
