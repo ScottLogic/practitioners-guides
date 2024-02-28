@@ -745,7 +745,7 @@ li.nav-item-page-title.active-toc:before {
     #minibar {
         display: flex;
         height: 2rem;
-        background-color: var(--light-teal);
+        background-color: var(--light-grey);
     }
 
     #minibar #show-sidebar {
