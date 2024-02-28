@@ -40,10 +40,12 @@ layout: default
         </div> 
         <div id="guide-content">
             {% include guide_banner.html colour=page.banner %}
+            <div class="container-regular">
+                <span>&lt; <a class="back" title="Return to guides home page" href="{{ site.baseurl }}/">back</a></span>
+            </div>
             <div id="guide-content-columns">
                 <div>
                     <div class="container-regular page-content">
-                        <span>&lt; <a class="back" title="Return to guides home page" href="{{ site.baseurl }}/">back</a></span>
                         <p id="page-description">{{page.description}}</p>
                         <p class="right-align">{{ page.date | date_to_string }}</p>
                         <p id="about-this-series">

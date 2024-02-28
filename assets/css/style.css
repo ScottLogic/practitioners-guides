@@ -607,16 +607,16 @@ li.nav-item-page-title.active-toc:before {
     flex-direction: column;
 }
 
+#guide-content .back {
+    color: var(--black);
+    text-decoration: underline;
+}
+
 #guide-content-columns {
     display: flex;
     flex-direction: row;
     flex: 1;
     overflow-y: auto
-}
-
-#guide-content-columns .back {
-    color: var(--black);
-    text-decoration: underline;
 }
 
 #guide-banner {
@@ -685,6 +685,24 @@ li.nav-item-page-title.active-toc:before {
     padding: 20px;
     background-color: var(--light-teal);
     margin-left: 2rem;
+}
+
+@media only screen and (max-width: 1280px) {
+    /*** guide styles ***/
+    #guide-content-columns {
+        flex-direction: column;
+    }
+
+    #right-column {
+        width: 80%;
+        margin: 2rem auto;
+        order: -1;
+        gap: 1rem;
+    }
+
+    #bio {
+        width: auto;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -793,17 +811,6 @@ li.nav-item-page-title.active-toc:before {
 
     #guide-content-columns {
         flex-direction: column;
-    }
-
-    #right-column {
-        justify-content: end;
-        margin: 2rem 2rem 0 2rem;
-        gap: 1rem;
-        order: -1;
-    }
-
-    #guide-profile {
-        justify-content: end;
     }
     
     #guide-banner h1 {
