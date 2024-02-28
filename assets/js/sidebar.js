@@ -25,6 +25,13 @@ document.addEventListener("DOMContentLoaded", function () {
     onScrollStop(() => {
       setActiveToc();
     });
+
+    document.querySelector("#guide-content").addEventListener("click", hideSidebar);
+    document.querySelector("#sidebar-nav-items ul").addEventListener("click", hideSidebar);
+
+    function hideSidebar() {
+      document.querySelector("#show-sidebar").checked = false;
+    }
     
     function checkVisible(elm, offset) {
       const rect = elm.getBoundingClientRect();
