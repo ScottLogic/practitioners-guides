@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: "Project Week One"
+title: Starting a project successfully
 description: How a seasoned pro lays the foundations for project success during the first week of a project
 summary: The first week can set the tone of the entire project. An experienced manager can follow a few simple guidelines to create the foundation for project for success, and all within the first week. This guide outlines the six key steps a good pro would complete in those vital first days to build a solid foundation.
 
