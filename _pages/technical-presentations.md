@@ -3,7 +3,9 @@ layout: post
 title:  "Talking Confidently about Technology"
 date:   18-12-2023
 author: Colin Eberhardt
+bio: Colin is the CTO at Scott Logic, a UK-based software consultancy where they create complex application for their financial services clients. He's an avid technology enthusiast, spending his evenings contributing to open source projects, writing blog posts and learning as much as he can. 
 description: A practical set of tips and tricks to help you build confidence and make your voice heard.
+summary: If you’re nervous about communicating your ideas, either in a formal presentation setting, or more informally, in meetings and small group conversations, this brief guide is for you. It’s a simple collection of thoughts and ideas; practical steps that you can take to build confidence, or feel more secure. 
 ---
 
 
