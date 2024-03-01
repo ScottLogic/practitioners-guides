@@ -9,7 +9,7 @@ date: 14-09-2023
 
 author: Atika Bennamane
 role: Design Principal
-bio: TODO please write a bio now
+bio: Design is people and people are my passion. Whether that's the end user, a key stakeholder or the most junior designer on your team, everyone matters, brings value and has an equally important role to play in building and shaping the product. I can help organisations embrace a user centered design approach to building usable and successful products.
 profile: remote-working-readiness/profile.webp
 ---
 
