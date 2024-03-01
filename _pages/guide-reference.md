@@ -11,7 +11,7 @@ secret: true
 
 author: Development team
 role: Team
-bio: "<p>We're the team behind this site.</p><p>We design, implement, and write instructions.</p>"
+bio: "<p>We're the team behind this site.</p><p>We design, implement, and write instructions. Here's what a link to <a href=\"https://github.com/ScottLogic\">the company GitHub</a> looks like.</p>"
 profile: guide-reference/profile.png
 ---
 
