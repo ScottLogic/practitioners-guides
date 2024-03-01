@@ -611,6 +611,8 @@ li.nav-item-page-title.active-toc:before {
 }
 
 #guide-content .back {
+    display: inline-block;
+    margin-bottom: 0.5rem;
     color: var(--black);
     text-decoration: underline;
 }
