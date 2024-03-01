@@ -3,13 +3,13 @@ layout: post
 
 title: "Talking Confidently about Technology"
 description: A practical set of tips and tricks to help you build confidence and make your voice heard
-summary: There are a wealth of materials that help build your technical skills, but relatively little that truly helps nurture communication skills. This guide helps to empower the quieter or less confident to have their voices heard in a work setting.
+summary: If you’re nervous about communicating your ideas, either in a formal presentation setting, or more informally, in meetings and small group conversations, this brief guide is for you. It’s a simple collection of thoughts and ideas; practical steps that you can take to build confidence, or feel more secure.
 
 date: 18-12-2023
 
 author: Colin Eberhardt
 role: Chief Technology Officer
-bio: TODO please write a bio now
+bio: Colin is the CTO at Scott Logic, a UK-based software consultancy where they create complex application for their financial services clients. He's an avid technology enthusiast, spending his evenings contributing to open source projects, writing blog posts and learning as much as he can. 
 profile: technical-presentations/profile.webp
 ---
 
@@ -225,8 +225,8 @@ If you’d like to ask questions, be prepared for a few situations:
 
 
 * You may get asked questions you don’t know the answer to. That’s fine, and not something you should hide. A polite response could be “I’d not thought of that, perhaps we could discuss later”. 
-* Some questions are not questions, some people simply want to share their own thoughts, which is fine. Simply thank them for sharting.
-* Sometimes you will not get any questions, which can be quite embarrassing if you’re not ready for this. I’d have a line ready “I’ve clearly left you with a lot to think about, once it has sunk in, do catch me later fo a chat”
+* Some questions are not questions, some people simply want to share their own thoughts, which is fine. Simply thank them for sharing.
+* Sometimes you will not get any questions, which can be quite embarrassing if you’re not ready for this. I’d have a line ready “I’ve clearly left you with a lot to think about, once it has sunk in, do catch me later for a chat”
 
 Although, repeating the above, you don’t have to take questions, and if you’re new to presenting, I’d recommend avoiding putting yourself on the spot like that. At least not the first time around.
 
