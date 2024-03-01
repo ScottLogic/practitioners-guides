@@ -8,8 +8,8 @@ summary: How can you be sure you have picked the correct technologies? In todayâ
 date: 02-02-2024
 comingSoon: true
 
-author: Colin Eberhardt
-role: Chief Technology Officer
-bio: TODO please write a bio now
-profile: technical-presentations/profile.webp
+author: David Hope
+role: Principal Architect
+bio:
+profile:
 ---
