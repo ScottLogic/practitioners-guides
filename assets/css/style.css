@@ -224,7 +224,18 @@ hr {
 }
 
 .page-content a,
-#bio a,
+#bio a {
+    padding: 0.25rem 0.125rem;
+    color: var(--teal);
+}
+
+.page-content a:hover,
+#bio a:hover {
+    color: var(--white);
+    background-color: var(--teal);
+    text-decoration: none;
+}
+
 a.block-highlight-turquoise {
     color: var(--black);
     border-bottom: 0.1875rem solid var(--teal);
@@ -232,8 +243,6 @@ a.block-highlight-turquoise {
     padding: 0.125rem;
 }
 
-.page-content a:hover,
-#bio a:hover,
 a.block-highlight-turquoise:hover {
     color: var(--white);
     background-color: var(--teal);
