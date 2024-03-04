@@ -1,8 +1,8 @@
 ---
 layout: post
 
-title: "Mentoring and self evaluation as a mentor"
-description: TODO please write a description now
+title: Mentoring
+description: Guidelines for being a great mentor
 summary: TODO please write a summary now
 
 date: 03-02-2024
