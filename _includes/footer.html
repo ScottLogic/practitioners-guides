@@ -1,7 +1,29 @@
-<div id="footer">
-    <p>
-        </br>
-        Notice something isn't right or needs improving? Make a contribution to the
-        <a href="{{ site.GitHub_url }}/blob/main/{{ page.path }}">GitHub Repository</a>
-    </p>
+<div id="footer" class="pt-2 pb-1">
+    <div>
+        <p class="ml-3 mr-3">
+            Notice something isn't right or needs improving? Make a contribution to the
+            <a href="{{ site.GitHub_url }}/blob/main/{{ page.path }}">GitHub Repository</a>
+        </p>
+    </div>
+    <div class="mt-2 mb-2 footer-row">
+        <a href="{{ site.sl_url }}/">
+            <img  src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Logo" id="footer-logo" style="height: 30px; width: auto;">
+        </a>
+        <a href="{{ site.sl_url }}/contact-us" style="color: #2bb3bb;">Contact Us</a>
+        <a title="LinkedIn" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/scott-logic-limited/">
+            <img  src="{{ '/assets/images/linkedin.svg' | relative_url }}" alt="LinkedIn Logo" id="linkedin-logo">
+        </a>
+        <a title="YouTube" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/scottlogicltd">
+            <img  src="{{ '/assets/images/youtube.svg' | relative_url }}" alt="YouTube Logo" id="youtube-logo">
+        </a>
+        <a title="b corp certified" target="_blank" rel="noopener noreferrer" href="https://www.bcorporation.net/en-us/">
+            <img  src="{{ '/assets/images/2018-B-Corp-Logo-Black.svg' | relative_url }}" alt="B Corp Logo" id="b-corp-logo">
+        </a>
+    </div>
+    <div class="footer-row misc">
+        <p class="mb-0">© Copyright Scott Logic {{ site.time | date: '%Y' }}.</p>
+        <a href="{{ site.sl_url }}/privacy-policy">Privacy</a>
+        <a href="{{ site.sl_url }}/cookies-policy">Cookies policy</a>
+        <a href="{{ site.sl_url }}/modern-slavery-statement">Modern Slavery Statement</a>
+    </div>
 </div>

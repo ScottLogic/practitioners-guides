@@ -1,9 +1,16 @@
 ---
 layout: post
-title:  "Talking Confidently about Technology"
-date:   18-12-2023
+
+title: "Talking Confidently about Technology"
+description: A practical set of tips and tricks to help you build confidence and make your voice heard
+summary: If you’re nervous about communicating your ideas, either in a formal presentation setting, or more informally, in meetings and small group conversations, this brief guide is for you. It’s a simple collection of thoughts and ideas; practical steps that you can take to build confidence, or feel more secure.
+
+date: 18-12-2023
+
 author: Colin Eberhardt
-description: A practical set of tips and tricks to help you build confidence and make your voice heard.
+role: Chief Technology Officer
+bio: Colin is the CTO at Scott Logic, a UK-based software consultancy where they create complex application for their financial services clients. He's an avid technology enthusiast, spending his evenings contributing to open source projects, writing blog posts and learning as much as he can. 
+profile: technical-presentations/profile.webp
 ---
 
 
@@ -123,7 +130,7 @@ This is an extension of the “beginning, middle, end” structure, for someone 
 
 
 * **Tell the audience why you are going to tell them something, ahead of telling them the thing** - ok, that’s a bit of a mouthful. It’s easy for someone to get lost if they are not quite sure why you are telling them something. If it’s not entirely clear or obvious, simply tell them! … “This is a bit of background that I think is important to your understanding”
-* **Segues **- no, not the self-balancing two-wheeled devices that were supposed to revolutionise travel. A segue in a talk is a clear transition from one topic to another. 
+* **Segues** - no, not the self-balancing two-wheeled devices that were supposed to revolutionise travel. A segue in a talk is a clear transition from one topic to another. 
 * **Visible signposts** - sometimes it can help to add visible signposts on your slides, similar to the breadcrumb trails you find on websites.
 * **Be clear about why a story matters** - your talk will likely include examples, stories, or background information that you have included for a specific reason. However, sometimes this reason isn’t obvious to the audience, and it is worth spelling out, “I’m going to tell you a little story because it illustrates my point …”
 

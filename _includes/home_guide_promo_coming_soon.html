@@ -1,0 +1,35 @@
+<div class="guide-promo-wrapper">
+    <h2 class="mt-0 mb-0 pt-0 pb-0">Coming soon...</h2>
+    <div class="guide-promo">
+        {% for item in site.pages %}
+            {% if item.comingSoon == true and item.secret != true %}
+                <div class="guide-promo-column coming-soon">
+                    <div>
+                        <div class="guide-promo-top coming-soon bg-light-orange">
+                            <div>
+                                <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Logo">
+                                <p class="title">{{ item.title }}</p>
+                            </div>
+                            <div>
+                                <img alt="arrow forward" src="{{ '/assets/images/arrow-pink.svg' | relative_url }}" />
+                                <img alt="arrow forward" src="{{ '/assets/images/arrow-pink.svg' | relative_url }}" />
+                            </div>
+                            <img class="stripe-top-right" alt="pink stripes" src="{{ '/assets/images/stripe-orange-trimmed.svg' | relative_url }}" />
+                            <img class="stripe-bottom-left" alt="teal stripes" src="{{ '/assets/images/stripe-teal.svg' | relative_url }}" />
+                        </div>
+                        <div class="guide-promo-bottom">
+                            <div>
+                                <strong>{{ item.description }}</strong>
+                                <p class="summary">{{item.summary}}</p>
+                                <div class="guide-promo-profile">
+                                    {% include profile.html profile=item.profile author=item.author  %}
+                                    <p class="bold">{{ item.author }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

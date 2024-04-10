@@ -1,9 +1,16 @@
 ---
 layout: post
-title:  "Remote Workshop Readiness"
-date:   14-09-2023
+
+title: "Remote Workshop Readiness"
+description: Things to consider before diving into your workshop to make sure it's as successful as can be
+summary: Effective workshops are a great tool in software engineering to surface requirements, issues and ideas early. We understand the challenges that doing this in a hybrid or remote setting can bring. This guide maps out planning and practical considerations before, during and after your workshops, to drive the most engagement that you can.
+
+date: 14-09-2023
+
 author: Atika Bennamane
-description: Things to consider before diving into your workshop to make sure it's as successful as can be.
+role: Design Principal
+bio: Design is people and people are my passion. Whether that's the end user, a key stakeholder or the most junior designer on your team, everyone matters, brings value and has an equally important role to play in building and shaping the product. I can help organisations embrace a user centered design approach to building usable and successful products.
+profile: remote-working-readiness/profile.webp
 ---
 
 ## Introduction

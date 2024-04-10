@@ -1,18 +1,85 @@
 ---
 layout: default
 ---
-<html>
-    <div id="page-content">
-        <h1 id="page-title">{{ page.title }}</h1>
-        <h6 id="page-author">by {{ page.author }} - {{ page.date | date_to_string }}</h6>
-        <p id="page-description">{{page.description}}</p>
-        <p id="about-this-series">
-            {{ site.about }}
-            <br/>
-            <br/>
-            This guide is made available under the permissive Creative Commons <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 license</a>
-        </p>
-        {{ content }}
+
+<div id="guide-root">
+    <div id="minibar">
+        <input id="show-sidebar" name="show-sidebar" type="checkbox" />
+        <label for="show-sidebar" id="show-sidebar-icon"></label>
+        <span id="current-section"></span>
     </div>
-    {% include footer.html %}
-</html>
+    <div id="guide-wrapper">
+        <div id="sidebar" class="bg-turquoise-light">
+            <div id="sidebar-logo-container">
+                <a href="{{ site.sl_url }}/"><img  src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Logo" id="sidebar-logo"></a>
+            </div>
+            <ul>
+                <li class="{% if page.url == '/' %}active{% endif %}">
+                    <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+                </li>
+                <div id="sidebar-nav-items">
+                    {% for post in site.pages %}
+                        {% if post.comingSoon != true and post.secret != true %}
+                            {% if post.title %}
+                                {% if post.url == page.url %} 
+                                <li class="nav-item-page-title active"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+                                {% else %}
+                                <li class="nav-item-page-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+                                {% endif %}
+                                {% if site.toc.enabled %}
+                                    {% if post.url == page.url %}   
+                                        {% include toc.html html=content h_min=site.toc.h_min h_max=site.toc.h_max item_class='active' %}
+                                    {% endif %}
+                                {% endif %}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                <li><a href="{{ site.GitHub_url }}">Visit our GitHub repository</a></li>
+            </ul>
+        </div> 
+        <div id="guide-content">
+            {% include guide_banner.html colour=page.banner %}
+            <div class="container-regular">
+                <span>&lt; <a class="back" title="Return to guides home page" href="{{ site.baseurl }}/">back</a></span>
+            </div>
+            <div id="guide-content-columns">
+                <div>
+                    <div class="container-regular page-content">
+                        <p id="page-description">{{page.description}}</p>
+                        <p class="right-align">{{ page.date | date_to_string }}</p>
+                        <p id="about-this-series">
+                            {{ site.about }}
+                            <br/>
+                            <br/>
+                            This guide is made available under the permissive Creative Commons <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 license</a>
+                        </p>
+                        {{ content }}
+                    </div>
+                    <div class="container-wide">
+                        {% include footer.html %}
+                    </div>
+                </div>
+                <div id="right-column">
+                    <div id="guide-profile">
+                        <div>
+                            {% include profile.html profile=page.profile author=page.author  %}
+                        </div>
+                        <div id="guide-profile-about">
+                            <p class="pt-0 mb-0 pb-0">by {{ page.author }}</p>
+                            <p class="mt-0 pt-0 mb-0 pb-0 bold underline-turquoise">{{ page.role }}</p>
+                        </div>
+                    </div>
+                    {% if page.bio %}
+                        <div id="bio">
+                            {{ page.bio }}
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="{{ '/assets/js/sidebar.js' | relative_url }}">
+</script>
