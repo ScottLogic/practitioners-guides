@@ -14,7 +14,7 @@ bio: DotNet developer and Agile enthusiast with a passion for ecological sustain
 profile: retrospective-overview/profile.avif
 ---
 
-## Introduction
+# Introduction
 Retrospectives (sometimes referred to as "retros") are considered by some to be the most powerful meeting in Agile methodologies. They are the mechanism by which we learn from past iterations and improve future iterations. Most people are familiar with some variation of the format:
 - What went well last sprint?
 - What problems did we encounter last sprint?
@@ -102,7 +102,7 @@ A “Looking Back” retro can also be used as part of a wider review session, f
 >
 >However, you should be careful that you don’t start discussing the notes at this step. We only want to acknowledge “Do we all know what this means?” not “Do we agree with this?”. The temptation is to keep the conversation going but at this step we just want to cover everything raised fairly, equally and setting up a platform where the team can then vote on what they want to discuss.
 
-## Optimising Process Retrospectives
+# Optimising Process Retrospectives
 This part of the guide provides templates to run retrospectives aimed at optimising a teams process. 
 
 ## Keep, Stop, Start
@@ -193,3 +193,40 @@ You want to highlight the positives of our work and recognise that Lessons Learn
 
 ### What should I get out of it?
 The team should reflect on the positives of the sprint, Liked and Learned gives us more space to discuss the good. At the end we should have actions around the things we lacked and longed for.
+
+# Looking Back Retros
+Here we look at the "Looking Back" retrospectives, designed to consider a longer period of time than just the last sprint. 
+
+## Timeline
+As a group we’ll remember the key events that occurred over a period of time and how we’ve changed since then.
+
+### Why should I use it?
+Timeline retros are great when the team has been working together for a longer time and you want to review that period
+
+- **Good for**: reminding the team how far they’ve come, what challenges they’ve overcome and the magnitude of work that has been done
+- **Not so Good for**: newer teams, setting new goals for the future or improving the “current” work
+
+### Setup
+1. Draw a horizontal line all the way across the middle of the boardLabel
+2. Label the far left with a “Starting Event”
+3. Label the far right of the line with an “Ending Event”, most likely this meeting!
+4. Label some useful equidistant times across the board, for example if your timeline is for 6 months you should add small markers for the start of each month or if your timeline is a few sprints mark the boundaries between them. This will help us to position the events we raise in the right place
+
+![Illustration of the board showing two timelines, one illustrating hte start and end of a sprint and the other illustrating months of the year]({{ site.baseurl }}/media/retrospectives-playbook/Timeline.png)
+
+### Components
+- The Starting Event is the point in time you want us to think back to, this could be the start of a piece of work, a quarter or the last time we did a larger review 
+- The Ending Event is probably now, but may be another date, such as the end of the project or the date the product was deployed to the live environment.
+
+### Running the Retro
+1. Present the timeline to team, explaining and agreeing the time period you are discussing.
+2. Ask the team to add events, achievements, significant milestones to the board. Include things like “Product Phoenix delivered to production”
+3. Trace back the end dates of work to include start points e.g. “Project Phoenix first requirements session”. This can help to plot how much of the timeline we were working on individual items
+4. Allow the team to plot significant challenges or slowdown moments too. Consider individuals spending an amount of time on work or supporting an issue
+5. Encourage discussion as events pop up, expect those “Oh yes, I forgot we did that” moments. At the beginning it will seem hard to fill a blank timeline with everything that happened over a long period of time but it will get easier as the team generates reference points. This doesn’t have to be accurate, as long as events are roughly in the right order that’s good enough
+6. Once the full timeline is up on the board, run through it from left to right, highlighting throughlines and connections to later events. Acknowledge the portion of time we spent on bigger activities and how long it takes to complete full pieces of work. Try to find the biggest challenges and ask the question “if we were doing this piece of work again, what would we do differently? Could we have predicted this challenge, mitigated it, identified earlier?”
+
+### What should I get out of it?
+At the end of the session you should have an overall picture of what the last portion of time looked like for the team. This can lead into setting ambitions/directions on how we would tackle these challenges in the future but it isn’t the main purpose of this activity. Often use the timeline as a starting point in a wider review, with other activities focussed on the now and the future.
+
+
