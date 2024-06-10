@@ -229,6 +229,39 @@ Timeline retros are great when the team has been working together for a longer t
 ### What should I get out of it?
 At the end of the session you should have an overall picture of what the last portion of time looked like for the team. This can lead into setting ambitions/directions on how we would tackle these challenges in the future but it isn’t the main purpose of this activity. Often use the timeline as a starting point in a wider review, with other activities focussed on the now and the future.
 
+## Journey
+Similar to timeline, Journey is about plotting a particular project/iteration/length of time in a visual way. The main difference is we are focussing more on a specific project/goal instead of a period of time.
+
+### Why should I use it?
+Journey is useful for getting an overall picture of how the team worked on a specific activity. We show milestones, challenges and how close we have made it to the goal.
+
+- **Good for**: getting the whole team to understand the journey that our work took, reminding us about the twists and turns and challenges overcome.
+- **Not so Good for**: shorter goals or projects that haven’t been running long enough.
+
+### Setup
+1. Draw on the board a simple representation of a journey that starts on the left of the board and ends on the right; e.g. a winding road, a mountain to climb or an adventure map.
+2. Label the start of the journey with the kickoff of the project.
+3. Label the end of the journey as the overall goal of the project. Note that sometimes you don’t have to be right at the end of the journey of this work for this task to be useful.
+
+![Illustration of the board showing a timeline from the project kickoff to the overall goal. OBSTACLES, MILESTONES, WRONG DIRECTIONS AND BOOSTS are labelled on the timeline, reflecting the course of the project]({{ site.baseurl }}/media/retrospective-playbook/JourneyExample.png)
+
+### Components
+Over the course of the retro we’ll identify:
+- **MILESTONES**, specific achievements or events of note along the journey.
+- **OBSTACLES**, challenges that we had to overcome along the way.
+- **WRONG DIRECTIONS**, things we tried that ultimately didn’t help us achieve the journey.
+- **BOOSTS**, events that helped us complete our task, that push us further towards the goal.
+
+### Running the Retro
+1. Start by thinking about where we are now. Ask the team members “have we completed this goal?”. If not, can we plant a flag along the journey (hopefully near the end) that shows how close we are. Build up a consensus of how close the team thinks they are to the goal.
+2. Next, consider the biggest milestones along the way. These might be mini-objectives or completion of features that are ultimately needed for the whole project which were completed some time ago. Plot these as route markers (notes) along the image. Examples of such events could be team members leaving/joining the project or a specific milestone release.
+3. Now think about the challenges, hiccups and obstacles that slowed us down. Did these challenges come before the milestones? Did we make any wrong turns along the way? Consider adding bumps and obstacles to your journey to visually show this. Maybe the path forks where the team diverged on an opinion and that led to a different piece of work.
+4. Next, get the team to label the boosts, the positive influences on the project and the specific times when the team succeeded. Perhaps we found a solution to a difficult data problem or we got help from a different team that pushed us forwards. These events should be acknowledged and recongised as vital to the success of the project. By finding the smaller successes and victories we can understand how we made it to the goal in the end.
+5. Now, looking at the overall picture of the project, are there any lessons we can learn from this picture? Are there pitfalls we’d like to try to avoid in future work, can we recognise where we found solutions to problems on the project and use that to shape solutions in the future?
+
+### What should I get out of it?
+At the end of the retro you should have a good visual representation of the overall flow and journey of the target project or team goal. This can lead into further discussions about how we shape work and projects in the future.
+
 
 (other looking back retros)
 
@@ -243,14 +276,14 @@ This retrospective format is a variation of the "boat" format, and as such has v
 
 The anchor metaphor provides the main point of difference compared to the "boat" analogy, but is uniquely useful as it highlights firmer constraints which can help your team to formulate realistic and encouraging targets for the future. You may also discover that, on reflection, some of these anchors aren't quite as fixed as you once thought.
 
-- **Good For**: pre-empting potential challenges, goal-setting within the boundaries of firm constraints 
-- **Not so Good For**: highly technical projects (3 categories might be insufficient)
+- **Good For**: pre-empting potential challenges, goal-setting within the boundaries of firm constraints. 
+- **Not so Good For**: highly technical projects (3 categories might be insufficient).
 
 ### Setup
 1. Draw a kite flying in the sky, with a tether and an anchor, as shown below. 
 1. Label the upper section (next to the kite) as **WIND**, the middle section (next to the tether) as **TANGLES/TETHERS**, and the bottom section (next to the anchor or, more commonly, a person) as **ANCHORS**.
 
-![Illustration of the board showing page split into 5 sections by lines originating from the centre, labelled Start, More, Keep, Less and Stop]({{ site.baseurl }}/media/retrospective-playbook/KiteExample.png)
+![Illustration of the board showing a kite flying in the wind. The area next to the kite is labelled WIND, the area next to the tether is labelled TANGLES/TETHER, and the area next to the anchor is labelled ANCHORS]({{ site.baseurl }}/media/retrospective-playbook/KiteExample.png)
 
 ### Components
 - **WIND** is for things that your team believes will help push your project in the right direction. These items will elevate your project, contributing positively to your team's enjoyment and your project's progression.
