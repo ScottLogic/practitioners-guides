@@ -64,7 +64,7 @@ So, you’ve got a time, a place (online or physical), you know who’s coming t
 1. **Action Setting** - Reserve the last 10-15 minutes of the retro for setting actions and ensuring that everyone knows the next steps. See more about setting good actions below.
 
 
-![Illustration of the retrospectives funnel, showing the stages of a retro from gather data, to refine data, to voting to setting actions.]({{ site.baseurl }}/media/retrospectives-playbook/RetroFunnel.jpg)
+![Illustration of the retrospectives funnel, showing the stages of a retro from gather data, to refine data, to voting to setting actions.]({{ site.baseurl }}/media/retrospective-playbook/RetroFunnel.jpg)
 
 
 ### Retrospective Types
@@ -94,7 +94,7 @@ A “Looking Back” retro can also be used as part of a wider review session, f
 
 - What are our biggest challenges? You may choose "Circles and Soup"
 - What is our vision for the future of the team? You may choose the "Resolutions Retro"
-- How do we feel about the meetings we attend?i The "ESVP" retrospective may be applicable.
+- How do we feel about the meetings we attend? The "ESVP" retrospective may be applicable.
 
 ##### Top Tip
 >###### Walking the Board
@@ -130,7 +130,7 @@ The facilitator will:
 1. Start discussion on the group of notes with the most votes, potentially with who raised it. As the facilitator, try to hear sentiment from across the room and *gently direct to team to focus on what action we can take related to this note for the next sprint*.
 1. Continue with the next most voted notes until time runs out or the team reaches a set of actions they are happy with (no more than 5)
 
-![Illustration of the board showing three columns, labelled Keep, Stop and Start]({{ site.baseurl }}/media/retrospectives-playbook/KeepStopStartBoardExample.png)
+![Illustration of the board showing three columns, labelled Keep, Stop and Start]({{ site.baseurl }}/media/retrospective-playbook/KeepStopStartBoardExample.png)
 
 ### What should I get out of it?
 At the end of the Keep, Stop, Start retro you should have a set of actions ready to take into the next iteration. Not everything will have been fully discussed or resolved but the team should have some focus on what you will be able to change in next sprint.
@@ -147,7 +147,7 @@ If the team is getting too many notes for Keep, Stop, Start or if the team is pa
 - Split the board into 5 roughly equal segments 
 - Label the sections clockwise: Start, More, Keep, Less, Stop
 
-![Illustration of the board showing page split into 5 sections by lines originating from the centre, labelled Start, More, Keep, Less and Stop]({{ site.baseurl }}/media/retrospectives-playbook/StarBoardExample.png)
+![Illustration of the board showing page split into 5 sections by lines originating from the centre, labelled Start, More, Keep, Less and Stop]({{ site.baseurl }}/media/retrospective-playbook/StarBoardExample.png)
 
 ### Components
 - START is for new ideas! New suggestions of ways we can improve how we work and try new things
@@ -177,7 +177,7 @@ You want to highlight the positives of our work and recognise that Lessons Learn
 - Split the board into 4 equal segments
 - Label the segments left-to-right, top-to-bottom “Liked, Learned, Lacked, Longed For”
 
-![Illustration of the board showing four quarters, labelled Liked, Learned, Lacked and Longed For]({{ site.baseurl }}/media/retrospectives-playbook/4LsBoardExample.png)
+![Illustration of the board showing four quarters, labelled Liked, Learned, Lacked and Longed For]({{ site.baseurl }}/media/retrospective-playbook/4LsBoardExample.png)
 
 ### Components
 - **LIKED** is for the team to raise what they liked about the last iteration! Encourage them to focus on positive pieces of work, assistance from other team members and achievements
@@ -212,7 +212,7 @@ Timeline retros are great when the team has been working together for a longer t
 3. Label the far right of the line with an “Ending Event”, most likely this meeting!
 4. Label some useful equidistant times across the board, for example if your timeline is for 6 months you should add small markers for the start of each month or if your timeline is a few sprints mark the boundaries between them. This will help us to position the events we raise in the right place
 
-![Illustration of the board showing two timelines, one illustrating hte start and end of a sprint and the other illustrating months of the year]({{ site.baseurl }}/media/retrospectives-playbook/Timeline.png)
+![Illustration of the board showing two timelines, one illustrating hte start and end of a sprint and the other illustrating months of the year]({{ site.baseurl }}/media/retrospective-playbook/Timeline.png)
 
 ### Components
 - The Starting Event is the point in time you want us to think back to, this could be the start of a piece of work, a quarter or the last time we did a larger review 
@@ -230,3 +230,39 @@ Timeline retros are great when the team has been working together for a longer t
 At the end of the session you should have an overall picture of what the last portion of time looked like for the team. This can lead into setting ambitions/directions on how we would tackle these challenges in the future but it isn’t the main purpose of this activity. Often use the timeline as a starting point in a wider review, with other activities focussed on the now and the future.
 
 
+(other looking back retros)
+
+# Looking Forward Retros
+Here we look at the "Looking Forward" retrospectives, designed to consider longer term goals, aspirations and ambitions for the project and ways of working.
+
+## Kite Retrospective
+With this retrospective design, we'll consider the future of the project using the analogy of a kite flying in the wind.
+
+### Why should I use it?
+This retrospective format is a variation of the "boat" format, and as such has very similar use cases. Facilitating discussion around aspects that will make your kite (project) soar can give your team an idea of the positive areas to focus on, while the tether/tangles can help to identify potential challenges with your project which could hinder progress.
+
+The anchor metaphor provides the main point of difference compared to the "boat" analogy, but is uniquely useful as it highlights firmer constraints which can help your team to formulate realistic and encouraging targets for the future. You may also discover that, on reflection, some of these anchors aren't quite as fixed as you once thought.
+
+- **Good For**: pre-empting potential challenges, goal-setting within the boundaries of firm constraints 
+- **Not so Good For**: highly technical projects (3 categories might be insufficient)
+
+### Setup
+1. Draw a kite flying in the sky, with a tether and an anchor, as shown below. 
+1. Label the upper section (next to the kite) as **WIND**, the middle section (next to the tether) as **TANGLES/TETHERS**, and the bottom section (next to the anchor or, more commonly, a person) as **ANCHORS**.
+
+![Illustration of the board showing page split into 5 sections by lines originating from the centre, labelled Start, More, Keep, Less and Stop]({{ site.baseurl }}/media/retrospective-playbook/KiteExample.png)
+
+### Components
+- **WIND** is for things that your team believes will help push your project in the right direction. These items will elevate your project, contributing positively to your team's enjoyment and your project's progression.
+- **TANGLES/TETHERS** are the things that might keep your project from running smoothly. These could be potential bottlenecks, challenges stemming from your ways of working, etc. 
+- **ANCHORS** are the things that you can't change about your project. These could be framed as benefits (such as useful libraries for a coding framework you're committed to) or drawbacks (such as strict external regulations, limiting flexibility). It may be useful to represent the positive and negative anchor items with different coloured notes.
+
+### Running the Retro
+1. Invite your team to add notes to the 3 areas of the kite diagram. Try to keep this section to 10-15 minutes if running the retrospective for an hour.
+1. "Walk the Board", starting with the **ANCHORS**, then moving to **TANGLES/TETHERS**, and finally onto **WIND**. Read each note, ensuring all team members understand them. Don't discuss the notes in detail yet, and group any related tickets within each category to identify common themes.
+1. Allocate a number of votes (typically 3-5) to each team member, and encourage them to vote for notes that they find most important. Let your team members know that they can vote for their own tickets, vote for the same ticket multiple times, and see how others are voting.
+1. Start a discussion on the note(s) with the most votes. This is a good opportunity for the author of that note to elaborate, but make sure all team members are given the chance to contribute. Attempt to gauge the sentiment of the discussion, and guide the discussion towards potential actions/goals related to this note.
+2. Continue with the next most-voted notes until either your time runs out
+
+### What should I get out of it?
+The team should have awareness of the potential obstacles and opportunities within the project, as well as some potential limitations. The actions discussed with each note will give an idea of how to take mitigate or take advantage of these, respectively. The limitations discussed will provide greater context for goal setting.
