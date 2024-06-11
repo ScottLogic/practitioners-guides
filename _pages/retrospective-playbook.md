@@ -60,8 +60,8 @@ Retrospectives are a time for the team to come together and raise how they curre
 So, you’ve got a time, a place (online or physical), you know who’s coming to the retro and who is facilitating. Now, you need to plan out how the actual meeting will run. 
  A common format for running retrospective meetings is:-
 1. **Icebreaker** - An opening activity designed to get people talking and thinking about their feelings on the current work. Often a 5-10 minute activity up front. See our upcoming article about Icebreakers for inspiration.
-1. **Main Activity** - The actual format we are using. We will spend the majority of the time gathering notes from everybody in the retro according to our current format and discussing these items to identify themes and commonality.
-1. **Action Setting** - Reserve the last 10-15 minutes of the retro for setting actions and ensuring that everyone knows the next steps. See more about setting good actions below.
+2. **Main Activity** - The actual format we are using. We will spend the majority of the time gathering notes from everybody in the retro according to our current format and discussing these items to identify themes and commonality.
+3. **Action Setting** - Reserve the last 10-15 minutes of the retro for setting actions and ensuring that everyone knows the next steps. See more about setting good actions below.
 
 
 ![Illustration of the retrospectives funnel, showing the stages of a retro from gather data, to refine data, to voting to setting actions.]({{ site.baseurl }}/media/retrospective-playbook/RetroFunnel.jpg)
@@ -116,7 +116,7 @@ The old faithful. Identify what is working well for the team, what isn’t worki
 ### Setup
 The facilitator will:
 1. Draw 3 columns on the board
-1. Label the columns “Keep”, “Stop” and “Start”
+2. Label the columns “Keep”, “Stop” and “Start”
 
 ### Components
 - **KEEP** is for the things that went well in the iteration, good moments, practices that worked well and things we tried last sprint that were good
@@ -125,10 +125,10 @@ The facilitator will:
 
 ### Running the Retro 
 1. Everyone adds notes to all columns. Time-box this to around 10-15 minutes in an hour retro or shorter for less time. Optionally, open the digital board early or getting the team to bring pre-written sticky notes to save time during the retro.
-1. “Walk the Board”, starting with Keep, then Stop, then Start. Read the notes in each column in order, clarifying anything that the team doesn’t understand. Don't discuss any notes in depth and try to gather related notes together and identify themes.
-1. Give all the participants a number of votes, usually between 3 & 5, and get everyone to vote on whichever notes they most want us to action. Allow participants to vote on their own items, use multiple votes on the same item and see how others are voting. 
-1. Start discussion on the group of notes with the most votes, potentially with who raised it. As the facilitator, try to hear sentiment from across the room and *gently direct to team to focus on what action we can take related to this note for the next sprint*.
-1. Continue with the next most voted notes until time runs out or the team reaches a set of actions they are happy with (no more than 5)
+2. “Walk the Board”, starting with Keep, then Stop, then Start. Read the notes in each column in order, clarifying anything that the team doesn’t understand. Don't discuss any notes in depth and try to gather related notes together and identify themes.
+3. Give all the participants a number of votes, usually between 3 & 5, and get everyone to vote on whichever notes they most want us to action. Allow participants to vote on their own items, use multiple votes on the same item and see how others are voting. 
+4. Start discussion on the group of notes with the most votes, potentially with who raised it. As the facilitator, try to hear sentiment from across the room and *gently direct to team to focus on what action we can take related to this note for the next sprint*.
+5. Continue with the next most voted notes until time runs out or the team reaches a set of actions they are happy with (no more than 5)
 
 ![Illustration of the board showing three columns, labelled Keep, Stop and Start]({{ site.baseurl }}/media/retrospective-playbook/KeepStopStartBoardExample.png)
 
@@ -158,9 +158,9 @@ If the team is getting too many notes for Keep, Stop, Start or if the team is pa
 
 ### Running the Retro
 1. Encourage the team to add notes to all sections. Consider challenging everyone to have at least 3 notes on the board in different columns.
-1. “Walk the board”, starting with START and going clockwise. 
-1. Identify themes across notes and move them around the star to group them up - you can add a prefix of where it came from or reword the note to keep it making sense.
-1. Vote and work through the groups in vote order. Consider focusing on the “MORE” items as simple actions that we can commit to, since we likely will have already started this action.
+2. “Walk the board”, starting with START and going clockwise. 
+3. Identify themes across notes and move them around the star to group them up - you can add a prefix of where it came from or reword the note to keep it making sense.
+4. Vote and work through the groups in vote order. Consider focusing on the “MORE” items as simple actions that we can commit to, since we likely will have already started this action.
 
 ### What should I get out of it?
 At the end of our star-shaped retro we should have a broad array of feedback and some simple things to do more of or start doing and actions to improve the things we want to do less of or stop.
@@ -187,9 +187,9 @@ You want to highlight the positives of our work and recognise that Lessons Learn
 
 ### Running the Retro
 1. Give the team some time to add notes to all sections, encouraging that everyone adds at least one note to the Learned section.
-1. Start with the Learned section and run through everything in here. Consider if this learning can be extended out to the wider team.
-1. “Walk the board” through the rest of the sections, starting with Liked and focusing on achievement and positives. Clarify and group the notes within Lacked and Longed For
-1. Using the Lacked and Longed For sections, identify areas we can set actions on. Discuss these one at a time using voting to highlight what the team most wants to improve
+2. Start with the Learned section and run through everything in here. Consider if this learning can be extended out to the wider team.
+3. “Walk the board” through the rest of the sections, starting with Liked and focusing on achievement and positives. Clarify and group the notes within Lacked and Longed For
+4. Using the Lacked and Longed For sections, identify areas we can set actions on. Discuss these one at a time using voting to highlight what the team most wants to improve
 
 ### What should I get out of it?
 The team should reflect on the positives of the sprint, Liked and Learned gives us more space to discuss the good. At the end we should have actions around the things we lacked and longed for.
@@ -316,7 +316,7 @@ The anchor metaphor provides the main point of difference compared to the "boat"
 
 ### Setup
 1. Draw a kite flying in the sky, with a tether and an anchor, as shown below. 
-1. Label the upper section (next to the kite) as **WIND**, the middle section (next to the tether) as **TANGLES/TETHERS**, and the bottom section (next to the anchor or, more commonly, a person) as **ANCHORS**.
+2. Label the upper section (next to the kite) as **WIND**, the middle section (next to the tether) as **TANGLES/TETHERS**, and the bottom section (next to the anchor or, more commonly, a person) as **ANCHORS**.
 
 ![Illustration of the board showing a kite flying in the wind. The area next to the kite is labelled WIND, the area next to the tether is labelled TANGLES/TETHER, and the area next to the anchor is labelled ANCHORS]({{ site.baseurl }}/media/retrospective-playbook/KiteExample.png)
 
@@ -327,10 +327,10 @@ The anchor metaphor provides the main point of difference compared to the "boat"
 
 ### Running the Retro
 1. Invite your team to add notes to the 3 areas of the kite diagram. Try to keep this section to 10-15 minutes if running the retrospective for an hour.
-1. "Walk the Board", starting with the **ANCHORS**, then moving to **TANGLES/TETHERS**, and finally onto **WIND**. Read each note, ensuring all team members understand them. Don't discuss the notes in detail yet, and group any related tickets within each category to identify common themes.
-1. Allocate a number of votes (typically 3-5) to each team member, and encourage them to vote for notes that they find most important. Let your team members know that they can vote for their own tickets, vote for the same ticket multiple times, and see how others are voting.
-1. Start a discussion on the note(s) with the most votes. This is a good opportunity for the author of that note to elaborate, but make sure all team members are given the chance to contribute. Attempt to gauge the sentiment of the discussion, and guide the discussion towards potential actions/goals related to this note.
-2. Continue with the next most-voted notes until either your time runs out
+2. "Walk the Board", starting with the **ANCHORS**, then moving to **TANGLES/TETHERS**, and finally onto **WIND**. Read each note, ensuring all team members understand them. Don't discuss the notes in detail yet, and group any related tickets within each category to identify common themes.
+3. Allocate a number of votes (typically 3-5) to each team member, and encourage them to vote for notes that they find most important. Let your team members know that they can vote for their own tickets, vote for the same ticket multiple times, and see how others are voting.
+4. Start a discussion on the note(s) with the most votes. This is a good opportunity for the author of that note to elaborate, but make sure all team members are given the chance to contribute. Attempt to gauge the sentiment of the discussion, and guide the discussion towards potential actions/goals related to this note.
+5. Continue with the next most-voted notes until either your time runs out
 
 ### What should I get out of it?
 The team should have awareness of the potential obstacles and opportunities within the project, as well as some potential limitations. The actions discussed with each note will give an idea of how to take mitigate or take advantage of these, respectively. The limitations discussed will provide greater context for goal setting.
