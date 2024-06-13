@@ -334,3 +334,39 @@ The anchor metaphor provides the main point of difference compared to the "boat"
 
 ### What should I get out of it?
 The team should have awareness of the potential obstacles and opportunities within the project, as well as some potential limitations. The actions discussed with each note will give an idea of how to take mitigate or take advantage of these, respectively. The limitations discussed will provide greater context for goal setting.
+
+
+*Focus Retros*
+
+## Circles and Soup Retrospective
+This retrospective helps teams to identify challenges stemming from factors within or outside their control. This can help team members feel empowered to tackle the causes they can directly control or influence, while also acknowledging that some challenges are simply dropped upon them.
+
+While teams can address the causes of some identified challenges, an exposure to causes which fall outside their direct control can help the team to plan for similar challenges and mitigate their effects. The scope of this retro doesn't have to be limited to one sprint; you could evaluate a much greater period of time, or organise one after your team has overcome a difficult or recurring challenge that is deserving of analysis.
+
+### Why should I use it?
+
+- **Good For**: focussing on specific challenges, empowering team to work on controllable challenges. 
+- **Not so Good For**: complex matters where line between control and influence, or influence and "soup" is poorly defined.
+
+### Setup
+1. Draw a 2 concentric circles on the board, centre: “In Our Control”, outer: “We Can Influence”, outside: “The Soup” . 
+
+![Illustration of the board showing two concentric circles; the innermost circle is labelled CONTROL, the outermost circle is labelled INFLUENCE, and outside of the circles is labelled SOUP]({{ site.baseurl }}/media/retrospective-playbook/CirclesAndSoupExample.png)
+
+### Components
+- **IN OUR CONTROL** is for things that your team or individual team members can control such as processes, team dynamics, and unnecessary team meetings.
+- **WE CAN INFLUENCE** is for things that your team or individual team members can influence (but not directly control). These challenges could be related to another team, such as a design team, or external dependencies such as untimely product changes or additional requirements.
+- **THE SOUP** is for things that your team or individual team members can't directly control or influence. These could be unexpected events such as emergency fixes, or urgent, direct requests from the CEO. While these may be outside your control, it's important to remember that ***your reactions to these events are within your control***, and having plan or process to deal with such events can mitigate their effects and avoid some frustration.
+
+### Running the Retro
+1. Allocate 10 minutes to allow all team members to write concise sticky notes identifying challenges they or the team have come across over the period of time being evaluated. Do not place any notes within any circles categories yet.
+2. Ask each member to place each of their notes on within the appropriate circle/area.
+3. Go through the notes on the board, ensuring all team members understand each note. 
+4. Give each team member a number of votes (typically 3-5), and allow the team a few minutes to vote for the challenges that they feel need addressing the most. Team members are free to vote on their own notes, and spend multiple votes on the same note.
+5. As facilitator, group tickets referring to the same challenges/themes.
+6. Discuss the items the team can control. Discuss actions that the team could take to address them. Asking questions like as "what could we do differently?" or "what's the root cause of this issue?" will help you and your team come up with potential actions to take from the session.
+7. Discuss the items the team can influence. Discuss potential solutions to these items, such as employing more meaningful and regular communication with external teams, or processes to deal with scope creep or shifting requirements/designs.
+8. Discuss the soup. Do you really have no influence over this challenge? Can we mitigate it or bring it into our sphere of influence? For these items, it's wise to discuss how your team can respond to them more effectively, and how much of the burden of these challenges actually resides in the reaction to them.
+
+### What should I get out of it?
+The team should have a better understanding of the challenges they've been facing. By the end, your team with have focussed actions to help them tackle the challenges they can control or influence, and an acknowledgement of factors which are simply beyond their control.
