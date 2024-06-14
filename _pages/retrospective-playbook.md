@@ -316,7 +316,7 @@ A simple and clear metaphor that everyone can understand to help break down what
 
 ### Setup
 
-The facilitor will:
+The facilitator will:
 
 1. Insert an image of a sailboat and either below or around it place images to represent the four components.
 2. Set up sticky notes below the four components that can be used to write the teams ideas on.
@@ -338,7 +338,7 @@ The facilitor will:
 3. "Walk the board" and read out what's on the sticky notes, going through one component at a time. This is a good time to start grouping the sticky notes by theme, this can be especially helpful if you're working in larger teams where you may not have time to go over every point.
 4. Ask the team to take 5 minutes to vote on three sticky notes they feel are most important to discuss.
 5. Spend the rest of the retro going over the tickets with the most votes and use it as a time to discuss what actions can be taken from them. Are there clear risks that you can avoid? Are there any anchors you can remove to help to project progress? You can always ask the person who wrote the note to elaborate and invoke a discussion.
-6. Make sure somebody makes note from these actionables so you have them as a reminder for future sprints.
+6. Make sure somebody makes note from these action so you have them as a reminder for future sprints.
 
 ![Illustration of the board showing sailboat board filled]({{ site.baseurl }}/media/retrospective-playbook/SailboatFilledExample.png)
 
@@ -413,3 +413,44 @@ While teams can address the causes of some identified challenges, an exposure to
 
 ### What should I get out of it?
 The team should have a better understanding of the challenges they've been facing. By the end, your team with have focussed actions to help them tackle the challenges they can control or influence, and an acknowledgement of factors which are simply beyond their control.
+
+## ESVP
+
+This method focuses not on what happened in the sprint but rather the teams mood and feelings towards the meetings involved.
+
+### Why should I use it?
+
+This is a way for a scrum master to understand their team's engagement within meetings.
+
+- **Good For**: when it's always the same people actively participating in meetings or when the general engagement is low. It is a good method for finding ways to improve it.
+- **Not so Good For**: teams where there is a lack of trust, members of the team may not be truthful with their answers.
+
+### Setup
+
+The facilitator will:
+
+1. Insert a grid with four sections, one for each component.
+2. Add labels or images to represent each component.
+3. Lay out enough sticky notes for the team to use, one per person.
+
+### Components
+
+- **Explorers** represent those who are really engaged in the project and enjoy learning as much as possible from the meetings. They are always looking to improve and grow within the team.
+- **Shoppers** represent those who are engaged but may learn from the meetings more passively. They generally only take away one thing from a meeting and may have a tendency to take away insights that benefit personal growth rather than the team as a whole.
+- **Vacationers** represent the members of the team that aren't particularly interested in the meetings but enjoy the break from their work.
+- **Prisoners** represent those who don't want to be there but feel as though they have to attend. They may feel like they have more important things to be getting on with.
+
+### Running the Retro
+
+1. Start by picking a meeting you want to discuss and explain to the team what you want to achieve. Why are you running this retrospective? Make it clear that you are not trying to catch people out or judge them but rather to improve future meetings.
+2. Run through the four components and what they represent.
+3. Let the team vote on which category best represents them. You can choose to make these votes anonymous if it helps the team be more honest about their feelings. www.metroretro.io is a good site that allows anonymity.
+4. Once everyone has voted, this should only take five minutes, analyse the results. If there are a lot of vacationers and prisoners open up a discussion. You may ask if anyone is willing to reveal why they put those options. If they want to remain anonymous you could ask the whole team to think of reasons as to why people may vote for those answers, even if they did not vote for it themselves.
+5. Start collating some actions. Ask the team what they feel may improve engagement in those meetings. What could you do to make it more interesting? Do meetings need to be shorter? Do you need to mix up who takes the lead on those meetings to help people get invested?
+6. If there are only one or two team members who chose vacationer/prisoner consider setting up a one to one meeting to see how you can support them going forwards.
+
+![Illustration of the board showing ESVP filled in]({{ site.baseurl }}/media/retrospective-playbook/EsvpExample.png)
+
+### What should I get out of it?
+
+A clear idea as to how the team feels about the meetings involved in the project. You should come out with ideas on how you can improve your meetings to keep the team engaged, happy and improve productivity in the long term.
