@@ -303,6 +303,49 @@ You will get a view from the whole team on how certain measures shifted over the
 # Looking Forward Retros
 Here we look at the "Looking Forward" retrospectives, designed to consider longer term goals, aspirations and ambitions for the project and ways of working.
 
+## Sailboat
+
+This method involves visualising the project as a sailboat, focusing on the things that will help to push that sailboat forwards as well as thinking about the things that could anchor it to a stop.
+
+### Why should I use it?
+
+A simple and clear metaphor that everyone can understand to help break down what they aim to achieve across the project.
+
+- **Good for**:  digging deeper into issues that are affecting the project and understanding what is helping it progress, allowing for long term continuous improvement.
+- **Not so Good For**: teams who prefer less abstract retros. It can be a less personal process, focusing more on technicalities than personal likes and dislikes
+
+### Setup
+
+The facilitor will:
+
+1. Insert an image of a sailboat and either below or around it place images to represent the four components.
+2. Set up sticky notes below the four components that can be used to write the teams ideas on.
+3. Set aside a section ready to write down improvements for future sprints.
+
+![Illustration of the board showing sailboat set up]({{ site.baseurl }}/media/retrospective-playbook/SailboatExample.png)
+
+### Components
+
+- **Rocks** represent the risks that can appear across a project. Like rocks hitting the bottom of a boat these can become larger issues in the future if ignored.
+- **Wind** represents the parts that help propel a project forward. These can be the things that give you the motivation to continue, the good things that help you reach your goals (the land).
+- **Anchors** represent all the things that could hold you back. What could stop the boat moving? It's the part to discuss bottlenecks and obstructions that will hinder your progress.
+- **Land** is the goal, the place you want your boat to sail to. These can be goals for the next sprint or long term goals for the project.
+
+### Running the Retro
+
+1. Start by agreeing on a time frame with the team to write down ideas, for an hour retro 10-15 minutes should be enough. Make sure to go through the four components so the team understands what they are expected to write about and discuss what you aim to achieve from the session.
+2. Set a timer and start with the goal, ask your team what they think the goal of the project is, what do they want to achieve? Allow the team to go through the rest of the components and fill in the sticky notes set out below the images.
+3. "Walk the board" and read out what's on the sticky notes, going through one component at a time. This is a good time to start grouping the sticky notes by theme, this can be especially helpful if you're working in larger teams where you may not have time to go over every point.
+4. Ask the team to take 5 minutes to vote on three sticky notes they feel are most important to discuss.
+5. Spend the rest of the retro going over the tickets with the most votes and use it as a time to discuss what actions can be taken from them. Are there clear risks that you can avoid? Are there any anchors you can remove to help to project progress? You can always ask the person who wrote the note to elaborate and invoke a discussion.
+6. Make sure somebody makes note from these actionables so you have them as a reminder for future sprints.
+
+![Illustration of the board showing sailboat board filled]({{ site.baseurl }}/media/retrospective-playbook/SailboatFilledExample.png)
+
+### What should I get out of it?
+
+A clear visual of what to expect going forwards in the project. The team should have some ideas over what will help the sailboat to reach the land and where the rocks may be to avoid obstacles in the future.
+
 ## Kite Retrospective
 With this retrospective design, we'll consider the future of the project using the analogy of a kite flying in the wind.
 
@@ -330,13 +373,13 @@ The anchor metaphor provides the main point of difference compared to the "boat"
 2. "Walk the Board", starting with the **ANCHORS**, then moving to **TANGLES/TETHERS**, and finally onto **WIND**. Read each note, ensuring all team members understand them. Don't discuss the notes in detail yet, and group any related tickets within each category to identify common themes.
 3. Allocate a number of votes (typically 3-5) to each team member, and encourage them to vote for notes that they find most important. Let your team members know that they can vote for their own tickets, vote for the same ticket multiple times, and see how others are voting.
 4. Start a discussion on the note(s) with the most votes. This is a good opportunity for the author of that note to elaborate, but make sure all team members are given the chance to contribute. Attempt to gauge the sentiment of the discussion, and guide the discussion towards potential actions/goals related to this note.
-5. Continue with the next most-voted notes until either your time runs out
+5. Continue with the next most-voted notes until either your time runs out, or you have a good number of actions to work on (typically 3-5).
 
 ### What should I get out of it?
 The team should have awareness of the potential obstacles and opportunities within the project, as well as some potential limitations. The actions discussed with each note will give an idea of how to take mitigate or take advantage of these, respectively. The limitations discussed will provide greater context for goal setting.
 
 
-*Focus Retros*
+# Focus Retrospectives
 
 ## Circles and Soup Retrospective
 This retrospective helps teams to identify challenges stemming from factors within or outside their control. This can help team members feel empowered to tackle the causes they can directly control or influence, while also acknowledging that some challenges are simply dropped upon them.
