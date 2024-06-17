@@ -23,7 +23,7 @@
                                 <p class="summary">{{ item.summary }}</p>
                                 <div class="guide-promo-profile">
                                     {% include profile.html profile=item.profile author=item.author  %}
-                                    <p class="bold">{{ item.author }}</p>
+                                    <p class="bold">{{ item.author }} {% if item.secondary_authors %}and others{% endif%}</p>
                                 </div>
                             </div>
                         </div>
