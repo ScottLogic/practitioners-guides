@@ -8,7 +8,7 @@ summary: A general overview of Agile Retrospective meetings and the different ap
 date: 01-02-2024
 comingSoon: true
 
-author: James Camilleri
+author: James Camilleri, Matthew Cline, Katie Lee and Will Marriott
 role: Lead Developer
 bio: DotNet developer and Agile enthusiast with a passion for ecological sustainability in technology.
 profile: retrospective-overview/profile.avif
