@@ -36,7 +36,7 @@ This guide contains a collection of alternative retrospective formats with detai
 Many of these formats will have been seen before but are presented in a way that you can dip in and out of them and use this as a reference guide. Whether you are a seasoned retrospective facilitator or running a retro with your team for the first time there should be something for you here.
 
 ### Principles of a Retro
-Retrospectives are a time for the team to come together and raise how they currently feel about the work and team and help identify improvements and changes we want to make to the process. They should be for the team to shape and have the opportunity to control. I have found the following principles to be good to bear in mind when setting up retrospectives with my teams.
+Retrospectives are a time for the team to come together and raise how they currently feel about the work and team and help identify improvements and changes we want to make to the process. They should be for the team to shape and have the opportunity to control. The following principles should be considered when setting up retrospectives with your teams.
 
 - **Regular & Scheduled**: Don’t get to the end of an iteration and go “well we should probably have a retro now” or be frantically trying to find a time in the calendar to discuss how we work. Get a regular slot in everyone’s calendars that everyone in the team can make.  
 - **Time-boxed**: Retros that run on for hour after hour can be a drag on everyone’s time and attention. Since we have the whole team in attendance we should be intentional with that time and use it appropriately. If a discussion about an issue is going on too long, consider setting up a specific follow-up session just to discuss that with the interested parties and move on to what affects the whole team.
@@ -59,7 +59,7 @@ Retrospectives are a time for the team to come together and raise how they curre
 ### Structure of a Retrospective
 So, you’ve got a time, a place (online or physical), you know who’s coming to the retro and who is facilitating. Now, you need to plan out how the actual meeting will run. 
  A common format for running retrospective meetings is:
-1. **Icebreaker** - An opening activity designed to get people talking and thinking about their feelings on the current work. Often a 5-10 minute activity up front. See our upcoming article about Icebreakers for inspiration.
+1. **Icebreaker** - An opening activity designed to get people talking and thinking about their feelings on the current work. Often a 5-10 minute activity up front. 
 2. **Main Activity** - The actual format we are using. We will spend the majority of the time gathering notes from everybody in the retro according to our current format and discussing these items to identify themes and commonality.
 3. **Action Setting** - Reserve the last 10-15 minutes of the retro for setting actions and ensuring that everyone knows the next steps. See more about setting good actions below.
 
@@ -212,7 +212,7 @@ Timeline retros are great when the team has been working together for a longer t
 3. Label the far right of the line with an ending event - most likely this meeting!
 4. Label some useful equidistant times across the board. For example, if your timeline is for 6 months you should add small markers for the start of each month, or if your timeline is a few sprints, mark the boundaries between them. This will help us to position the events we raise in the right place.
 
-![Illustration of the board showing two timelines, one illustrating hte start and end of a sprint and the other illustrating months of the year]({{ site.baseurl }}/media/retrospective-playbook/Timeline.png)
+![Illustration of the board showing two timelines, one illustrating the start and end of a sprint and the other illustrating months of the year]({{ site.baseurl }}/media/retrospective-playbook/Timeline.png)
 
 ### Components
 - The starting event is the point in time you want us to think back to, this could be the start of a piece of work, a quarter or the last time we did a larger review.
@@ -395,14 +395,14 @@ While teams can address the causes of some identified challenges, an exposure to
 1. Draw 2 concentric circles on the board.
 2. Label the innermost circle as “In Our Control”.
 3. Label the outermost circle as “We Can Influence”.
-4. label the area outside the circle as “The Soup”. 
+4. Label the area outside the circle as “The Soup”. 
 
 ![Illustration of the board showing two concentric circles; the innermost circle is labelled CONTROL, the outermost circle is labelled INFLUENCE, and outside of the circles is labelled SOUP]({{ site.baseurl }}/media/retrospective-playbook/CirclesAndSoupExample.png)
 
 ### Components
 - **IN OUR CONTROL** is for things that your team or individual team members can control such as processes, team dynamics, and unnecessary team meetings.
 - **WE CAN INFLUENCE** is for things that your team or individual team members can influence (but not directly control). These challenges could be related to another team, such as a design team, or external dependencies such as untimely product changes or additional requirements.
-- **THE SOUP** is for things that your team or individual team members can't directly control or influence. These could be unexpected events such as emergency fixes, or urgent, direct requests from the CEO. While these may be outside your control, it's important to remember that ***your reactions to these events are within your control***, and having plan or process to deal with such events can mitigate their effects and avoid some frustration.
+- **THE SOUP** is for things that your team or individual team members can't directly control or influence. These could be unexpected events such as emergency fixes, or urgent, direct requests from upper management. While these may be outside your control, it's important to remember that ***your reactions to these events are within your control***, and having plan or process to deal with such events can mitigate their effects and avoid some frustration.
 
 ### Running the Retro
 1. Allocate 10 minutes to allow all team members to write concise sticky notes identifying challenges they or the team have come across over the period of time being evaluated. Do not place any notes within any categories yet.
@@ -411,7 +411,7 @@ While teams can address the causes of some identified challenges, an exposure to
 4. Give each team member a number of votes (typically 3-5), and allow the team a few minutes to vote for the challenges they feel need addressing the most. Team members are free to vote on their own notes, and spend multiple votes on the same note.
 5. As facilitator, group tickets referring to the same challenges/themes.
 6. Discuss the items the team can control. Discuss actions that the team could take to address them. Asking questions such as "what could we do differently?" or "what's the root cause of this issue?" will help you and your team come up with potential actions to take from the session.
-7. Discuss the items the team can influence. Discuss potential solutions to these items, such as employing more meaningful and regular communication with external teams, or processes to deal with scope-creep or shifting requirements/designs.
+7. Discuss the items the team can influence. Discuss potential solutions to these items, such as employing more meaningful and regular communication with external teams, or processes to deal with scope-creep or shifting requirements/designs. Ask if there is a way to change this item from something that we can "influence" to something we can "control".
 8. Discuss the soup. Do you really have no influence over this challenge? Can we mitigate it or bring it into our circle of influence? For these items, it's wise to discuss how your team can respond to them more effectively, and how much of the burden of these challenges actually resides in the reaction to them.
 
 ### What should I get out of it?
