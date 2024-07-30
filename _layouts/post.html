@@ -61,21 +61,44 @@ layout: default
                     </div>
                 </div>
                 <div id="right-column">
-                    <div id="guide-profile">
-                        <div>
-                            {% include profile.html profile=page.profile author=page.author  %}
+                    <div class="author-section">
+                        <div id="guide-profile">
+                            <div>
+                                {% include profile.html profile=page.profile author=page.author  %}
+                            </div>
+                            <div id="guide-profile-about">
+                                <p class="pt-0 mb-0 pb-0">by {{ page.author }}</p>
+                                <p class="mt-0 pt-0 mb-0 pb-0 bold underline-turquoise">{{ page.role }}</p>
+                            </div>
                         </div>
-                        <div id="guide-profile-about">
-                            <p class="pt-0 mb-0 pb-0">by {{ page.author }}</p>
-                            <p class="mt-0 pt-0 mb-0 pb-0 bold underline-turquoise">{{ page.role }}</p>
-                        </div>
+                        {% if page.bio %}
+                            <div id="bio">
+                                <br>
+                                {{ page.bio }}
+                            </div>
+                        {% endif %}
                     </div>
-                    {% if page.bio %}
-                        <div id="bio">
-                            {{ page.bio }}
+                    {% for secondary_author in page.secondary_authors %}
+                    <div class="author-section">
+                        <div style="display: flex; gap: 1rem;">
+                            <div>
+                                {% include profile.html profile=secondary_author.profile author=secondary_author.author %}
+                            </div>
+                            <div style="flex-direction: column;">
+                                <p class="pt-0 mb-0 pb-0">by {{ secondary_author.author }}</p>
+                                <p class="mt-0 pt-0 mb-0 pb-0 bold underline-turquoise">{{ secondary_author.role }}</p>
+                            </div>
                         </div>
-                    {% endif %}
+                        {% if secondary_author.bio %}
+                        <div style="width: 235px;">
+                            <br>
+                            {{ secondary_author.bio }}
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
                 </div>
+
             </div>
         </div>
     </div>
