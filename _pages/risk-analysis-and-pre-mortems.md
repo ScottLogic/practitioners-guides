@@ -4,7 +4,7 @@ layout: post
 title: "Collaborative Risk Analysis & Pre-Mortems"
 description: An introduction to collaborative risk analysis techniques and tips on how to successfully apply them within your team
 summary: Does your team understand the biggest threat to your project? Every project involves risks, but finding practical ways for cross functional teams to contribute to risk management can be challenging. This guide introduces some different collaborative exercises and provides advice on how to help your team take ownership of the risks which could threaten your success.
-date: 20-09-2024
+date: 20-08-2024
 comingSoon: true
 author: Andrew January
 role: Lead Test Engineer
@@ -72,11 +72,11 @@ In the following sections we'll introduce some collaborative techniques inspired
 
 Hindsight is amazing. With hindsight every production incident, bug, oversight and misinterpretation of requirements is obvious and preventable. Post-mortems or Major Incident Reviews are also great. With Post-mortems/MIRs we aim to build an understanding of the domino effect of small yet interconnected failures which lead to an incident. If we’re lucky we might even find some root causes and perhaps identify some specific improvements to build confidence that it won’t happen again.
 
-Hindsight is also deeply flawed. Hindsight is actually little more than a convenient narrative based on poorly remembered facts. In Thinking, Fast and Slow, Daniel Kahneman describes the poor performance of our brains to remember past events accurately. He goes on to explain the impact hindsight bias has on decision making and how we evaluate decisions, we naturally tend to overly emphasises the outcomes of decisions rather than the process.
+Hindsight is also deeply flawed. Hindsight is actually little more than a convenient narrative based on poorly remembered facts. In Thinking, Fast and Slow, Daniel Kahneman describes the poor performance of our brains to remember past events accurately. He goes on to explain the impact hindsight bias has on decision making and how when we evaluate past decisions, we naturally tend to overly emphasise the outcomes of decisions rather than the process.
 
-What if we had something more objective than hindsight? What if would we reduce the impact of our cognitive biases? What if instead of trying to remember where we went wrong we could attempt to predict and pre-empt our failures?
+What if we had something more objective than hindsight? What if we could reduce the impact of our cognitive biases? What if instead of trying to remember where we went wrong we could attempt to predict and pre-empt our failures?
 
- A pre-mortem is a technique which attempts to counteract some of the common cognitive biases which can negatively impact decision making amongst teams. Gary Klein is often credited with popularising the Pre-Mortem, whilst Kahneman has explored both the underlying cognitive science and the potential benefits. In particular Kahneman highlights two key benefits the technique can bring to teams when they are in a planning or decision making mode.
+A pre-mortem is a technique which attempts to counteract some of the common cognitive biases which can negatively impact decision making amongst teams. Gary Klein is often credited with popularising the Pre-Mortem, whilst Kahneman has explored both the underlying cognitive science and the potential benefits. In particular Kahneman highlights two key benefits the technique can bring to teams when they are in a planning or decision making mode.
 
 ### Unleashing imagination
 
@@ -128,8 +128,7 @@ Can you find ways to strengthen it against these newly identified risks?
 
 A tried and tested classic, this is a low effort format which could be applied to any context and expanded upon to suit your team's need. However, there are some potential weakness of this format to watch out for.
 
-It could be assumed by the attendees that the pre-mortem is just another part of a traditional risk management approach and therefore largely a project manager's responsibility to conduct the exercise and own the outcomes. Gary Klein himself frames it this way [in his Harvard Business Review article](https://hbr.org/2007/09/performing-a-project-premortem), where he suggests that a project manager reviews the list of failure reasons after the meeting, presumably individually without input from the team. Klien also suggests that the first person to share their ideas should be the project manager!
-
+It could be assumed by the attendees that the pre-mortem is just another part of a traditional risk management approach and therefore largely a project manager's responsibility to conduct the exercise and own the outcomes. Gary Klein himself frames it this way [in his Harvard Business Review article](https://hbr.org/2007/09/performing-a-project-premortem), where he suggests that a project manager reviews the list of failure reasons after the meeting, presumably individually without input from the team. Klein also suggests that the first person to share their ideas should be the project manager!
 
 Can you spot the potential problems here? We're defaulting back to risk being perceived as something for project manager roles to own and there's not much encouragement of shared responsibility.
 
@@ -147,7 +146,7 @@ One of the outcomes of this session will be a collection of exploratory testing 
 
 If software testing isn't your area of expertise, seek out colleagues who are currently working in testing roles or have previous experience in these roles. Ideally you'll want to have at least 1 testing professional attending the session. Their perspective will be valuable in this format and they might be required to take a lead on supporting the group as they draft exploratory testing charters during the final stage.
 
-You might want to create some a template or example exploratory testing charters in a tool of your choice (e.g. Jira, GitHub markdown or a Word document)
+You might want to create a template or some example exploratory testing charters in a tool of your choice (e.g. Jira, GitHub markdown or a Word document)
 
 If you're conducting an in-person session you'll need:
 - Post it notes
@@ -155,15 +154,16 @@ If you're conducting an in-person session you'll need:
 - A whiteboard or large piece of paper to gather the post it notes on and to act as a focus point 
 - Optionally a screen to share content
 
-If you're conducting a remote or hybrid session prepare a digital board using a tool of your choice (e.g. Trello or Miro) before organising the meeting. You can find more detailed guidance on how to prepare in our [Remote Workshop Readiness guide](https://scottlogic.github.io/practitioners-guides/pages/remote-working-readiness/).
+If you're conducting a remote or hybrid session prepare a digital board using a tool of your choice (e.g. Trello or Miro) before organising the meeting. You can find more detailed guidance on how to prepare for a remote or hybrid session in our [Remote Workshop Readiness guide](https://scottlogic.github.io/practitioners-guides/pages/remote-working-readiness/).
 
 #### 1. Set The Scene
 
 Similar to the classic pre-mortem, you'll need to frame people's thinking and encourage them to be imaginative. Start by sharing some real world examples of news reports of well known software failures to frame peoples thinking and provide some inspiration. Even better if you can find a story specific to your project domain.
 
-You might even have stories of your own to share. Where you a customer who was impacted by a high profile production incident? Did your previous employer make the front page of a major news website for all the wrong reasons? For some inspiration, checkout Gojko Adzic's _Humans Vs Computers_ which is a well referenced [collection of stories of famous bugs](https://gojko.net/books/humans-vs-computers/) and system failures. They range from the hilarious and slightly annoying to the terrifying and deadly. 
+You might even have stories of your own to share. Were you a customer who was impacted by a high profile production incident? Did your previous employer make the front page of a major news website for all the wrong reasons? For some inspiration, checkout Gojko Adzic's _Humans Vs Computers_ which is a well referenced [collection of stories of famous bugs](https://gojko.net/books/humans-vs-computers/) and system failures. They range from the hilarious and slightly annoying to the terrifying and deadly. 
 
-There's a balance here between sparking the team's imagination and accidentally constraining their thought process or biasing them into reproducing previous stories. More experienced teams might not need much in the way of prompting. Adjust this to the context of your team.
+> ##### Top Tip
+> There's a balance required here between sparking the team's imagination and accidentally constraining their thought process or biasing them into reproducing previous stories. More experienced teams might not need much in the way of prompting. Adjust this to the context of your team.
 
 #### 2. Draft Headlines
 
@@ -211,8 +211,6 @@ This is the interesting part where the value emerges! In contrast to the classic
 Organise the team into several pairs or small groups. Allocate each group a contributing cause or have them chose one which interests them.
 
 Task each group with defining exploratory testing charters which might help expose the contributing cause. This is a great opportunity for the testing experts in the group to take the lead on guiding people who might be unfamiliar with the concepts of exploratory testing using charters.
-
-
 
 >##### Top Tip
 > Make sure you record the charters using a tool and format which is easily accessible to the whole team. Hendrickson recommends using a simple template and avoiding making charters overly prescriptive. The example format below is similar to the classic 'As a user..' format of agile user stories and should work as a good starting point. It captures the 3 important aspects of a charter, the target to explore, the resources needed and the information you intend to find.
@@ -275,7 +273,11 @@ The suggested default limit of 6 quality attributes is really here to encourage 
 
 Once the team have agreed upon a set of priority quality attributes the storming phase can begin. If you already have experience with the Pre-Mortem and Nightmare Headline Game formats, this phase will be familiar. This phase is all about the team generating ideas, identifying potential risks and sharing perspectives. The quality attributes should help to frame the teams thinking and drive discussions around the risks relevant to a product or project.
 
-As the team suggest risks be aware of emerging signals and themes. Are there a large number of risks clustered around a particular quality attribute or product feature? Are duplicate or very similar risks being suggested? Are there quality attributes which are suspiciously quiet and which the team are now questioning the relevance of?
+As the team suggest risks be aware of emerging signals and themes.
+
+- Are there a large number of risks clustered around a particular quality attribute or product feature? 
+- Are duplicate or very similar risks being suggested? 
+- Are there quality attributes which are suspiciously quiet and which the team are now questioning the relevance of?
 
 ![riskstorming2]({{ site.baseurl }}/media/risk-analysis-and-pre-mortems/riskstorming2.jpg)
 
@@ -283,13 +285,13 @@ As the team suggest risks be aware of emerging signals and themes. Are there a l
 
 Teams sometimes struggle with the third phase of the exercise where heuristics, testing techniques and patterns are selected to mitigate the identified risks. Whilst the TestSphere card deck does a great job at presenting these testing concepts in a nice format with good examples, it might become distracting for some team members who are unfamiliar with software testing terminologies. 
 
-There might be a temptation at this point to cut this phase short and wrap up the session or to take this work away as a follow up action outside of the collaborative space. Be mindful of this and think back to the final phase of the classic pre-mortem format where Klien suggested a project manager dealt with the outcomes isolation. What will you be missing if this risk planning work excludes the team?
+There might be a temptation at this point to cut this phase short and wrap up the session or to take this work away as a follow up action outside of the collaborative space. Be mindful of this and think back to the final phase of the classic pre-mortem format where Klein suggested a project manager dealt with the outcomes in isolation. What will you be missing if this risk planning work excludes the team?
 
 #### After the Storm
 
 The official Risk Storming guide suggests documenting the outcomes of the session using a mind-map or formalising it into a high level test plan. As with the Nightmare Headline format, be prepared for additional actions for the team to own and for the reactions of your stakeholders.
 
-Beware of the temptation to turn the outcomes of your Risk Storming session into global 'one size fits all' testing approach which can be applied to every team and system in your organisation. Remember that the context of each team, its people, day-to-day work and goals are key to successful testing. 
+Beware of the temptation to turn the outcomes of your Risk Storming session into a global 'one size fits all' testing approach which can be applied to every team and system in your organisation. Remember that the context of each team, its people, day-to-day work and goals are key to successful testing. 
 
 
 ## Other Considerations
@@ -298,7 +300,7 @@ Beware of the temptation to turn the outcomes of your Risk Storming session into
 
 Atlassian provide a [Confluence template](https://www.atlassian.com/software/confluence/templates/premortem) for quickly starting a pre-mortem session. This seems to suggest splitting participants into 2 groups who take on opposing roles of optimists and pessimists.
 
-Whilst this seems like a novel and interesting approach to pre-mortems, you might want to exercise some caution with formats like this. Encouraging imagination and the sharing of new and diverse ideas are key to a successful pre-mortem. There are some potential risks with this format of reinforcing existing biases, organisational power imbalances and emphasising competitive behaviours over collaboration. Imagine a session where the 2 opposing teams are split based on seniority or job title? Would this be beneficial for the team and the project? Or would it lead to status quo bias and group think behaviours?
+Whilst this seems like a novel and interesting approach to pre-mortems, you might want to exercise some caution with formats like this. Encouraging imagination and the sharing of new and diverse ideas are key to a successful pre-mortem. There are some potential risks with this format of reinforcing existing biases, organisational power imbalances and emphasising competitive behaviours over collaboration. Imagine a session where the 2 opposing teams are split based on seniority or job title. Would this be beneficial for the team and the project? Or would it lead to status quo bias and groupthink behaviours?
 
 
 ## Common Guidelines
@@ -307,11 +309,11 @@ Regardless of which format you chose there are some common guidelines which can 
 
 ### Experiment and Demo
 
-Test out new pre-mortem formats with an example product or system before applying it to within your team. This gives you and your colleagues the opportunity to get comfortable with a format, deal with some of the potential logistical problems (e.g. tooling to support remote sessions) and understand where attendees might need support. If you feel you need some more detailed guidance on organising remote or hybrid workshops [checkout our guidance here!](https://scottlogic.github.io/practitioners-guides/pages/remote-working-readiness/)
+Test out new pre-mortem formats with an example product or system before applying for real. This gives you and your colleagues the opportunity to get comfortable with a format, deal with some of the potential logistical problems (e.g. tooling to support remote sessions) and understand where attendees might need support. If you feel you need some more detailed guidance on organising remote or hybrid workshops [checkout our guidance here!](https://scottlogic.github.io/practitioners-guides/pages/remote-working-readiness/)
 
 It can sometimes be useful to separate the format from the real world context of your organisation to allow people to focus on learning. Substituting a real project or system with something simpler is a good starting point. If you're stuck for ideas [the Ministry of Testing](https://www.ministryoftesting.com/testsphere/riskstorming) suggest performing a Risk Storming session on Iron Man's suit or the Death Star.
 
-There are good opportunities to have fun and boost engagement here. However, remember to be inclusive with your choice of example systems and domains. The idea is to enable the group to learn something new, in a safe environment and build their confidence for applying it in a real world situation. If some of your colleagues aren't familiar with _Star Wars_ or the Marvel Universe you might accidentally make it harder for them to contribute and learn if you theme your example session around these stories. 
+There are good opportunities to have fun and boost engagement here. However, remember to be inclusive with your choice of example systems and domains. The idea is to enable the group to learn something new, in a safe environment and build their confidence. If some of your colleagues aren't familiar with _Star Wars_ or the Marvel Universe you might accidentally make it harder for them to contribute and learn if you theme your example session around these stories. 
 
 Try to pick something which might be more likely to be familiar such as a mobile banking app, cash point machines or restaurant order systems. If you're in doubt about how appropriate a choice might be, consult your team first and get agreement before organising the session.
 
@@ -344,21 +346,24 @@ Hopefully your collaborative risk management/pre-mortem session was a success an
 
 Conducting a pre-mortem once doesn't mean all your risks are discovered, understood and soon to be mitigated. It should inform your next steps. Below are some suggestions of next steps you can take after your session. Each of these should be applicable to each of the formats introduced above.
 
+### Communicate, Investigate and Review
+
+- Document your newly identified risks and contributing causes using a format and tool which is accessible to all of your team and stakeholders.
+- Review and update your team processes and Ways of Working documents. Have your risk sessions highlighted gaps in the way your team currently operates?
 - The group might have gained some insight into the wider state of testing and quality in the organisation. Are there things you need to investigate further?
 - You might have exposed some misconceptions about the nature of testing and testing roles. Can you use the success of your session to amplify the relationships between testers and other roles?
-- Document your newly identified risks and contributing causes using a format and tool which is accessible to all of your team and stakeholders.
-- Gather feedback from your attendees, review it and use it to inform the next risk management session you organise.
-- Consolidate your learnings. Perhaps write a short summary of your experience and share it with others in your organisation.
-- Review and update your team processes and Ways of Working documents. Have your risk sessions highlighted gaps in the way your team currently operates?
-- Reflect on the format. Would a different format suit your team's current context or the culture of your organisation better?
-- Regularly revisit the risks you’ve identified. Highlighting relevant risks on specific tasks, agile user stories, epics, sprints, or releases might be valuable.
-- Use your collection of risks to inform your testing strategy and specific testing approaches to individual stories or epics.
+- Regularly revisit the risks you’ve identified and use them to inform testing approaches. Highlighting relevant risks on specific tasks, agile user stories, epics, sprints, or releases might be valuable.
 - Conduct some exploratory testing sessions and focus on high priority risks. You might discover new things about your existing systems.
 - Use your new perspective to question anything from your automated test coverage through to your delivery plans and product roadmaps.
-- Try to identify opportunities to collaborate and tackle problems as a team.
-- If you're creating exploratory testing charters based on the outcomes of a session, try not to make them overly specific. Leave some room for discovery.
-- Identify learning opportunities for the team. Did the team struggle with a particular testing terminology? Did you identify gaps in technical skills or domain knowledge?
-- Review pre-mortems against production incidents or bugs. Did they prepare you for actual dealing with real world risks? Were there significant gaps in the pre-mortems outcomes?
+- Review pre-mortems against production incidents or bugs. Did they prepare you for actually dealing with real world risks? Were there any significant gaps in the pre-mortems outcomes?
+
+### Feedback and Learnings
+
+- Gather feedback from your attendees, review it and use it to inform future risk analysis sessions. 
+    - Did the team struggle with a particular testing terminology? 
+    - Did you identify gaps in technical skills or domain knowledge?
+    - Would a different format suit your team's current context or the culture of your organisation better?
+- Consolidate your learnings. Perhaps write a short summary of your experience and share it with others in your organisation.
 
 ## Conclusions
 
