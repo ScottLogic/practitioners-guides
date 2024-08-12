@@ -5,8 +5,7 @@ title: "Retrospective Playbook"
 description: A playbook for Agile Retrospective meetings detailing the different approaches a team can take to improvement
 summary: A general overview of Agile Retrospective meetings and the different approaches a team can take to improvement, with a catalogue of templates that can be used for different kinds of retrospectives with different goals.
 
-date: 01-02-2024
-comingSoon: true
+date: 12-08-2024
 
 author: James Camilleri, Matthew Cline, Katie Lee and Will Marriott
 role: Lead Developer
