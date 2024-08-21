@@ -54,7 +54,7 @@ Identifying an arbitrary number of risks is unlikely to save a project from pote
 
 The way in which some traditional risk management approaches are applied might lead to a confusion between identifying and recording risks and actually trying to mitigate and monitor them. This could lead to the assumption that because a risk has been recorded in a risk register document it has been effectively mitigated. In reality, it might just have been safely stored away never to be discussed and reviewed again.
 
-Some organisations might have specific governance roles who are responsible for risk management and defining processes for delivery teams to follow. The visibility of this work and how effectively this role communicates is likely to impact a delivery teams ability to respond to risks. There's potential here for complacency, where teams assume that risk is someone else's responsibility or that if they follow an official governance framework and 'tick the box' they'll be fine.
+Some organisations might have specific governance roles who are responsible for risk management and defining processes for delivery teams to follow. The visibility of this work and how effectively this role communicates is likely to impact a delivery team's ability to respond to risks. There's potential here for complacency, where teams assume that risk is someone else's responsibility or that if they follow an official governance framework and 'tick the box' they'll be fine.
 
 
 ### Organisational Context & Culture
@@ -86,7 +86,7 @@ Pre-mortems encourage us to think about situations that haven't yet occurred and
 
 ### Countering groupthink
 
-It can be easy for groups to fall into the trap of prioritising conformity over critical thinking. Kahneman explains that as a group approaches a decision the phenomenon of groupthink begins to impact their behaviour. The group's confidence tends to increase and any doubts or alternative opinions tend to be gradually suppressed. Opposers of a decision might tend to be perceived as obstructive to progress, lacking in commitment to the group or simply not understanding the groups goals. Pre-mortems attempt to prevent uncritical optimism from becoming the default of a group by exploring different perspectives and using these to inform better quality decisions.
+It can be easy for groups to fall into the trap of prioritising conformity over critical thinking. Kahneman explains that as a group approaches a decision the phenomenon of groupthink begins to impact their behaviour. The group's confidence tends to increase and any doubts or alternative opinions tend to be gradually suppressed. Opposers of a decision might tend to be perceived as obstructive to progress, lacking in commitment to the group or simply not understanding the group's goals. Pre-mortems attempt to prevent uncritical optimism from becoming the default of a group by exploring different perspectives and using these to inform better quality decisions.
 
 ## Experimenting with Collaborative Formats
 
@@ -146,7 +146,7 @@ One of the outcomes of this session will be a collection of exploratory testing 
 
 If software testing isn't your area of expertise, seek out colleagues who are currently working in testing roles or have previous experience in these roles. Ideally you'll want to have at least 1 testing professional attending the session. Their perspective will be valuable in this format and they might be required to take a lead on supporting the group as they draft exploratory testing charters during the final stage.
 
-You might want to create a template or some example exploratory testing charters in a tool of your choice (e.g. Jira, GitHub markdown or a Word document)
+You might want to create a template or some example exploratory testing charters in a tool of your choice, for example Jira, GitHub markdown or a Word document.
 
 If you're conducting an in-person session you'll need:
 - Post it notes
@@ -154,7 +154,7 @@ If you're conducting an in-person session you'll need:
 - A whiteboard or large piece of paper to gather the post it notes on and to act as a focus point 
 - Optionally a screen to share content
 
-If you're conducting a remote or hybrid session prepare a digital board using a tool of your choice (e.g. Trello or Miro) before organising the meeting. You can find more detailed guidance on how to prepare for a remote or hybrid session in our [Remote Workshop Readiness guide](https://scottlogic.github.io/practitioners-guides/pages/remote-working-readiness/).
+If you're conducting a remote or hybrid session prepare a digital board using a tool of your choice before organising the meeting. You can find more detailed guidance on how to prepare for a remote or hybrid session in our [Remote Workshop Readiness guide](https://scottlogic.github.io/practitioners-guides/pages/remote-working-readiness/).
 
 #### 1. Set The Scene
 
@@ -170,7 +170,7 @@ You might even have stories of your own to share. Were you a customer who was im
 Once they're familiar with some examples, ask the group to imagine that they've checked their news or social media feeds that morning and discovered that the software they work on has made headline news for all the wrong reasons!
 
 - Ask the group to create at least 1 imaginary disaster headline story each
-- Record the headlines somewhere visible e.g. a post it note on a whiteboard or as a ticket on a digital board
+- Record the headlines somewhere visible such as a post it note on a whiteboard or as a ticket on a digital board
 - After a set time limit have the group share each of their headlines
 - Prompt them to elaborate on the following:
     - Why does it matter?
@@ -309,7 +309,7 @@ Regardless of which format you chose there are some common guidelines which can 
 
 ### Experiment and Demo
 
-Test out new pre-mortem formats with an example product or system before applying for real. This gives you and your colleagues the opportunity to get comfortable with a format, deal with some of the potential logistical problems (e.g. tooling to support remote sessions) and understand where attendees might need support. If you feel you need some more detailed guidance on organising remote or hybrid workshops [checkout our guidance here!](https://scottlogic.github.io/practitioners-guides/pages/remote-working-readiness/)
+Test out new pre-mortem formats with an example product or system before applying for real. This gives you and your colleagues the opportunity to get comfortable with a format, deal with some of the potential logistical problems and understand where attendees might need support. If you feel you need some more detailed guidance on organising remote or hybrid workshops [checkout our guidance here!](https://scottlogic.github.io/practitioners-guides/pages/remote-working-readiness/)
 
 It can sometimes be useful to separate the format from the real world context of your organisation to allow people to focus on learning. Substituting a real project or system with something simpler is a good starting point. If you're stuck for ideas [the Ministry of Testing](https://www.ministryoftesting.com/testsphere/riskstorming) suggest performing a Risk Storming session on Iron Man's suit or the Death Star.
 
