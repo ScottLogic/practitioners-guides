@@ -4,8 +4,7 @@ layout: post
 title: "Collaborative Risk Analysis & Pre-Mortems"
 description: An introduction to collaborative risk analysis techniques and tips on how to successfully apply them within your team
 summary: Does your team understand the biggest threat to your project? Every project involves risks, but finding practical ways for cross functional teams to contribute to risk management can be challenging. This guide introduces some different collaborative exercises and provides advice on how to help your team take ownership of the risks which could threaten your success.
-date: 20-08-2024
-comingSoon: true
+date: 09-09-2024
 author: Andrew January
 role: Lead Test Engineer
 bio: Andrew is a Lead Test Engineer at Scott Logic. He's spent his career working in agile delivery teams in organisations ranging from start-ups to large retail banks. He enjoys challenging some of the common misconceptions around software testing and helping teams to develop a shared understanding of quality.
